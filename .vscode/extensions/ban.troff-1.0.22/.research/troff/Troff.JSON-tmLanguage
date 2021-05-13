@@ -1,0 +1,46 @@
+{   
+	"name": "Troff",
+	"scopeName": "text.troff",
+	"fileTypes": ["1","2","3","4","5","6","7","8","9"],
+	"patterns": [
+        {
+          "match": "^(\\.\\\\\".*)$",
+          "name": "comment.troff",
+          "captures": {
+            "1": { "name": "comment.line.quote.troff" }
+          }
+        },
+        {
+          "match": "^\\.(\\w+)$",
+          "name": "operand.troff",
+          "captures": {
+            "1": { "name": "keyword.other.troff" },
+          }
+        },
+        {
+          "match": "^\\.(\\w+)\s+([^\\\"].*[^\\\"])$",
+          "name": "operand.troff",
+          "captures": {
+            "1": { "name": "keyword.other.troff" },
+            "2": { "name": "variable.parameter.troff" }
+          }
+        },
+        {
+          "match": "^\\.(\\w+)\s+([\\\"].*[\\\"])$",
+          "name": "operand.troff",
+          "captures": {
+            "1": { "name": "keyword.other.troff" },
+            "2": { "name": "string.interpolated.troff" }
+          }
+        },
+        {
+          "match": "^\\.(\\w+)\s+([\"].*[\"])$",
+          "name": "operand.troff",
+          "captures": {
+            "1": { "name": "keyword.other.troff" },
+            "2": { "name": "string.interpolated.troff" }
+          }
+        }
+    ],
+    "uuid": "ca03e751-04ef-4330-9a6b-9b99aae1c418"
+}

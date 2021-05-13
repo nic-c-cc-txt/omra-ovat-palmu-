@@ -1,0 +1,1 @@
+list failed: latest balancer error: connection error: desc = "transport: Error while dialing unable to read pipe name: open C:\\Users\\Neuro\\AppData\\Roaming\\Docker\\mutagen\\daemon\\daemon.sock: Systém nemůže nalézt uvedenou cestu."

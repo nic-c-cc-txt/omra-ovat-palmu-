@@ -1,0 +1,16 @@
+Import-Module : The specified module 'Hyper-V' was not loaded because no valid module file was found in any module dire
+ctory.
+At line:1 char:4
++ &{ Import-Module Hyper-V; Get-VMMemory -VMName DockerDesktopVM | Conv ...
++    ~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ResourceUnavailable: (Hyper-V:String) [Import-Module], FileNotFoundException
+    + FullyQualifiedErrorId : Modules_ModuleNotFound,Microsoft.PowerShell.Commands.ImportModuleCommand
+ 
+Get-VMMemory : The term 'Get-VMMemory' is not recognized as the name of a cmdlet, function, script file, or operable pr
+ogram. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:27
++ &{ Import-Module Hyper-V; Get-VMMemory -VMName DockerDesktopVM | Conv ...
++                           ~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (Get-VMMemory:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 

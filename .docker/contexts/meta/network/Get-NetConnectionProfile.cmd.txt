@@ -1,0 +1,1 @@
+powershell -NoProfile -Command &{ Import-Module NetConnection; Get-NetConnectionProfile | FL * }

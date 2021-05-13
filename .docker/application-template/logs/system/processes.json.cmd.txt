@@ -1,0 +1,1 @@
+powershell -NoProfile -Command &{ Get-Process | Select-Object Handles,Name,NPM,PM,SI,VM,WS | ConvertTo-Json -Depth 1 }

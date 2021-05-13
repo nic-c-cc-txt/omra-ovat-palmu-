@@ -1,0 +1,13 @@
+{
+  "id": "5F6D035B-6A45-4D55-B1A0-36391A1FC0DF",
+  "date": "2021-04-27 15:37:29.1684871 +0000 UTC",
+  "os": "Windows 10 Pro 10.0.19042",
+  "os_label": "win/19042",
+  "app_channel": "stable",
+  "engine_version": "20.10.5",
+  "compose_version": "1.29.0",
+  "kubernetes_version": "v1.19.7",
+  "credhelper_version": "0.6.3",
+  "notary_version": "0.6.1",
+  "vpnkit_version": "218f01482560cba2fa863f9ad872ad51d1e717fc"
+}

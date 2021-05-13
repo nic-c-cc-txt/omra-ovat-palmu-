@@ -1,0 +1,1 @@
+Get "http://localhost/fuse/filename": open \\.\pipe\dockerLifecycleServer: Systém nemůže nalézt uvedený soubor.

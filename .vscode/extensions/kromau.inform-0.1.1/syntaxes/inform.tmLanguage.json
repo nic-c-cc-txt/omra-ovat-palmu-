@@ -1,0 +1,191 @@
+{
+	"$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
+	"name": "Yaskawa-Inform",
+	"version": "0.3.2",
+	"scopeName": "source.inform",
+	"fileTypes": [
+		".jbi",
+		".cnt",
+		".prm"
+	],
+	"patterns": [
+		{
+			"include": "#control-words"
+		},
+		{
+			"include": "#operators"
+		},
+		{
+			"include": "#constants"
+		},
+		{
+			"include": "#variable-types"
+		},
+		{
+			"include": "#support"
+		},
+		{
+			"include": "#variable-modifiers"
+		},
+		{
+			"begin": "\"",
+			"beginCaptures": {
+				"0": {
+					"name": "punctuation.definition.string.begin.inform"
+				}
+			},
+			"end": "\"",
+			"endCaptures": {
+				"0": {
+					"name": "punctuation.definition.string.end.inform"
+				}
+			},
+			"name": "string.quoted.double.inform"
+		},
+		{
+			"begin": "'",
+			"beginCaptures": {
+				"0": {
+					"name": "punctuation.definition.string.begin.inform"
+				}
+			},
+			"end": "\\n",
+			"endCaptures": {
+				"0": {
+					"name": "punctuation.definition.string.end.inform"
+				}
+			},
+			"name": "string.quoted.single.inform"
+		},
+		{
+			"begin": "!",
+			"end": "\\n",
+			"name": "comment.line.inform"
+		},
+		{
+			"captures": {
+				"1": {
+					"name": "punctuation.separator.variable-access.inform"
+				},
+				"2": {
+					"name": "variable.other.dot-access.inform"
+				}
+			},
+			"match": "(\\.)([a-zA-Z_][a-zA-Z_0-9]*)\\b(?!\\s*\\()"
+		}
+	],
+	"repository": {
+		"control-words": {
+			"patterns": [
+				{
+					"match": "\\b(IFTHEN|IFTHENEXP|ELSEIF|ELSEIFEXP|ELSE|ENDIF)\\b",
+					"name": "keyword.control.inform"
+				},
+				{
+					"match": "\\b(FOR|START|ABC|TO|STEP|ENDFOR)\\b",
+					"name":  "keyword.control.inform"
+				},
+				{
+					"match": "\\b(JUMP|RET|NOP|END|PAUSE|CWAIT|MSG|INPUT|ADVINIT|ADVSTOP|PRINT|CLS|ABORT|SETUALM|DIALOG)\\b",
+					"name": "keyword.control.inform"
+				},
+				{
+					"match": "\\b(WHILE|DO|ENDWHILE)\\b",
+					"name": "keyword.control.inform"
+				},
+				{
+					"match": "\\b(SWITCH|CASE|DEFAULT)\\b",
+					"name": "keyword.control.inform"
+				},
+				{
+					"match": "\\b(SETTM|TSTART|TSTOP|TRESET)\\b",
+					"name": "keyword.control.inform"
+				}
+			]
+		},
+		"operators": {
+			"patterns": [
+				{
+					"match": ":=",
+					"name": "keyword.operator.assignment.inform"
+				},
+				{
+					"match": "(=(?<!:)|<=|>=|<>|<|>)",
+					"name": "keyword.operator.comparison.inform"
+				},
+				{
+					"match": "\\b(AND|NOT|OR|ANDEXP|OREXP)\\b",
+					"name": "keyword.operator.logical.inform"
+				},
+				{
+					"match": "\\b([iI][nN][cC][rR]|[dD][eE][cC][rR])\\b",
+					"name": "keyword.operator.increment-decrement.inform"
+				}
+			]
+		},
+		"constants": {
+			"patterns": [
+				{
+					"match": "\\b(([0-9]+\\.?[0-9]*)|([0-9]+\\.?[0-9]*)((e|E)(\\+|-)?[0-9]+)?)\\b",
+					"name": "constant.numeric.inform"
+				},
+				{
+					"match": "\\b([tT][rR][uU][eE]|[fF][aA][lL][sS][eE])\\b",
+					"name": "constant.language.inform"
+				}
+			]
+		},
+		"variable-types": {
+			"patterns": [
+				{
+					"match": "\\b(num|dnum|bool|string|clock|errnum|intnum)\\b",
+					"name": "storage.type.inform"
+				},
+				{
+					"match": "\\b(POS|NPOS|MOVJ|MOVL|MOVC|MOVS|TSYNC|SMOVC|SMOVL|REFP|SREFP)\\b",
+					"name": "storage.type.inform"
+				},
+				{
+					"match": "\\b(POSTYPE|TOOL|MREG)\\b",
+					"name": "storage.type.inform"
+				},
+				{
+					"match": "\\b(signaldi|signaldo|signalai|signalao|signalgi|signalgo|dionum)\\b",
+					"name": "storage.type.inform"
+				},
+				{
+					"match": "\\b(PULSE|WAIT|DOUT|DIN|GETARG|INST|ATTR|LVARS)\\b",
+					"name": "support.type.bpr.inform"
+				}
+			]
+		},
+		"variable-modifiers": {
+			"patterns": [
+				{
+					"match": "\\b(VAR|CONST)\\b",
+					"name": "storage.modifier.inform"
+				}
+			]
+		},
+		"support": {
+			"patterns": [
+				{
+					"name": "support.type.inform",
+					"match": "(?i)\\b(I)\\b"
+				},
+				{
+					"name": "support.function.inform",
+					"match": "(?i)\\b(CALL|TIMER)\\b"
+				},
+				{
+					"name": "support.function.inform",
+					"match": "(?i)\\b(ARCON|ARCOF|IN|OT|IG|OG|D|WVOF|WVON|SWVOF|SWVON|ASF|WEV|MJ|UF|SETREG|PAUSE|SFTOF|SFTON)\\b"
+				}
+			]
+		}
+	}
+}
+
+
+
+

@@ -1,0 +1,57 @@
+{
+	"name": "inform",
+	"displayName": "Yaskawa Inform",
+	"description": "Yaskawa Inform (Yaskawa Robot Language) support in Visual Studio Code",
+	"version": "0.3.1",
+	"publisher": "andyprv",
+	"repository": "https://github.com/andyprv/yaskawa-inform",
+	"homepage": "https://github.com/andyprv/yaskawa-inform",
+	"icon": "images/logo.png",
+	"engines": {
+		"vscode": "^1.29.0"
+	},
+	"categories": [
+		"Programming Languages"
+	],
+	"contributes": {
+		"languages": [
+			{
+				"id": "inform",
+				"aliases": [
+					"Yaskawa-Inform",
+					"inform"
+				],
+				"extensions": [
+					".jbi",
+					".JBI",
+					".cnd",
+					".CND",
+					".dat",
+					".DAT",
+					".prm",
+					".PRM"
+				],
+				"configuration": "./language-configuration.json"
+			}
+		],
+		"grammars": [
+			{
+				"language": "inform",
+				"scopeName": "source.inform",
+				"path": "./syntaxes/inform.tmLanguage.json"
+			}
+		],
+		"snippets": [
+			{
+				"language": "inform",
+				"path": "./snippets/inform.json"
+			}
+		]
+	},
+	"__metadata": {
+		"id": "d862ae29-0aad-4ff9-995e-f1b6d212ed5f",
+		"publisherId": "31c6de4c-40d9-4e82-b526-eb2be521d371",
+		"publisherDisplayName": "andyprv",
+		"installedTimestamp": 1619545530053
+	}
+}

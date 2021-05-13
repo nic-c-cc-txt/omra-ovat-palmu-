@@ -1,0 +1,68 @@
+{
+	"name": "simutrans-dat-vscode-extention",
+	"version": "0.0.2",
+	"publisher": "128Na",
+	"engines": {
+		"vscode": "^1.41.0"
+	},
+	"license": "SEE LICENSE IN LICENSE file",
+	"displayName": "Simutrans Dat extention",
+	"description": "This extension provides syntax highlighting and snippets.",
+	"categories": [
+		"Programming Languages",
+		"Snippets"
+	],
+	"keywords": [
+		"Simutrans",
+		"dat",
+		"syntax highlighting",
+		"snippets"
+	],
+	"contributes": {
+		"languages": [
+			{
+				"id": "dat",
+				"aliases": [
+					"dat",
+					"simutrans_dat"
+				],
+				"extensions": [
+					".dat"
+				],
+				"configuration": "./language-configuration.json"
+			}
+		],
+		"grammars": [
+			{
+				"language": "dat",
+				"scopeName": "source.dat",
+				"path": "./syntaxes/simutrans_dat.tmLanguage.json"
+			}
+		],
+		"snippets": [
+			{
+				"language": "dat",
+				"path": "./snippets/snippets.json"
+			}
+		]
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/128na/simutrans-vscode-extention.git"
+	},
+	"homepage": "https://github.com/128na/simutrans-vscode-extention/blob/master/README.md",
+	"scripts": {
+		"generate:keys": "node ./src/generate_defined_keys.js",
+		"generate:dat": "node ./src/generate_example_dat.js",
+		"release": "vsce package"
+	},
+	"devDependencies": {
+		"alpha-sort": "^3.0.0"
+	},
+	"__metadata": {
+		"id": "6beb7a4b-b817-4c64-9ecd-896a66213db7",
+		"publisherId": "5336c4b8-f03a-45ef-8c74-14340ee870fd",
+		"publisherDisplayName": "128Na",
+		"installedTimestamp": 1619545531124
+	}
+}

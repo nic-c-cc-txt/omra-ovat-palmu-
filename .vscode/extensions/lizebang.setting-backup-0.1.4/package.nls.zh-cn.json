@@ -1,0 +1,5 @@
+{
+  "cmd.backup.settings.title": "Setting: 备份配置",
+  "cmd.restore.settings.title": "Setting: 恢复配置",
+  "ext.config.path": "Setting: 设置备份配置的路径"
+}

@@ -1,0 +1,132 @@
+{
+	"name": "lockhunter-cmds",
+	"displayName": "Lockhunter Commands",
+	"description": "Set of commands for launching Lockhunter dialogs",
+	"keywords": [
+		"git",
+		"lockhunter",
+		"keybindings",
+		"contextmenu"
+	],
+	"version": "0.2.2",
+	"publisher": "clmcgrath",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/clmcgrath/vscode-lockhunter.git"
+	},
+	"bugs": {
+		"url": "https://github.com/clmcgrath/vscode-lockhunter/issues"
+	},
+	"homepage": "https://github.com/clmcgrath/vscode-lockhunter",
+	"license": "MIT",
+	"icon": "vscode-lockhunter-icon.png",
+	"engines": {
+		"vscode": "^1.37.0"
+	},
+	"categories": [
+		"Other"
+	],
+	"activationEvents": [
+		"onCommand:lockhunter.view.current.directory",
+		"onCommand:lockhunter.view.current.file",
+		"onCommand:lockhunter.view.current.workspace",
+		"onCommand:lockhunter.unlock.current.directory",
+		"onCommand:lockhunter.unlock.current.file",
+		"onCommand:lockhunter.unlock.current.workspace"
+	],
+	"main": "./out/src/extension",
+	"contributes": {
+		"configuration": {
+			"type": "object",
+			"title": "Lockhunter",
+			"properties": {
+				"lockhunter.launcherPath": {
+					"type": "string",
+					"default": "C:\\Program Files\\LockHunter\\LockHunter.exe",
+					"description": "Path to the Lockhunter command launcher (Lockhunter.exe)."
+				},
+				"lockhunter.exit": {
+					"type": "boolean",
+					"default": true,
+					"description": "Exits lockhunter automatically when all actions are done. This option might be required only when you wish to see the GUI, all displayed warnings but do not wish to press the button \"exit\" manually."
+				},
+				"lockhunter.silentunlocks": {
+					"type": "boolean",
+					"default": false,
+					"description": "no GUI will be displayed. The program starts in silent mode, does one of the passed commands (e.g. unlock) and terminates. does not apply to view commands."
+				}
+			}
+		},
+		"commands": [
+			{
+				"command": "lockhunter.view.current.file",
+				"title": "Lockhunter: View Current File"
+			},
+			{
+				"command": "lockhunter.view.current.directory",
+				"title": "Lockhunter: View Current Directory"
+			},
+			{
+				"command": "lockhunter.view.current.workspace",
+				"title": "Lockhunter: View Workspace"
+			},
+			{
+				"command": "lockhunter.unlock.current.file",
+				"title": "Lockhunter: Unlock Current File"
+			},
+			{
+				"command": "lockhunter.unlock.current.directory",
+				"title": "Lockhunter: Unlock Current Directory"
+			},
+			{
+				"command": "lockhunter.unlock.current.workspace",
+				"title": "Lockhunter: Unlock Workspace"
+			}
+		],
+		"keybindings": [
+			{
+				"command": "lockhunter.view.currentDirectory",
+				"key": "ctrl+l ctrl+v ctrl+d "
+			},
+			{
+				"command": "lockhunter.view.currentFile",
+				"key": "ctrl+l ctrl+v ctrl+f"
+			},
+			{
+				"command": "lockhunter.view.workspace",
+				"key": "ctrl+l ctrl+v ctrl+w"
+			},
+			{
+				"command": "lockhunter.unlock.currentDirectory",
+				"key": "ctrl+l ctrl+u ctrl+d"
+			},
+			{
+				"command": "lockhunter.unlock.currentFile",
+				"key": "ctrl+l ctrl+u ctrl+f"
+			},
+			{
+				"command": "lockhunter.unlock.workspace",
+				"key": "ctrl+l ctrl+u ctrl+w"
+			}
+		]
+	},
+	"scripts": {
+		"compile": "tsc -p ./",
+		"watch": "tsc -watch -p ./",
+		"vscode:prepublish": "yarn run compile",
+		"vscode:package": "vsce package",
+		"vscode:publish": "vsce publish"
+	},
+	"devDependencies": {
+		"@types/node": "^10.12.21",
+		"@types/vscode": "^1.37.0",
+		"typescript": "^3.3.1",
+		"vsce": "^1.66.0"
+	},
+	"__metadata": {
+		"id": "a6b10e65-a662-494f-afc2-e4926f1c42b3",
+		"publisherId": "2d210d2f-63f5-4ba3-9253-5dd2712e5dc6",
+		"publisherDisplayName": "Chris McGrath",
+		"installedTimestamp": 1619545530443
+	}
+}

@@ -1,0 +1,64 @@
+{
+	"name": "fish",
+	"displayName": "Fish shell",
+	"description": "Fish shell language support",
+	"icon": "fish_icon.png",
+	"version": "0.0.4",
+	"homepage": "https://github.com/TeddyDD/fish-vscode",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/TeddyDD/fish-vscode.git"
+	},
+	"bugs": {
+		"email": "vision360.daniel@gmail.com",
+		"url": "https://github.com/TeddyDD/fish-vscode/issues"
+	},
+	"publisher": "gio00",
+	"galleryBanner": {
+		"color": "#312C3B",
+		"theme": "dark"
+	},
+	"license": "MIT",
+	"engines": {
+		"vscode": "^1.0.0"
+	},
+	"categories": [
+		"Languages",
+		"Snippets"
+	],
+	"contributes": {
+		"languages": [
+			{
+				"id": "fish",
+				"aliases": [
+					"fish",
+					"fish"
+				],
+				"extensions": [
+					".fish"
+				],
+				"firstLine": "^#!.*\\bfish",
+				"configuration": "./fish.configuration.json"
+			}
+		],
+		"grammars": [
+			{
+				"language": "fish",
+				"scopeName": "source.fish",
+				"path": "./syntaxes/fish.tmLanguage"
+			}
+		],
+		"snippets": [
+			{
+				"language": "fish",
+				"path": "./snippets/snippets.json"
+			}
+		]
+	},
+	"__metadata": {
+		"id": "705118ce-5254-4918-b171-31043e78746f",
+		"publisherId": "45645734-1bab-420a-b00c-fdc7a25cbe2b",
+		"publisherDisplayName": "gio00",
+		"installedTimestamp": 1619545534653
+	}
+}

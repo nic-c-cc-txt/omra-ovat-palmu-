@@ -1,0 +1,19 @@
+
+
+NetworkCategory       : Private
+IPv4Connectivity      : Internet
+IPv6Connectivity      : NoTraffic
+Caption               : 
+Description           : 
+ElementName           : 
+InstanceID            : {34659955-6934-4E9B-B7F5-1596E342BB84}
+InterfaceAlias        : Ethernet
+InterfaceIndex        : 7
+Name                  : S¡œ
+PSComputerName        : 
+CimClass              : root/StandardCimv2:MSFT_NetConnectionProfile
+CimInstanceProperties : {Caption, Description, ElementName, InstanceID...}
+CimSystemProperties   : Microsoft.Management.Infrastructure.CimSystemProperties
+
+
+

@@ -1,0 +1,595 @@
+{
+
+	"DOUT OT": {
+		"prefix": "dout",
+		"body": [
+			"DOUT OT#($1) ${2|ON,OFF|}",
+			"$0"
+		],
+		"description": "DOUT OT"
+	},
+
+	"DOUT OG": {
+		"prefix": "doutg",
+		"body": [
+			"DOUT OG#($1) ${2|B0,LB0|}${3:##}",
+			"$0"
+		],
+		"description": "DOUT OG"
+	},
+
+	"DIN Bxxx IN": {
+		"prefix": "din",
+		"body": [
+			"DIN B0${1:##} IN#($2)",
+			"$0"
+		],
+		"description": "DIN Bxxx IN"
+	},
+
+	"DIN Bxxx IG": {
+		"prefix": "dig",
+		"body": [
+			"DIN B0${1:##} IG#($2)",
+			"$0"
+		],
+		"description": "DIN Bxxx IG"
+	},
+
+	"DIN LBxxx IN": {
+		"prefix": "dil",
+		"body": [
+			"DIN LB0${1:##} IN#($2)",
+			"$0"
+		],
+		"description": "DIN LBxxx IN"
+	},
+
+	"DIN LBxxx IG": {
+		"prefix": "dilg",
+		"body": [
+			"DIN LB0${1:##} IG#($2)",
+			"$0"
+		],
+		"description": "DIN LBxxx IG"
+	},
+
+	"PULSE OT": {
+		"prefix": "pulse",
+		"body": [
+			"PULSE OT#(${1:x}) T=${2:sec}.00",
+			"$0"
+		],
+		"description": "DIN LBxxx IG"
+	},
+
+	"WAIT <condition> T=<sec>": {
+		"prefix": "wait",
+		"body": [
+			"WAIT IN#(${1:x}) T=${2:sec}.00",
+			"$0"
+		],
+		"description": "WAIT <condition> T=<sec>"
+	},
+
+	"'<comment>": {
+		"prefix": "comment",
+		"body": [
+			"'${1:<comment>}",
+			"$0"
+		],
+		"description": "'<comment>"
+	},
+
+
+
+	
+
+
+	"CALL JOB:<job>": {
+		"prefix": "call",
+		"body": [
+			"CALL JOB:${1:<job>}",
+			"$0"
+		],
+		"description": "CALL JOB:<job>"
+	},
+
+	"CALL JOB:<job> IF <condition>": {
+		"prefix": "callif",
+		"body": [
+			"CALL JOB:${1:<job>} IF ${2:<condition>}",
+			"$0"
+		],
+		"description": "CALL JOB:<job> IF <condition>"
+	},
+
+	"CALL JOB:job IF <condition1> AND <condition2>": {
+		"prefix": "callifexp",
+		"body": [
+			"CALL JOB:${1:<job>} IFEXPRESS ${2:<condition>} ANDEXP ${3:<condition>}",
+			"$0"
+		],
+		"description": "CALL JOB:job IF <condition1> AND <condition2>"
+	},
+
+
+	"PSTART JOB:<job> SUB<x>": {
+		"prefix": "pstart",
+		"body": [
+			"PSTART JOB:${1:<job>} ${2|SUB1,SUB2,SUB3,SUB4,SUB5,SUB6,SUB7|}",
+			"$0"
+		],
+		"description": "PSTART JOB:<job> SUB<x>"
+	},
+
+	"IFTHEN IN#(<x>)= <on/off>": {
+		"prefix": "if",
+		"body": [
+		"IFTHEN IN#($1)=${2|ON,OFF|}",
+		"   $0",
+		"ENDIF"
+		],
+		"description": "IFTHEN IN#(<x>)= <on/off>"
+	},
+
+	"IFTHENEXP <condition1> ANDEXP <condition2>": {
+		"prefix": "ifexp",
+		"body": [
+		"IFTHENEXP ${1:<condition>} ANDEXP ${2:<condition>}",
+		"   $0",
+		"ENDIF"
+		],
+		"description": "IFTHENEXP <condition1> ANDEXP <condition2>"
+	},
+
+
+	"ELSEIF <condition>": {
+		"prefix": "elseif",
+		"body": [
+		"ELSEIF ${1:<condition>}",
+		"   $0"
+		],
+		"description": "ELSEIF <condition>"
+	},
+
+	"ELSEIF <condition1> ANDEXP <condition2>": {
+		"prefix": "elseifexp",
+		"body": [
+		"ELSEIF ${1:<condition>} ANDEXP ${2:<condition>}",
+		"   $0"
+		],
+		"description": "ELSEIF <condition1> ANDEXP <condition2>"
+	},
+
+
+	"FOR <var> START= <start> TO <end> STEP=<step>": {
+		"prefix": "for",
+		"body": [
+			"FOR ${1|I000,LI000|} START= ${2:<start>} TO ${3:<end>} STEP=${4:<step>}",
+			"$0",
+			"NEXT $1"
+		],
+		"description": "FOR <var> START= <start> TO <end> STEP=<step>"
+	},
+
+	"IFTHEN <condition> CALL JOB:<job>": {
+		"prefix": "ifcall",
+		"body": [
+			"IFTHEN ${1:<condition>}",
+			"    CALL JOB:${2:<jobname>}",
+			"ENDIF",
+			"$0"
+		],
+		"description": "IFTHEN <condition> CALL JOB:<job>"
+	},
+
+	"SWITCH <var> CASE <value>": {
+		"prefix": "switch",
+		"body": [
+			"SWITCH ${1|LI000,I000|}",
+			"CASE ${2:<value>}",
+			"$0",
+			"DEFAULT",
+			"ENDSWITCH"
+		],
+		"description": "SWITCH <var> CASE <value>"
+	},
+
+	"CASE <value>": {
+		"prefix": "case",
+		"body": [
+			"CASE ${1:<value>}",
+			   "$0"
+		],
+		"description": "CASE <value>"
+	},
+
+
+	"SETUALM 8<xxx> <text> <subcode>": {
+		"prefix": "setualm",
+		"body": [
+		"SETULAM 8${1:001} \"${2:text}\" ${3:subcode}",
+		"$0"
+		],
+		"description": "SETUALM 8<xxx> <text> <subcode>"
+	},	
+
+
+
+
+
+
+
+
+
+	"SET <var> <var>": {
+		"prefix": "set_var",
+		"body": [
+		"SET ${1|B,LB,I,LI,D,LD,R,LR|}${2:###} ${3|B,LB,I,LI,D,LD,R,LR|}${4:###}",
+		"$0"
+		],
+		"description": "SET <var> <var>"
+	},
+
+	"SET <var> EXPRESSION <expression>": {
+		"prefix": "set_express",
+		"body": [
+		"SET ${1|B,LB,I,LI,D,LD,R,LR|}${2:xxx}  EXPRESS ${3:expression}",
+		"$0"
+		],
+		"description": "SET <var> EXPRESSION <expression>"
+	},
+
+	"SET <var> EXPRESSION <var> + <expression>": {
+		"prefix": "set_express_add",
+		"body": [
+		"SET ${1|B,LB,I,LI,D,LD,R,LR|}${2:xxx}  EXPRESS $1$2 + ${3:expression}",
+		"$0"
+		],
+		"description": "SET <var> EXPRESSION <var> + <expression>"
+	},
+
+
+
+
+
+
+
+
+
+	"PVAR INIT": {
+		"prefix": "pvarinit",
+		"body": [
+		  "GETS ${1|PX0,LPX0|}${2:xx} \\$PX0${3|00,01,11,12,13,14,15,16,17,18|}",
+		  "CNVRT $1$2 $1$2 ${4|BF,RF|}",
+		  "$0"
+		],
+		"description": "PVAR INIT"
+	},
+
+	"PVAR INIT IN UF": {
+		"prefix": "pvarinit_uf",
+		"body": [
+		  "GETS ${1|PX0,LPX0|}${2:xx} \\$PX0${3|00,01,11,12,13,14,15,16,17,18|}",
+		  "CNVRT $1$2 $1$2 UF#(${4:<uf>}) TL#(${5:<tool>})",
+		  "$0"
+		],
+		"description": "PVAR INIT IN UF"
+	},
+
+	"PVAR ADD XYZ": {
+		"prefix": "pvar_add_xyz",
+		"body": [
+		  "GETE LD000 P0$1 (1)",
+		  "GETE LD001 P0$1 (2)",
+		  "GETE LD002 P0$1 (3)",
+		  "SETE LD000  EXPRESS LD000 + ( ${2:dx_mm} ) * 1000",
+		  "SETE LD001  EXPRESS LD001 + ( ${3:dy_mm} ) * 1000",
+		  "SETE LD002  EXPRESS LD002 + ( ${4:dz_mm} ) * 1000",
+		  "SETE P0$1 (1) LD000",
+		  "SETE P0$1 (2) LD001",
+		  "SETE P0$1 (3) LD002",
+		  "$0"
+		],
+		"description": "PVAR ADD XYZ"
+	  },
+
+	  "PVAR ADD TO ELEM": {
+		"prefix": "pvar_add_to_elem",
+		"body": [
+		  "GETE LD000 P0${1:xx} (${2|1,2,3,4,5,6|})",
+		  "SETE LD000  EXPRESS LD000 + ( ${3:value_mm} ) * 1000",
+		  "SETE P0$1 ($2) LD000",
+		  "$0"
+		],
+		"description": "PVAR ADD TO ELEM"
+	  },
+
+
+
+
+
+
+
+
+
+
+	"SETE <LP0,P0><xx> (x) <0,D,LD>": {
+		"prefix": "setelem",
+		"body": [
+		"SETE ${1|LP0,P0|}${2:xx} (${3|1,2,3,4,5,6|}) ${4|0,D000,LD000|}",
+		"$0"
+		],
+		"description": "SETE <LP0,P0><xx> (x) <0,D,LD>"
+	},
+
+	"GETE <D,LD> <LP0,P0><xx> (x)": {
+		"prefix": "getelem",
+		"body": [
+		"GETE ${1|D000,LD000|} ${2|LP0,P0|}${3:xx} (${4|1,2,3,4,5,6|})",
+		"$0"
+		],
+		"description": "GETE <D,LD> <LP0,P0><xx> (x)"
+	},
+
+	"SET PVAR": {
+		"prefix": "setpvar",
+		"body": [
+		  "SET P0${1:xx} P0${2:xx}",
+		  "$0"
+		],
+		"description": "SET PVAR"
+	},	  
+
+	"GETS": {
+		"prefix": "gets",
+		"body": [
+		  "GETS ${1|PX0,LPX0|}${2:<xx>} ${3|$PX000,$PX001,$PX011,$PX012,$PX013,$PX014,$PX015,$PX016,$PX017|}",
+		  "$0",
+		  ""
+		],
+		"description": "GETS"
+	},
+
+	"CNVRT PX0xx PX0xx <BF,RF>": {
+		"prefix": "cnvrt_base",
+		"body": [
+		"CNVRT PX0${1:xx} PX0${2:xx} ${3|BF,RF|}",
+		"$0"
+		],
+		"description": "CNVRT PX0xx PX0xx <BF,RF>"
+	},
+
+	"CNVRT PX0xx PX0xx UF#(x) TL(x)": {
+		"prefix": "cnvrt_uf",
+		"body": [
+		"CNVRT PX0${1:xx} PX0${2:xx} UF#(${3:uf#}) TL#(${4:tool#})",
+		"$0"
+		],
+		"description": "CNVRT PX0xx PX0xx UF#(x) TL(x)"
+	},
+
+
+	"MOVL P0xx  V=<speed>.0 //<comment>": {
+		"prefix": "movl_rob",
+		"body": [
+		  "MOVL P0${1:xx} V=${2:speed}.0 //${3:P0${1}}",
+		  "$0"
+		],
+		"description": "MOVL P0xx  V=<speed>.0 //<comment>"
+	  },
+
+	  "MOVJ P0xx  VJ=<speed_%>.00 //<comment>": {
+		"prefix": "movj_rob",
+		"body": [
+		  "MOVJ P0${1:xx} VJ=${2:speed}.00 //${3:P0${1}}",
+		  "$0"
+		],
+		"description": "MOVJ P0xx VJ=<speed_%>.00 //<comment>"
+	  },
+
+	"MOVL ROBOT+BASE": {
+		"prefix": "movl_rob+base",
+		"body": [
+		  "MOVL P0${1:xx} BP0${1:xx} V=${2:speed}.0 //${3:P0${1}}",
+		  "$0"
+		],
+		"description": "MOVL ROBOT+BASE"
+	  },
+
+	  "MOVJ ROBOT+BASE": {
+		"prefix": "movj_rob+base",
+		"body": [
+		  "MOVJ P0${1:xx} BP0${1:xx} VJ=${2:speed}.00 //${3:P0${1}}",
+		  "$0"
+		],
+		"description": "MOVJ ROBOT+BASE"
+	  },
+
+	"MOVx ROBOT+BASE": {
+		"prefix": "movx_rob+base",
+		"body": [
+		  "${1|MOVJ,MOVL,MOVC|} P0${2:xx} BP0${2:xx} ${3|VJ=,V=|}${4:speed} //${5:P0${2}}",
+		  "$0"
+		],
+		"description": "MOVx ROBOT+BASE"
+	  },
+
+	"MOVx ROBOT": {
+		"prefix": "movx_rob",
+		"body": [
+			"${1|MOVJ,MOVL,MOVC|} P0${2:xx} ${3|VJ=,V=|}${4:speed} //${5:P0${2}}",
+			"$0"
+		],
+		"description": "MOVx ROBOT+BASE"
+	},
+
+	"MULMAT": {
+		"prefix": "mul",
+		"body": [
+		  "MULMAT P0${1:xx} P0${2:xx} P0${3:xx}",
+		  "$0"
+		],
+		"description": "MULMAT"
+	},
+
+	"INVMAT": {
+		"prefix": "inv",
+		"body": [
+		  "INVMAT P0${1:xx} P0${2:xx}",
+		  "$0"
+		],
+		"description": "INVMAT"
+	},
+
+
+
+
+
+
+
+
+
+
+
+
+	"JOB WITH GROUP": {
+		"prefix": "job_R1",
+		"body": [
+		"/JOB",
+		"//NAME ${1:${TM_FILENAME_BASE}}",
+		"//POS",
+		"///NPOS 0,0,0,0,0,0",
+		"//INST",
+		"///DATE $CURRENT_YEAR/$CURRENT_MONTH/$CURRENT_DATE $CURRENT_HOUR:$CURRENT_MINUTE",
+		"///ATTR SC,RW",
+		"///GROUP1 ${2|RB1,RB1\\,BS1,RB1\\,ST1,ST1|}",
+		"///LVARS 3,3,3,3,0,0,0,0",
+		"NOP",
+		"$0",
+		"END",
+		""
+		],
+		"description": "JOB WITH GROUP"
+	},
+
+	"JOB NON GROUP": {
+		"prefix": "job_ng",
+		"body": [
+		"/JOB",
+		"//NAME ${1:${TM_FILENAME_BASE}}",
+		"//POS",
+		"///NPOS 0,0,0,0,0,0",
+		"//INST",
+		"///DATE $CURRENT_YEAR/$CURRENT_MONTH/$CURRENT_DATE $CURRENT_HOUR:$CURRENT_MINUTE",
+		"///ATTR SC,RW",
+		"///LVARS 3,3,3,3,0,0,0,0",
+		"NOP",
+		"$0",
+		"END",
+		""
+		],
+		"description": "JOB NON GROUP"
+	},
+
+	"MACRO JOB WITH GROUP": {
+		"prefix": "job_macro_R1",
+		"body": [
+		  "/JOB",
+		  "//NAME ${1:${TM_FILENAME_BASE}}",
+		  "//POS",
+		  "///NPOS 0,0,0,0,0,0",
+		  "//INST",
+		  "///DATE $CURRENT_YEAR/$CURRENT_MONTH/$CURRENT_DATE $CURRENT_HOUR:$CURRENT_MINUTE",
+		  "///ATTR SC,RW,MC",
+		  "///GROUP1 ${2|RB1,RB1\\,BS1|}",
+		  "///LVARS 2,2,0,0,0,0,0,0",
+		  "NOP",
+		  "GETARG LB000 IARG#(1)",
+		  "GETARG LI000 IARG#(2)",
+		  "${0}",
+		  "END",
+		  ""
+		],
+		"description": "MACRO JOB WITH GROUP"
+	},
+
+	"MACRO JOB NON GROUP": {
+		"prefix": "job_macro_ng",
+		"body": [
+		  "/JOB",
+		  "//NAME ${1:${TM_FILENAME_BASE}}",
+		  "//POS",
+		  "///NPOS 0,0,0,0,0,0",
+		  "//INST",
+		  "///DATE $CURRENT_YEAR/$CURRENT_MONTH/$CURRENT_DATE $CURRENT_HOUR:$CURRENT_MINUTE",
+		  "///ATTR SC,RW,MC",
+		  "///LVARS 2,2,0,0,0,0,0,0",
+		  "NOP",
+		  "GETARG LB000 IARG#(1)",
+		  "GETARG LI000 IARG#(2)",
+		  "${0}",
+		  "END",
+		  ""
+		],
+		"description": "MACRO JOB NON GROUP"
+	},
+
+	"SYSTEM JOB R1": {
+		"prefix": "job_system_R1",
+		"body": [
+		  "/JOB",
+		  "//NAME ${1:${TM_FILENAME_BASE}}",
+		  "//POS",
+		  "///NPOS 0,0,0,0,0,0",
+		  "//INST",
+		  "///DATE $CURRENT_YEAR/$CURRENT_MONTH/$CURRENT_DATE $CURRENT_HOUR:$CURRENT_MINUTE",
+		  "///ATTR SC,RW,SY",
+		  "///GROUP1 ${2|RB1,RB1\\,BS1|}",
+		  "///LVARS 2,2,2,0,0,0,0,0",
+		  "NOP",
+		  "$0",	
+		  "END",
+		  ""
+		],
+		"description": "SYSTEM JOB WITH GROUP"
+	},
+
+	"SYSTEM JOB NON GROUP": {
+		"prefix": "job_system_ng",
+		"body": [
+		  "/JOB",
+		  "//NAME ${1:${TM_FILENAME_BASE}}",
+		  "//POS",
+		  "///NPOS 0,0,0,0,0,0",
+		  "//INST",
+		  "///DATE $CURRENT_YEAR/$CURRENT_MONTH/$CURRENT_DATE $CURRENT_HOUR:$CURRENT_MINUTE",
+		  "///ATTR SC,RW,SY",
+		  "///LVARS 2,2,2,0,0,0,0,0",
+		  "NOP",
+		  "$0",	
+		  "END",
+		  ""
+		],
+		"description": "SYSTEM JOB NON GROUP"
+	},
+
+	"test dfdshjfhhhj": {
+		"prefix": "test",
+		"body": [
+		  "WAIT IN#($1)=$2"
+		],
+		"description": "test dfdshjfhhhj"
+	  },
+
+	  "test1 dfdshjfhhhj": {
+		"prefix": "test1",
+		"body": [
+		  "WAIT IN#(${1:inp number})=${2|ON,OFF|}",
+		  ""
+		],
+		"description": "test1 dfdshjfhhhj"
+	  }
+
+}

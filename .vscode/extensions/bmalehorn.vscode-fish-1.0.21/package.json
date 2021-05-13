@@ -1,0 +1,92 @@
+{
+	"name": "vscode-fish",
+	"displayName": "Fish",
+	"description": "Fish syntax highlighting and formatting",
+	"publisher": "bmalehorn",
+	"license": "MIT",
+	"repository": {
+		"url": "https://github.com/bmalehorn/vscode-fish"
+	},
+	"version": "1.0.21",
+	"engines": {
+		"vscode": "^1.47.0"
+	},
+	"icon": "fish.png",
+	"categories": [
+		"Programming Languages",
+		"Formatters",
+		"Linters"
+	],
+	"keywords": [
+		"fish",
+		"shell",
+		"fish_indent",
+		"IDE",
+		"multi-root ready"
+	],
+	"main": "./out/extension",
+	"activationEvents": [
+		"onLanguage:fish"
+	],
+	"contributes": {
+		"languages": [
+			{
+				"id": "fish",
+				"aliases": [
+					"Fish"
+				],
+				"extensions": [
+					".fish"
+				],
+				"firstLine": "^#!\\s*/.*\\bfish\\b",
+				"configuration": "./language-configuration.json"
+			}
+		],
+		"grammars": [
+			{
+				"language": "fish",
+				"scopeName": "source.fish",
+				"path": "./syntaxes/fish.tmLanguage.json"
+			},
+			{
+				"scopeName": "markdown.fish.codeblock",
+				"path": "./syntaxes/codeblock.json",
+				"injectTo": [
+					"text.html.markdown"
+				],
+				"embeddedLanguages": {
+					"meta.embedded.block.fish": "fish"
+				}
+			}
+		]
+	},
+	"scripts": {
+		"vscode:prepublish": "yarn run compile",
+		"compile": "tsc -p ./",
+		"watch": "tsc -watch -p ./",
+		"postinstall": "node ./node_modules/vscode/bin/install",
+		"test": "yarn run compile && node ./node_modules/vscode/bin/test"
+	},
+	"devDependencies": {
+		"@types/mocha": "^2.2.42",
+		"@types/node": "^8.10.25",
+		"husky": "^3.0.4",
+		"prettier": "^2.0.0",
+		"pretty-quick": "^1.11.1",
+		"tslint": "^5.8.0",
+		"tslint-config-prettier": "^1.18.0",
+		"typescript": "3.9.6",
+		"vscode": "^1.1.25"
+	},
+	"husky": {
+		"hooks": {
+			"pre-commit": "pretty-quick --staged"
+		}
+	},
+	"__metadata": {
+		"id": "efa79b03-91c5-4c6a-9846-0a7b6f7af05e",
+		"publisherId": "1215635c-400c-4cc8-96d3-f2d5da4774a4",
+		"publisherDisplayName": "Brian Malehorn",
+		"installedTimestamp": 1619545534567
+	}
+}

@@ -1,0 +1,1 @@
+powershell -NoProfile -Command &{ Import-Module NetTCPIP; Get-NetIPAddress | ConvertTo-Json }

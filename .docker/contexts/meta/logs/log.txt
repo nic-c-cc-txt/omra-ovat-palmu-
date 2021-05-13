@@ -1,0 +1,727 @@
+Version: 3.3.1 (63152)
+Sha1: 6b70fc1f64d103396b0f5d514398e25cc0b1a003
+Started on: 2021/04/27 17:01:11.864
+Resources: C:\Program Files\Docker\Docker\resources
+OS: Windows 10 Pro
+Edition: Professional
+Id: 2009
+Build: 19042
+BuildLabName: 19041.1.amd64fre.vb_release.191206-1406
+File: C:\Users\Neuro\AppData\Local\Docker\log.txt
+CommandLine: "C:\Program Files\Docker\Docker\Docker Desktop.exe" 
+You can send feedback, including this log file, at https://github.com/docker/for-win/issues
+[17:01:12.036][GUI               ][Info   ] Starting...
+[17:01:12.227][LoggingMessageHandler][Info   ] [9848de3d] <GoBackendClient start> GET http://localhost/ping
+[17:01:12.280][GoBackendClient   ][Warning] HttpOS Client: connection timed out.
+[17:01:12.578][AppMigrator       ][Info   ] Current version: 6. Latest version: 6
+[17:01:12.593][LoggingMessageHandler][Info   ] [1f369d53] <GoBackendClient start> GET http://localhost/ping
+[17:01:12.593][GoBackendClient   ][Warning] HttpOS Client: connection timed out.
+[17:01:12.611][GoBackendProcess  ][Info   ] Starting C:\Program Files\Docker\Docker\resources\com.docker.backend.exe -addr unix:\\.\pipe\dockerBackendApiServer
+[17:01:12.641][GoBackendProcess  ][Info   ] Started
+[17:01:12.643][TrackingSettings  ][Info   ] Crash report and usage statistics are enabled
+[17:01:12.648][SegmentApi        ][Info   ] Usage statistic: Identify
+[17:01:12.668][SegmentApi        ][Info   ] Usage statistic: appLaunched
+[17:01:12.677][SegmentApi        ][Info   ] Usage statistic: heartbeat
+[17:01:12.856][GoBackendProcess  ][Info   ] msg="starting backend server"
+[17:01:12.857][GoBackendProcess  ][Info   ] msg="started port-forwarding control server on \\\\.\\pipe\\dockerVpnKitControl"
+[17:01:12.857][GoBackendProcess  ][Info   ] msg="listening on unix:\\\\.\\pipe\\dockerVpnkitData for data connection"
+[17:01:12.857][GoBackendProcess  ][Info   ] â‡¨ http server started on \\.\pipe\dockerVpnKitControl
+[17:01:12.857][GoBackendProcess  ][Info   ] msg="adding routes for /docker.tar"
+[17:01:12.857][GoBackendProcess  ][Info   ] msg="adding routes for /kube-images.tar"
+[17:01:12.857][GoBackendProcess  ][Info   ] msg="adding routes for /services.tar -> C:\\Program Files\\Docker\\Docker\\resources\\services.tar"
+[17:01:12.857][GoBackendProcess  ][Info   ] â‡¨ http server started on \\.\pipe\dockerBackendApiServer
+[17:01:12.859][GoBackendProcess  ][Info   ] msg="adding routes for /docker.tar"
+[17:01:12.859][GoBackendProcess  ][Info   ] â‡¨ http server started on \\.\pipe\docker_cli
+[17:01:12.859][GoBackendProcess  ][Info   ] msg="adding routes for /kube-images.tar"
+[17:01:12.859][GoBackendProcess  ][Info   ] msg="adding routes for /services.tar -> C:\\Program Files\\Docker\\Docker\\resources\\services.tar"
+[17:01:12.859][GoBackendProcess  ][Info   ] â‡¨ http server started on \\.\pipe\dockerBackendApiServerForGuest
+[17:01:12.906][LoggingMessageHandler][Info   ] [3d20090c] <GoBackendClient start> GET http://localhost/ping
+[17:01:13.866][GoBackendProcess  ][Info   ] msg="external: GET /ping 200 \"DockerDesktopCSharp\" \"\""
+[17:01:14.057][LoggingMessageHandler][Info   ] [3d20090c] <GoBackendClient end> GET http://localhost/ping -> 200 OK (took 1149ms)
+[17:01:14.075][GoBackendClient   ][Info   ] backend API ready
+[17:01:14.268][LoggingMessageHandler][Info   ] [89692bd6] <BackendAPIClient start> GET http://backend/version
+[17:01:14.291][LoggingMessageHandler][Info   ] [89692bd6] <BackendAPIClient end> GET http://backend/version -> 200 OK (took 22ms)
+[17:01:14.309][LoggingMessageHandler][Info   ] [2fbe8bbc] <BackendAPIClient start> GET http://backend/hyperv/vhdx-size?path=C:%5CProgramData%5CDockerDesktop%5Cvm-data%5CDockerDesktop.vhdx
+[17:01:14.321][LoggingMessageHandler][Info   ] [2fbe8bbc] <BackendAPIClient end> GET http://backend/hyperv/vhdx-size?path=C:%5CProgramData%5CDockerDesktop%5Cvm-data%5CDockerDesktop.vhdx -> 200 OK (took 11ms)
+[17:01:14.333][LoggingMessageHandler][Info   ] [32b3f699] <BackendAPIClient start> POST http://backend/migrate/app
+[17:01:14.341][LoggingMessageHandler][Info   ] [32b3f699] <BackendAPIClient end> POST http://backend/migrate/app -> 204 NoContent (took 8ms)
+[17:01:14.352][Updater           ][Debug  ] Starting check for updates
+[17:01:14.540][LoggingMessageHandler][Info   ] [0b8e996b] <Server start> GET http://unix/settings
+[17:01:14.697][LoggingMessageHandler][Info   ] [0b8e996b] <Server end> GET http://unix/settings -> 200 OK (took 156ms)
+[17:01:14.843][GoBackendProcess  ][Info   ] msg="NewSharer: WSL2 engine is enabled so no file sharer is required."
+[17:01:14.843][GoBackendProcess  ][Info   ] msg="enabling filesystem caching"
+[17:01:14.843][GoBackendProcess  ][Info   ] msg="filesystem exports are:  (2)"
+[17:01:14.844][GoBackendProcess  ][Info   ] msg="volume control server listening on \\\\.\\pipe\\dockerVolume"
+[17:01:14.849][GoBackendProcess  ][Info   ] msg="filesystem server listening on 00000000-0000-0000-0000-000000000000:00001003-facb-11e6-bd58-64006a7986d3"
+[17:01:14.849][GoBackendProcess  ][Info   ] msg="filesystem server listening on \\\\.\\pipe\\dockerFilesystem"
+[17:01:14.849][GoBackendProcess  ][Info   ] msg="file ownership will be determined by the calling user (\"fake owner\" mode)"
+[17:01:14.849][GoBackendProcess  ][Info   ] msg="using mfsymlinks"
+[17:01:14.854][LoggingMessageHandler][Info   ] [3d2f1d6f] <Server start> GET http://unix/settings
+[17:01:14.860][LoggingMessageHandler][Info   ] [3d2f1d6f] <Server end> GET http://unix/settings -> 200 OK (took 5ms)
+[17:01:14.867][GoBackendProcess  ][Info   ] msg="Static DNS lookup table: map[docker-desktop.:192.168.65.4 docker-for-desktop.:192.168.65.4 docker.for.mac.gateway.internal.:192.168.65.2 docker.for.mac.host.internal.:192.168.65.2 docker.for.mac.localhost.:192.168.65.2 gateway.docker.internal.:192.168.65.2 host.docker.internal.:192.168.65.2 http.docker.internal.:192.168.65.5 kubernetes.docker.internal.:192.168.65.4 vm.docker.internal.:192.168.65.4]"
+[17:01:14.867][GoBackendProcess  ][Info   ] msg="DNS: TCP server listening on \\\\.\\pipe\\dockerDNSTCP"
+[17:01:14.867][GoBackendProcess  ][Info   ] msg="DNS: UDP server listening on \\\\.\\pipe\\dockerDNSUDP"
+[17:01:15.512][DockerHub         ][Info   ] Login successfull
+[17:01:15.518][LoggingMessageHandler][Info   ] [1e3e3b8b] <GoBackendClient start> POST http://localhost/hub-login
+[17:01:16.234][GoBackendProcess  ][Info   ] msg="user is part of free plan"
+[17:01:16.234][GoBackendProcess  ][Info   ] msg="entitlement: {PlanName:free Desktop:{Enabled:false}}"
+[17:01:16.234][GoBackendProcess  ][Info   ] msg="external: POST /hub-login 200 \"DockerDesktopCSharp\" \"\""
+[17:01:16.241][LoggingMessageHandler][Info   ] [1e3e3b8b] <GoBackendClient end> POST http://localhost/hub-login -> 200 OK (took 723ms)
+[17:01:16.245][LoggingMessageHandler][Info   ] [5803fed3] <Server start> POST http://unix/features/update
+[17:01:16.364][Features          ][Info   ] User plan: free
+[17:01:16.366][LoggingMessageHandler][Info   ] [5803fed3] <Server end> POST http://unix/features/update -> 204 NoContent (took 120ms)
+[17:01:18.520][CliInstaller      ][Info   ] Reading build information from appcast
+[17:01:18.520][CliInstaller      ][Info   ] Launcher process exited with -1
+[17:01:18.520][Updater           ][Debug  ] Finished check for updates
+[17:01:18.526][Engines           ][Debug  ] Starting
+[17:01:18.534][LoggingMessageHandler][Info   ] [e35ce90f] <BackendAPIClient start> POST http://backend/versionpack/enable
+[17:01:18.540][UpdateCheckTimer  ][Debug  ] Check for updates
+[17:01:18.541][Updater           ][Debug  ] Starting check for updates
+[17:01:18.574][LoggingMessageHandler][Info   ] [e35ce90f] <BackendAPIClient end> POST http://backend/versionpack/enable -> 204 NoContent (took 39ms)
+[17:01:18.600][EngineStateMachine][Debug  ] sending state Docker.ApiServices.StateMachines.StartTransition to state change sink
+[17:01:18.601][EngineStateMachine][Debug  ] State Docker.ApiServices.StateMachines.StartTransition sent to state change sink
+[17:01:18.609][EngineStateListener][Debug  ] received state Docker.ApiServices.StateMachines.StartTransition from LinuxWSL2
+[17:01:18.634][LinuxWSL2Engine   ][Info   ] Terminating lingering processes and wsl distros and patching host file
+[17:01:18.636][EngineStateNotificationRecorder][Debug  ] Registered state {"State":"starting","Mode":"linux","date":1619535678}
+[17:01:18.638][SystrayNotifications][Info   ] Docker is starting
+[17:01:18.640][LoggingMessageHandler][Info   ] [e13ed1c1] <BackendAPIClient start> POST http://backend/dns/refresh-hosts
+[17:01:19.036][WSL2Provisioning  ][Info   ] Checking docker-desktop
+[17:01:19.044][WSL2Provisioning  ][Info   ] deploying WSL distro docker-desktop to C:\Users\Neuro\AppData\Local\Docker\wsl\distro
+[17:01:19.438][LinuxWSL2Engine   ][Info   ] Stopping windows side processes
+[17:01:19.580][LinuxWSL2Engine   ][Info   ] Stopping engine
+[17:01:19.728][LoggingMessageHandler][Info   ] [a0a19a3b] <BackendAPIClient start> POST http://backend/windowsfeatures/check
+[17:01:19.798][LoggingMessageHandler][Info   ] [e13ed1c1] <BackendAPIClient end> POST http://backend/dns/refresh-hosts -> 204 NoContent (took 1157ms)
+[17:01:20.122][LoggingMessageHandler][Info   ] [a0a19a3b] <BackendAPIClient end> POST http://backend/windowsfeatures/check -> 200 OK (took 393ms)
+[17:01:20.925][LinuxWSL2Engine   ][Info   ] Terminating lingering processes and wsl distros and patching host file
+[17:01:20.925][LoggingMessageHandler][Info   ] [4fd6aed3] <BackendAPIClient start> POST http://backend/dns/refresh-hosts
+[17:01:21.010][CliInstaller      ][Info   ] Reading build information from appcast
+[17:01:21.074][LoggingMessageHandler][Info   ] [4fd6aed3] <BackendAPIClient end> POST http://backend/dns/refresh-hosts -> 204 NoContent (took 149ms)
+[17:01:21.076][Updater           ][Debug  ] Finished check for updates
+[17:01:21.153][WSL2Provisioning  ][Info   ] Checking docker-desktop
+[17:01:21.153][WSL2Provisioning  ][Info   ] deploying WSL distro docker-desktop to C:\Users\Neuro\AppData\Local\Docker\wsl\distro
+[17:01:21.232][ElectronWindows   ][Info   ] Showing dashboard page
+[17:01:21.583][LinuxWSL2Engine   ][Info   ] Stopping windows side processes
+[17:01:21.731][LinuxWSL2Engine   ][Info   ] Stopping engine
+[17:01:21.843][EngineStateMachine][Debug  ] sending state Docker.ApiServices.StateMachines.FailedToStartState to state change sink
+[17:01:21.843][EngineStateMachine][Debug  ] State Docker.ApiServices.StateMachines.FailedToStartState sent to state change sink
+[17:01:21.843][EngineStateListener][Debug  ] received state Docker.ApiServices.StateMachines.FailedToStartState from LinuxWSL2
+[17:01:21.844][EngineStateNotificationRecorder][Debug  ] Registered state {"State":"failed to start","Mode":"linux","date":1619535681}
+[17:01:21.845][SystrayNotifications][Info   ] Docker failed to start
+[17:01:22.050][Engines           ][Error  ] Start failed with Byla vyvolána výjimka typu Docker.ApiServices.WSL2.WslKernelUpdateNotInstalledException.
+   v Docker.ApiServices.WSL2.WslShortLivedCommandResult.LogAndThrowIfUnexpectedExitCode(String prefix, ILogger log, Int32 expectedExitCode) v C:\workspaces\PR-15633\src\github.com\docker\pinata\win\src\Docker.ApiServices\WSL2\WslCommand.cs:øádek 140
+   v Docker.Engines.WSL2.WSL2Provisioning.<DeployDistroAsync>d__17.MoveNext() v C:\workspaces\PR-15633\src\github.com\docker\pinata\win\src\Docker.Desktop\Engines\WSL2\WSL2Provisioning.cs:øádek 169
+--- Konec trasování zásobníku z pøedchozího místa, ze kterého byla vyvolána výjimka ---
+   v System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   v System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   v Docker.Engines.WSL2.WSL2Provisioning.<ProvisionAsync>d__8.MoveNext() v C:\workspaces\PR-15633\src\github.com\docker\pinata\win\src\Docker.Desktop\Engines\WSL2\WSL2Provisioning.cs:øádek 78
+--- Konec trasování zásobníku z pøedchozího místa, ze kterého byla vyvolána výjimka ---
+   v System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   v System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   v Docker.Engines.WSL2.LinuxWSL2Engine.<DoStartAsync>d__26.MoveNext() v C:\workspaces\PR-15633\src\github.com\docker\pinata\win\src\Docker.Desktop\Engines\WSL2\LinuxWSL2Engine.cs:øádek 104
+--- Konec trasování zásobníku z pøedchozího místa, ze kterého byla vyvolána výjimka ---
+   v System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   v System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   v Docker.ApiServices.StateMachines.TaskExtensions.<WrapAsyncInCancellationException>d__0.MoveNext() v C:\workspaces\PR-15633\src\github.com\docker\pinata\win\src\Docker.ApiServices\StateMachines\TaskExtensions.cs:øádek 29
+--- Konec trasování zásobníku z pøedchozího místa, ze kterého byla vyvolána výjimka ---
+   v System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   v System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   v Docker.ApiServices.StateMachines.StartTransition.<DoRunAsync>d__5.MoveNext() v C:\workspaces\PR-15633\src\github.com\docker\pinata\win\src\Docker.ApiServices\StateMachines\StartTransition.cs:øádek 67
+--- Konec trasování zásobníku z pøedchozího místa, ze kterého byla vyvolána výjimka ---
+   v System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   v Docker.ApiServices.StateMachines.StartTransition.<DoRunAsync>d__5.MoveNext() v C:\workspaces\PR-15633\src\github.com\docker\pinata\win\src\Docker.ApiServices\StateMachines\StartTransition.cs:øádek 92
+--- Konec trasování zásobníku z pøedchozího místa, ze kterého byla vyvolána výjimka ---
+   v System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   v System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   v Docker.ApiServices.StateMachines.EngineStateMachine.<StartAsync>d__14.MoveNext() v C:\workspaces\PR-15633\src\github.com\docker\pinata\win\src\Docker.ApiServices\StateMachines\EngineStateMachine.cs:øádek 69
+--- Konec trasování zásobníku z pøedchozího místa, ze kterého byla vyvolána výjimka ---
+   v System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   v System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   v Docker.Engines.Engines.<StartAsync>d__21.MoveNext() v C:\workspaces\PR-15633\src\github.com\docker\pinata\win\src\Docker.Desktop\Engines\Engines.cs:øádek 101)
+[17:01:22.425][LoggingMessageHandler][Info   ] [4fcd4388] <Server start> POST http://localhost/notifications/subscriptions
+[17:01:22.445][LoggingMessageHandler][Info   ] [0046aa6b] <NotificationsClient start> GET http://localhost/ping
+[17:01:22.854][LoggingMessageHandler][Info   ] [0046aa6b] <NotificationsClient end> GET http://localhost/ping -> 200 OK (took 408ms)
+[17:01:22.856][LoggingMessageHandler][Info   ] [4fcd4388] <Server end> POST http://localhost/notifications/subscriptions -> 200 OK (took 430ms)
+[17:01:25.511][GoBackendProcess  ][Info   ] msg="external: GET /features 200 \"axios/0.21.1\" \"\""
+[17:01:25.524][LoggingMessageHandler][Info   ] [f266644c] <Server start> GET http://localhost/settings
+[17:01:25.541][LoggingMessageHandler][Info   ] [f266644c] <Server end> GET http://localhost/settings -> 200 OK (took 17ms)
+[17:01:25.565][LoggingMessageHandler][Info   ] [81eba005] <Server start> GET http://localhost/versions
+[17:01:25.638][LoggingMessageHandler][Info   ] [b0c0166a] <Server start> GET http://localhost/docker
+[17:01:25.642][LoggingMessageHandler][Info   ] [b0c0166a] <Server end> GET http://localhost/docker -> 200 OK (took 4ms)
+[17:01:25.647][GoBackendProcess  ][Info   ] msg="external: GET /system/editor 200 \"axios/0.21.1\" \"\""
+[17:01:25.662][LoggingMessageHandler][Info   ] [ddb87dc0] <Server start> GET http://localhost/kubernetes
+[17:01:25.667][LoggingMessageHandler][Info   ] [ddb87dc0] <Server end> GET http://localhost/kubernetes -> 200 OK (took 4ms)
+[17:01:25.674][LoggingMessageHandler][Info   ] [4bc25873] <Server start> GET http://localhost/update
+[17:01:25.676][LoggingMessageHandler][Info   ] [1075c058] <Server start> GET http://localhost/registry/user
+[17:01:25.678][UpdateController  ][Info   ] Getting update available time: 0
+[17:01:25.680][LoggingMessageHandler][Info   ] [1075c058] <Server end> GET http://localhost/registry/user -> 200 OK (took 3ms)
+[17:01:25.683][LoggingMessageHandler][Info   ] [4bc25873] <Server end> GET http://localhost/update -> 200 OK (took 8ms)
+[17:01:25.914][LoggingMessageHandler][Info   ] [f2a961d8] <Server start> GET http://localhost/system/disk-usage?path=C:%5CProgramData%5CDockerDesktop%5Cvm-data
+[17:01:25.989][LoggingMessageHandler][Info   ] [f2a961d8] <Server end> GET http://localhost/system/disk-usage?path=C:%5CProgramData%5CDockerDesktop%5Cvm-data -> 200 OK (took 74ms)
+[17:01:26.082][GoBackendProcess  ][Info   ] msg="external: GET /features 200 \"axios/0.21.1\" \"\""
+[17:01:26.607][UpdatePopupTimer  ][Info   ] Starting timer
+[17:01:26.613][UpdatePopupTimer  ][Info   ] Update available date: 1/1/1970 12:00:00 AM +00:00
+[17:01:26.613][UpdatePopupTimer  ][Info   ] Update popup appearance date: 1/1/1970 12:00:00 AM +00:00
+[17:01:28.198][LoggingMessageHandler][Info   ] [81eba005] <Server end> GET http://localhost/versions -> 200 OK (took 2632ms)
+[17:04:26.009][SegmentApi        ][Info   ] Usage statistic: actionMenuCheckForUpdate
+[17:04:26.012][App               ][Debug  ] Check for updates interactive
+[17:04:26.012][Updater           ][Debug  ] Starting check for updates
+[17:04:27.656][CliInstaller      ][Info   ] Reading build information from appcast
+[17:04:27.662][SystrayNotifications][Info   ] Docker is up-to-date
+[17:04:27.674][Updater           ][Debug  ] Finished check for updates
+[17:04:35.611][LoggingMessageHandler][Info   ] [21193871] <Server start> POST http://localhost/desktop/cleanup
+[17:04:35.624][SegmentApi        ][Info   ] Usage statistic: actionCleanupData
+[17:04:35.625][SystrayNotifications][Info   ] Docker Desktop is cleaning up data...
+[17:04:35.644][EngineStateMachine][Debug  ] sending state Docker.ApiServices.StateMachines.DestroyTransition to state change sink
+[17:04:35.644][EngineStateMachine][Debug  ] State Docker.ApiServices.StateMachines.DestroyTransition sent to state change sink
+[17:04:35.644][EngineStateListener][Debug  ] received state Docker.ApiServices.StateMachines.DestroyTransition from LinuxHyperV
+[17:04:35.645][EngineStateNotificationRecorder][Debug  ] Registered state {"State":"updating","Mode":"linux","date":1619535875}
+[17:04:35.646][SystrayNotifications][Info   ] Docker Desktop is destroying...
+[17:04:35.653][LoggingMessageHandler][Info   ] [2d07efc9] <NotificationsClient start> POST http://localhost/engine/state
+[17:04:35.659][LoggingMessageHandler][Info   ] [eaabbb38] <BackendAPIClient start> POST http://backend/hyperv/destroy
+[17:04:35.731][LoggingMessageHandler][Info   ] [2d07efc9] <NotificationsClient end> POST http://localhost/engine/state -> 200 OK (took 78ms)
+[17:04:35.760][LoggingMessageHandler][Info   ] [eaabbb38] <BackendAPIClient end> POST http://backend/hyperv/destroy -> 204 NoContent (took 100ms)
+[17:04:35.760][EngineStateMachine][Debug  ] sending state Docker.ApiServices.StateMachines.StoppedState to state change sink
+[17:04:35.761][EngineStateMachine][Debug  ] State Docker.ApiServices.StateMachines.StoppedState sent to state change sink
+[17:04:35.761][EngineStateListener][Debug  ] received state Docker.ApiServices.StateMachines.StoppedState from LinuxHyperV
+[17:04:35.761][EngineStateMachine][Debug  ] sending state Docker.ApiServices.StateMachines.DestroyTransition to state change sink
+[17:04:35.761][EngineStateMachine][Debug  ] State Docker.ApiServices.StateMachines.DestroyTransition sent to state change sink
+[17:04:35.762][EngineStateNotificationRecorder][Debug  ] Registered state {"State":"stopped","Mode":"linux","date":1619535875}
+[17:04:35.762][SystrayNotifications][Info   ] Docker has stopped
+[17:04:35.762][EngineStateListener][Debug  ] received state Docker.ApiServices.StateMachines.DestroyTransition from WindowsContainers
+[17:04:35.764][EngineStateNotificationRecorder][Debug  ] Registered state {"State":"updating","Mode":"linux","date":1619535875}
+[17:04:35.764][SystrayNotifications][Info   ] Docker Desktop is destroying...
+[17:04:35.764][LoggingMessageHandler][Info   ] [2d91decc] <NotificationsClient start> POST http://localhost/engine/state
+[17:04:35.774][LoggingMessageHandler][Info   ] [fdb718e4] <BackendAPIClient start> POST http://backend/windowscontainers/destroy
+[17:04:35.819][LoggingMessageHandler][Info   ] [2d91decc] <NotificationsClient end> POST http://localhost/engine/state -> 200 OK (took 55ms)
+[17:04:35.820][LoggingMessageHandler][Info   ] [62585c88] <NotificationsClient start> POST http://localhost/engine/state
+[17:04:35.858][LoggingMessageHandler][Info   ] [62585c88] <NotificationsClient end> POST http://localhost/engine/state -> 200 OK (took 38ms)
+[17:04:36.018][LoggingMessageHandler][Info   ] [fdb718e4] <BackendAPIClient end> POST http://backend/windowscontainers/destroy -> 204 NoContent (took 243ms)
+[17:04:36.018][EngineStateMachine][Debug  ] sending state Docker.ApiServices.StateMachines.StoppedState to state change sink
+[17:04:36.018][EngineStateMachine][Debug  ] State Docker.ApiServices.StateMachines.StoppedState sent to state change sink
+[17:04:36.018][EngineStateListener][Debug  ] received state Docker.ApiServices.StateMachines.StoppedState from WindowsContainers
+[17:04:36.019][EngineStateMachine][Debug  ] sending state Docker.ApiServices.StateMachines.DestroyTransition to state change sink
+[17:04:36.019][EngineStateMachine][Debug  ] State Docker.ApiServices.StateMachines.DestroyTransition sent to state change sink
+[17:04:36.020][EngineStateNotificationRecorder][Debug  ] Registered state {"State":"stopped","Mode":"linux","date":1619535876}
+[17:04:36.020][SystrayNotifications][Info   ] Docker has stopped
+[17:04:36.020][EngineStateListener][Debug  ] received state Docker.ApiServices.StateMachines.DestroyTransition from LinuxWSL2
+[17:04:36.021][LoggingMessageHandler][Info   ] [71b4116f] <NotificationsClient start> POST http://localhost/engine/state
+[17:04:36.021][EngineStateNotificationRecorder][Debug  ] Registered state {"State":"updating","Mode":"linux","date":1619535876}
+[17:04:36.021][SystrayNotifications][Info   ] Docker Desktop is destroying...
+[17:04:36.030][LinuxWSL2Engine   ][Info   ] Destroying distro
+[17:04:36.053][LoggingMessageHandler][Info   ] [71b4116f] <NotificationsClient end> POST http://localhost/engine/state -> 200 OK (took 32ms)
+[17:04:36.054][LoggingMessageHandler][Info   ] [62730e91] <NotificationsClient start> POST http://localhost/engine/state
+[17:04:36.099][LoggingMessageHandler][Info   ] [62730e91] <NotificationsClient end> POST http://localhost/engine/state -> 200 OK (took 45ms)
+[17:04:36.356][EngineStateMachine][Debug  ] sending state Docker.ApiServices.StateMachines.StoppedState to state change sink
+[17:04:36.356][EngineStateMachine][Debug  ] State Docker.ApiServices.StateMachines.StoppedState sent to state change sink
+[17:04:36.356][EngineStateListener][Debug  ] received state Docker.ApiServices.StateMachines.StoppedState from LinuxWSL2
+[17:04:36.356][Engines           ][Debug  ] Starting
+[17:04:36.357][EngineStateNotificationRecorder][Debug  ] Registered state {"State":"stopped","Mode":"linux","date":1619535876}
+[17:04:36.357][SystrayNotifications][Info   ] Docker has stopped
+[17:04:36.357][LoggingMessageHandler][Info   ] [157219a7] <NotificationsClient start> POST http://localhost/engine/state
+[17:04:36.359][LoggingMessageHandler][Info   ] [8665dbec] <BackendAPIClient start> POST http://backend/versionpack/enable
+[17:04:36.406][LoggingMessageHandler][Info   ] [157219a7] <NotificationsClient end> POST http://localhost/engine/state -> 200 OK (took 48ms)
+[17:04:36.411][LoggingMessageHandler][Info   ] [8665dbec] <BackendAPIClient end> POST http://backend/versionpack/enable -> 204 NoContent (took 51ms)
+[17:04:36.412][EngineStateMachine][Debug  ] sending state Docker.ApiServices.StateMachines.StartTransition to state change sink
+[17:04:36.412][EngineStateMachine][Debug  ] State Docker.ApiServices.StateMachines.StartTransition sent to state change sink
+[17:04:36.412][EngineStateListener][Debug  ] received state Docker.ApiServices.StateMachines.StartTransition from LinuxWSL2
+[17:04:36.413][LinuxWSL2Engine   ][Info   ] Terminating lingering processes and wsl distros and patching host file
+[17:04:36.413][LoggingMessageHandler][Info   ] [79efa2fc] <BackendAPIClient start> POST http://backend/dns/refresh-hosts
+[17:04:36.417][EngineStateNotificationRecorder][Debug  ] Registered state {"State":"starting","Mode":"linux","date":1619535876}
+[17:04:36.417][SystrayNotifications][Info   ] Docker is starting
+[17:04:36.418][LoggingMessageHandler][Info   ] [d059e091] <NotificationsClient start> POST http://localhost/engine/state
+[17:04:36.521][LoggingMessageHandler][Info   ] [79efa2fc] <BackendAPIClient end> POST http://backend/dns/refresh-hosts -> 204 NoContent (took 104ms)
+[17:04:36.537][WSL2Provisioning  ][Info   ] Checking docker-desktop
+[17:04:36.537][WSL2Provisioning  ][Info   ] deploying WSL distro docker-desktop to C:\Users\Neuro\AppData\Local\Docker\wsl\distro
+[17:04:36.622][LoggingMessageHandler][Info   ] [d059e091] <NotificationsClient end> POST http://localhost/engine/state -> 200 OK (took 203ms)
+[17:04:36.919][LinuxWSL2Engine   ][Info   ] Stopping windows side processes
+[17:04:37.002][LinuxWSL2Engine   ][Info   ] Stopping engine
+[17:04:37.073][LoggingMessageHandler][Info   ] [140aa019] <BackendAPIClient start> POST http://backend/windowsfeatures/check
+[17:04:37.537][LoggingMessageHandler][Info   ] [140aa019] <BackendAPIClient end> POST http://backend/windowsfeatures/check -> 200 OK (took 465ms)
+[17:04:37.749][LinuxWSL2Engine   ][Info   ] Terminating lingering processes and wsl distros and patching host file
+[17:04:37.749][LoggingMessageHandler][Info   ] [c401f221] <BackendAPIClient start> POST http://backend/dns/refresh-hosts
+[17:04:37.792][LoggingMessageHandler][Info   ] [c401f221] <BackendAPIClient end> POST http://backend/dns/refresh-hosts -> 204 NoContent (took 42ms)
+[17:04:37.832][WSL2Provisioning  ][Info   ] Checking docker-desktop
+[17:04:37.832][WSL2Provisioning  ][Info   ] deploying WSL distro docker-desktop to C:\Users\Neuro\AppData\Local\Docker\wsl\distro
+[17:04:38.097][LinuxWSL2Engine   ][Info   ] Stopping windows side processes
+[17:04:38.171][LinuxWSL2Engine   ][Info   ] Stopping engine
+[17:04:38.232][EngineStateMachine][Debug  ] sending state Docker.ApiServices.StateMachines.FailedToStartState to state change sink
+[17:04:38.232][EngineStateMachine][Debug  ] State Docker.ApiServices.StateMachines.FailedToStartState sent to state change sink
+[17:04:38.232][EngineStateListener][Debug  ] received state Docker.ApiServices.StateMachines.FailedToStartState from LinuxWSL2
+[17:04:38.232][Engines           ][Error  ] Start failed with Byla vyvolána výjimka typu Docker.ApiServices.WSL2.WslKernelUpdateNotInstalledException.
+   v Docker.ApiServices.WSL2.WslShortLivedCommandResult.LogAndThrowIfUnexpectedExitCode(String prefix, ILogger log, Int32 expectedExitCode) v C:\workspaces\PR-15633\src\github.com\docker\pinata\win\src\Docker.ApiServices\WSL2\WslCommand.cs:øádek 140
+   v Docker.Engines.WSL2.WSL2Provisioning.<DeployDistroAsync>d__17.MoveNext() v C:\workspaces\PR-15633\src\github.com\docker\pinata\win\src\Docker.Desktop\Engines\WSL2\WSL2Provisioning.cs:øádek 169
+--- Konec trasování zásobníku z pøedchozího místa, ze kterého byla vyvolána výjimka ---
+   v System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   v System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   v Docker.Engines.WSL2.WSL2Provisioning.<ProvisionAsync>d__8.MoveNext() v C:\workspaces\PR-15633\src\github.com\docker\pinata\win\src\Docker.Desktop\Engines\WSL2\WSL2Provisioning.cs:øádek 78
+--- Konec trasování zásobníku z pøedchozího místa, ze kterého byla vyvolána výjimka ---
+   v System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   v System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   v Docker.Engines.WSL2.LinuxWSL2Engine.<DoStartAsync>d__26.MoveNext() v C:\workspaces\PR-15633\src\github.com\docker\pinata\win\src\Docker.Desktop\Engines\WSL2\LinuxWSL2Engine.cs:øádek 104
+--- Konec trasování zásobníku z pøedchozího místa, ze kterého byla vyvolána výjimka ---
+   v System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   v System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   v Docker.ApiServices.StateMachines.TaskExtensions.<WrapAsyncInCancellationException>d__0.MoveNext() v C:\workspaces\PR-15633\src\github.com\docker\pinata\win\src\Docker.ApiServices\StateMachines\TaskExtensions.cs:øádek 29
+--- Konec trasování zásobníku z pøedchozího místa, ze kterého byla vyvolána výjimka ---
+   v System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   v System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   v Docker.ApiServices.StateMachines.StartTransition.<DoRunAsync>d__5.MoveNext() v C:\workspaces\PR-15633\src\github.com\docker\pinata\win\src\Docker.ApiServices\StateMachines\StartTransition.cs:øádek 67
+--- Konec trasování zásobníku z pøedchozího místa, ze kterého byla vyvolána výjimka ---
+   v System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   v Docker.ApiServices.StateMachines.StartTransition.<DoRunAsync>d__5.MoveNext() v C:\workspaces\PR-15633\src\github.com\docker\pinata\win\src\Docker.ApiServices\StateMachines\StartTransition.cs:øádek 92
+--- Konec trasování zásobníku z pøedchozího místa, ze kterého byla vyvolána výjimka ---
+   v System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   v System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   v Docker.ApiServices.StateMachines.EngineStateMachine.<StartAsync>d__14.MoveNext() v C:\workspaces\PR-15633\src\github.com\docker\pinata\win\src\Docker.ApiServices\StateMachines\EngineStateMachine.cs:øádek 69
+--- Konec trasování zásobníku z pøedchozího místa, ze kterého byla vyvolána výjimka ---
+   v System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   v System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   v Docker.Engines.Engines.<StartAsync>d__21.MoveNext() v C:\workspaces\PR-15633\src\github.com\docker\pinata\win\src\Docker.Desktop\Engines\Engines.cs:øádek 101)
+[17:04:38.233][LoggingMessageHandler][Info   ] [21193871] <Server end> POST http://localhost/desktop/cleanup -> 204 NoContent (took 2620ms)
+[17:04:38.233][EngineStateNotificationRecorder][Debug  ] Registered state {"State":"failed to start","Mode":"linux","date":1619535878}
+[17:04:38.233][SystrayNotifications][Info   ] Docker failed to start
+[17:04:38.233][LoggingMessageHandler][Info   ] [b877f3dd] <NotificationsClient start> POST http://localhost/engine/state
+[17:04:38.261][LoggingMessageHandler][Info   ] [b877f3dd] <NotificationsClient end> POST http://localhost/engine/state -> 200 OK (took 27ms)
+[17:04:40.591][Engines           ][Debug  ] Starting
+[17:04:40.593][LoggingMessageHandler][Info   ] [77bc79ef] <BackendAPIClient start> POST http://backend/versionpack/enable
+[17:04:40.625][LoggingMessageHandler][Info   ] [77bc79ef] <BackendAPIClient end> POST http://backend/versionpack/enable -> 204 NoContent (took 32ms)
+[17:04:40.627][EngineStateMachine][Debug  ] sending state Docker.ApiServices.StateMachines.StartTransition to state change sink
+[17:04:40.627][EngineStateMachine][Debug  ] State Docker.ApiServices.StateMachines.StartTransition sent to state change sink
+[17:04:40.627][EngineStateListener][Debug  ] received state Docker.ApiServices.StateMachines.StartTransition from LinuxWSL2
+[17:04:40.627][LinuxWSL2Engine   ][Info   ] Terminating lingering processes and wsl distros and patching host file
+[17:04:40.627][LoggingMessageHandler][Info   ] [ddbe7e27] <BackendAPIClient start> POST http://backend/dns/refresh-hosts
+[17:04:40.628][EngineStateNotificationRecorder][Debug  ] Registered state {"State":"starting","Mode":"linux","date":1619535880}
+[17:04:40.628][SystrayNotifications][Info   ] Docker is starting
+[17:04:40.628][LoggingMessageHandler][Info   ] [afc823f9] <NotificationsClient start> POST http://localhost/engine/state
+[17:04:40.698][LoggingMessageHandler][Info   ] [ddbe7e27] <BackendAPIClient end> POST http://backend/dns/refresh-hosts -> 204 NoContent (took 70ms)
+[17:04:40.731][LoggingMessageHandler][Info   ] [afc823f9] <NotificationsClient end> POST http://localhost/engine/state -> 200 OK (took 102ms)
+[17:04:40.760][WSL2Provisioning  ][Info   ] Checking docker-desktop
+[17:04:40.760][WSL2Provisioning  ][Info   ] deploying WSL distro docker-desktop to C:\Users\Neuro\AppData\Local\Docker\wsl\distro
+[17:04:41.040][LinuxWSL2Engine   ][Info   ] Stopping windows side processes
+[17:04:41.106][LinuxWSL2Engine   ][Info   ] Stopping engine
+[17:04:41.163][LoggingMessageHandler][Info   ] [bdde2531] <BackendAPIClient start> POST http://backend/windowsfeatures/check
+[17:04:41.545][LoggingMessageHandler][Info   ] [bdde2531] <BackendAPIClient end> POST http://backend/windowsfeatures/check -> 200 OK (took 382ms)
+[17:04:41.745][LinuxWSL2Engine   ][Info   ] Terminating lingering processes and wsl distros and patching host file
+[17:04:41.746][LoggingMessageHandler][Info   ] [87613c03] <BackendAPIClient start> POST http://backend/dns/refresh-hosts
+[17:04:41.785][LoggingMessageHandler][Info   ] [87613c03] <BackendAPIClient end> POST http://backend/dns/refresh-hosts -> 204 NoContent (took 39ms)
+[17:04:41.823][WSL2Provisioning  ][Info   ] Checking docker-desktop
+[17:04:41.823][WSL2Provisioning  ][Info   ] deploying WSL distro docker-desktop to C:\Users\Neuro\AppData\Local\Docker\wsl\distro
+[17:04:42.090][LinuxWSL2Engine   ][Info   ] Stopping windows side processes
+[17:04:42.171][LinuxWSL2Engine   ][Info   ] Stopping engine
+[17:04:42.230][EngineStateMachine][Debug  ] sending state Docker.ApiServices.StateMachines.FailedToStartState to state change sink
+[17:04:42.230][EngineStateMachine][Debug  ] State Docker.ApiServices.StateMachines.FailedToStartState sent to state change sink
+[17:04:42.231][EngineStateListener][Debug  ] received state Docker.ApiServices.StateMachines.FailedToStartState from LinuxWSL2
+[17:04:42.231][EngineStateNotificationRecorder][Debug  ] Registered state {"State":"failed to start","Mode":"linux","date":1619535882}
+[17:04:42.231][SystrayNotifications][Info   ] Docker failed to start
+[17:04:42.232][LoggingMessageHandler][Info   ] [e6e0c869] <NotificationsClient start> POST http://localhost/engine/state
+[17:04:42.252][LoggingMessageHandler][Info   ] [e6e0c869] <NotificationsClient end> POST http://localhost/engine/state -> 200 OK (took 20ms)
+[17:04:42.351][Engines           ][Error  ] Start failed with Byla vyvolána výjimka typu Docker.ApiServices.WSL2.WslKernelUpdateNotInstalledException.
+   v Docker.ApiServices.WSL2.WslShortLivedCommandResult.LogAndThrowIfUnexpectedExitCode(String prefix, ILogger log, Int32 expectedExitCode) v C:\workspaces\PR-15633\src\github.com\docker\pinata\win\src\Docker.ApiServices\WSL2\WslCommand.cs:øádek 140
+   v Docker.Engines.WSL2.WSL2Provisioning.<DeployDistroAsync>d__17.MoveNext() v C:\workspaces\PR-15633\src\github.com\docker\pinata\win\src\Docker.Desktop\Engines\WSL2\WSL2Provisioning.cs:øádek 169
+--- Konec trasování zásobníku z pøedchozího místa, ze kterého byla vyvolána výjimka ---
+   v System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   v System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   v Docker.Engines.WSL2.WSL2Provisioning.<ProvisionAsync>d__8.MoveNext() v C:\workspaces\PR-15633\src\github.com\docker\pinata\win\src\Docker.Desktop\Engines\WSL2\WSL2Provisioning.cs:øádek 78
+--- Konec trasování zásobníku z pøedchozího místa, ze kterého byla vyvolána výjimka ---
+   v System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   v System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   v Docker.Engines.WSL2.LinuxWSL2Engine.<DoStartAsync>d__26.MoveNext() v C:\workspaces\PR-15633\src\github.com\docker\pinata\win\src\Docker.Desktop\Engines\WSL2\LinuxWSL2Engine.cs:øádek 104
+--- Konec trasování zásobníku z pøedchozího místa, ze kterého byla vyvolána výjimka ---
+   v System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   v System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   v Docker.ApiServices.StateMachines.TaskExtensions.<WrapAsyncInCancellationException>d__0.MoveNext() v C:\workspaces\PR-15633\src\github.com\docker\pinata\win\src\Docker.ApiServices\StateMachines\TaskExtensions.cs:øádek 29
+--- Konec trasování zásobníku z pøedchozího místa, ze kterého byla vyvolána výjimka ---
+   v System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   v System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   v Docker.ApiServices.StateMachines.StartTransition.<DoRunAsync>d__5.MoveNext() v C:\workspaces\PR-15633\src\github.com\docker\pinata\win\src\Docker.ApiServices\StateMachines\StartTransition.cs:øádek 67
+--- Konec trasování zásobníku z pøedchozího místa, ze kterého byla vyvolána výjimka ---
+   v System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   v Docker.ApiServices.StateMachines.StartTransition.<DoRunAsync>d__5.MoveNext() v C:\workspaces\PR-15633\src\github.com\docker\pinata\win\src\Docker.ApiServices\StateMachines\StartTransition.cs:øádek 92
+--- Konec trasování zásobníku z pøedchozího místa, ze kterého byla vyvolána výjimka ---
+   v System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   v System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   v Docker.ApiServices.StateMachines.EngineStateMachine.<StartAsync>d__14.MoveNext() v C:\workspaces\PR-15633\src\github.com\docker\pinata\win\src\Docker.ApiServices\StateMachines\EngineStateMachine.cs:øádek 69
+--- Konec trasování zásobníku z pøedchozího místa, ze kterého byla vyvolána výjimka ---
+   v System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   v System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   v Docker.Engines.Engines.<StartAsync>d__21.MoveNext() v C:\workspaces\PR-15633\src\github.com\docker\pinata\win\src\Docker.Desktop\Engines\Engines.cs:øádek 101)
+[17:04:46.712][GoBackendProcess  ][Info   ] msg="external: GET /features 200 \"axios/0.21.1\" \"\""
+[17:04:46.715][LoggingMessageHandler][Info   ] [f1185fce] <Server start> GET http://localhost/settings
+[17:04:46.722][LoggingMessageHandler][Info   ] [f1185fce] <Server end> GET http://localhost/settings -> 200 OK (took 5ms)
+[17:04:46.846][LoggingMessageHandler][Info   ] [89a394fa] <Server start> GET http://localhost/system/disk-usage?path=C:%5CProgramData%5CDockerDesktop%5Cvm-data
+[17:04:46.847][LoggingMessageHandler][Info   ] [89a394fa] <Server end> GET http://localhost/system/disk-usage?path=C:%5CProgramData%5CDockerDesktop%5Cvm-data -> 200 OK (took 0ms)
+[17:05:00.288][LoggingMessageHandler][Info   ] [5bb862fb] <Server start> POST http://localhost/kubernetes/reset
+[17:05:00.299][LoggingMessageHandler][Info   ] [a8adf5e6] <GoBackendClient start> POST http://localhost/kubernetes/reset
+[17:05:00.306][LoggingMessageHandler][Info   ] [5bb862fb] <Server end> POST http://localhost/kubernetes/reset -> 200 OK (took 17ms)
+[17:05:00.306][LoggingMessageHandler][Info   ] [5aa249da] <Server start> GET http://unix/version-packs
+[17:05:00.312][LoggingMessageHandler][Info   ] [5aa249da] <Server end> GET http://unix/version-packs -> 200 OK (took 5ms)
+[17:05:00.330][LoggingMessageHandler][Info   ] [bdcffb32] <Server start> GET http://unix/settings
+[17:05:00.338][LoggingMessageHandler][Info   ] [bdcffb32] <Server end> GET http://unix/settings -> 200 OK (took 6ms)
+[17:05:00.338][GoBackendProcess  ][Info   ] msg="pki: checking if certs IPAddresses contains needed IP 192.168.65.4"
+[17:05:00.339][GoBackendProcess  ][Info   ] msg="pki: checking to see if localhost and kubernetes.docker.internal are both inside the cert DNSNames"
+[17:05:00.339][GoBackendProcess  ][Info   ] msg="pki: checking to see if docker-for-desktop is inside the cert DNSNames"
+[17:05:00.340][GoBackendProcess  ][Info   ] msg="pki: creating assets in C:\\Users\\Neuro\\AppData\\Local\\Docker\\pki with IPs 10.96.0.1,0.0.0.0,127.0.0.1,192.168.65.4,192.168.65.3"
+[17:05:00.864][GoBackendProcess  ][Info   ] [certs] Using the existing "etcd/server" certificate and key
+[17:05:01.172][GoBackendProcess  ][Info   ] [certs] Using the existing "etcd/peer" certificate and key
+[17:05:01.801][GoBackendProcess  ][Info   ] [certs] Using the existing "apiserver-etcd-client" certificate and key
+[17:05:01.997][GoBackendProcess  ][Info   ] [certs] Using the existing "etcd/healthcheck-client" certificate and key
+[17:05:02.194][GoBackendProcess  ][Info   ] [certs] Using the existing "apiserver" certificate and key
+[17:05:02.461][GoBackendProcess  ][Info   ] [certs] Using the existing "apiserver-kubelet-client" certificate and key
+[17:05:02.558][GoBackendProcess  ][Info   ] [certs] Using the existing "front-proxy-client" certificate and key
+[17:05:02.558][GoBackendProcess  ][Info   ] [certs] Valid certificates and keys now exist in "C:\\Users\\Neuro\\AppData\\Local\\Docker\\pki"
+[17:05:02.558][GoBackendProcess  ][Info   ] [certs] Using the existing "sa" key
+[17:05:02.558][GoBackendProcess  ][Info   ] msg="external: POST /kubernetes/reset 200 \"DockerDesktopCSharp\" \"\""
+[17:05:02.559][GoBackendProcess  ][Info   ] msg="pki: deleting from C:\\Users\\Neuro\\AppData\\Local\\Docker\\pki"
+[17:05:02.562][LoggingMessageHandler][Info   ] [a8adf5e6] <GoBackendClient end> POST http://localhost/kubernetes/reset -> 200 OK (took 2262ms)
+[17:05:02.570][LoggingMessageHandler][Info   ] [823cc685] <Server start> GET http://unix/settings
+[17:05:02.574][LoggingMessageHandler][Info   ] [823cc685] <Server end> GET http://unix/settings -> 200 OK (took 4ms)
+[17:05:02.576][GoBackendProcess  ][Info   ] msg="pki: checking if certs IPAddresses contains needed IP 192.168.65.4"
+[17:05:02.576][GoBackendProcess  ][Warning] msg="pki: API server cert has IPs [] but VM IP addresses has changed to 192.168.65.4 so the kubernetes cluster certs must be regenerated."
+[17:05:02.576][GoBackendProcess  ][Info   ] msg="pki: deleting from C:\\Users\\Neuro\\AppData\\Local\\Docker\\pki"
+[17:05:02.576][GoBackendProcess  ][Info   ] msg="pki: checking to see if localhost and kubernetes.docker.internal are both inside the cert DNSNames"
+[17:05:02.577][GoBackendProcess  ][Info   ] msg="pki: checking to see if docker-for-desktop is inside the cert DNSNames"
+[17:05:02.577][GoBackendProcess  ][Info   ] msg="pki: creating assets in C:\\Users\\Neuro\\AppData\\Local\\Docker\\pki with IPs 192.168.65.4,192.168.65.3,192.168.65.4"
+[17:05:02.769][GoBackendProcess  ][Info   ] [certs] Generating "etcd/ca" certificate and key
+[17:05:02.965][GoBackendProcess  ][Info   ] [certs] Generating "etcd/peer" certificate and key
+[17:05:02.966][GoBackendProcess  ][Info   ] [certs] etcd/peer serving cert is signed for DNS names [docker-for-desktop localhost] and IPs [0.0.0.0 127.0.0.1 ::1]
+[17:05:03.514][GoBackendProcess  ][Info   ] [certs] Generating "etcd/healthcheck-client" certificate and key
+[17:05:04.075][GoBackendProcess  ][Info   ] [certs] Generating "etcd/server" certificate and key
+[17:05:04.077][GoBackendProcess  ][Info   ] [certs] etcd/server serving cert is signed for DNS names [docker-for-desktop localhost] and IPs [0.0.0.0 127.0.0.1 ::1]
+[17:05:04.549][GoBackendProcess  ][Info   ] [certs] Generating "apiserver-etcd-client" certificate and key
+[17:05:04.818][GoBackendProcess  ][Info   ] [certs] Generating "ca" certificate and key
+[17:05:05.161][GoBackendProcess  ][Info   ] [certs] Generating "apiserver" certificate and key
+[17:05:05.163][GoBackendProcess  ][Info   ] [certs] apiserver serving cert is signed for DNS names [docker-for-desktop kubernetes kubernetes.default kubernetes.default.svc kubernetes.default.svc.cluster.local kubernetes.docker.internal localhost vm.docker.internal] and IPs [10.96.0.1 0.0.0.0 127.0.0.1 192.168.65.4 192.168.65.3]
+[17:05:05.837][GoBackendProcess  ][Info   ] [certs] Generating "apiserver-kubelet-client" certificate and key
+[17:05:06.224][GoBackendProcess  ][Info   ] [certs] Generating "front-proxy-ca" certificate and key
+[17:05:06.586][GoBackendProcess  ][Info   ] [certs] Generating "front-proxy-client" certificate and key
+[17:05:06.588][GoBackendProcess  ][Info   ] [certs] Valid certificates and keys now exist in "C:\\Users\\Neuro\\AppData\\Local\\Docker\\pki"
+[17:05:06.898][GoBackendProcess  ][Info   ] [certs] Generating "sa" key and public key
+[17:05:06.902][GoBackendProcess  ][Info   ] msg="sending to gui: 1619535906901125800 kubernetes: failed to start (error while resetting: Get \"http://unix/kubernetes/reset\": open \\\\.\\pipe\\dockerLifecycleServer: SystÃ©m nemÅ¯Å¾e nalÃ©zt uvedenÃ½ soubor.) "
+[17:05:06.908][LoggingMessageHandler][Info   ] [28570774] <Server start> POST http://unix/kubernetes
+[17:05:06.919][LoggingMessageHandler][Info   ] [28570774] <Server end> POST http://unix/kubernetes -> 200 OK (took 10ms)
+[17:05:06.919][LoggingMessageHandler][Info   ] [2a801d3b] <NotificationsClient start> POST http://localhost/kubernetes/state
+[17:05:06.920][GoBackendProcess  ][Error  ] msg="error trying to reset kubernetes:Get \"http://unix/kubernetes/reset\": open \\\\.\\pipe\\dockerLifecycleServer: SystÃ©m nemÅ¯Å¾e nalÃ©zt uvedenÃ½ soubor."
+[17:05:06.941][LoggingMessageHandler][Info   ] [2a801d3b] <NotificationsClient end> POST http://localhost/kubernetes/state -> 200 OK (took 22ms)
+[17:05:06.960][DockerAnalytics   ][Warning] Error getting engine info: Èasový limit operace vypršel.
+[17:05:06.961][DockerAnalytics   ][Warning] Error getting engine version: Èasový limit operace vypršel.
+[17:05:06.981][SegmentApi        ][Info   ] Usage statistic: dailyHeartbeat
+[17:05:13.052][LoggingMessageHandler][Info   ] [71669f49] <Server start> GET http://localhost/settings/wsl2-distros
+[17:05:13.120][LoggingMessageHandler][Info   ] [71669f49] <Server end> GET http://localhost/settings/wsl2-distros -> 200 OK (took 67ms)
+[17:05:14.308][LoggingMessageHandler][Info   ] [6d5f8f8d] <Server start> GET http://localhost/settings/wsl2-distros
+[17:05:14.364][LoggingMessageHandler][Info   ] [6d5f8f8d] <Server end> GET http://localhost/settings/wsl2-distros -> 200 OK (took 57ms)
+[17:05:15.795][LoggingMessageHandler][Info   ] [9432bce3] <Server start> GET http://localhost/settings
+[17:05:15.800][LoggingMessageHandler][Info   ] [9432bce3] <Server end> GET http://localhost/settings -> 200 OK (took 4ms)
+[17:05:15.825][LoggingMessageHandler][Info   ] [36f0f697] <Server start> POST http://localhost/settings
+[17:05:15.869][EngineStateNotificationRecorder][Debug  ] Registered state {"State":"updating","Mode":"linux","date":1619535915}
+[17:05:15.869][LoggingMessageHandler][Info   ] [d7cd304b] <NotificationsClient start> POST http://localhost/engine/state
+[17:05:15.886][LoggingMessageHandler][Info   ] [d7cd304b] <NotificationsClient end> POST http://localhost/engine/state -> 200 OK (took 17ms)
+[17:05:15.948][SystrayNotifications][Info   ] Docker Desktop is restarting...
+[17:05:15.968][EngineStateMachine][Debug  ] sending state Docker.ApiServices.StateMachines.StoppedState to state change sink
+[17:05:15.968][EngineStateMachine][Debug  ] State Docker.ApiServices.StateMachines.StoppedState sent to state change sink
+[17:05:15.968][EngineStateMachine][Debug  ] sending state Docker.ApiServices.StateMachines.StartTransition to state change sink
+[17:05:15.968][EngineStateMachine][Debug  ] State Docker.ApiServices.StateMachines.StartTransition sent to state change sink
+[17:05:15.968][EngineStateListener][Debug  ] received state Docker.ApiServices.StateMachines.StoppedState from LinuxWSL2
+[17:05:15.969][EngineStateNotificationRecorder][Debug  ] Registered state {"State":"stopped","Mode":"linux","date":1619535915}
+[17:05:15.969][SystrayNotifications][Info   ] Docker has stopped
+[17:05:15.969][EngineStateListener][Debug  ] received state Docker.ApiServices.StateMachines.StartTransition from LinuxWSL2
+[17:05:15.975][LinuxWSL2Engine   ][Info   ] Terminating lingering processes and wsl distros and patching host file
+[17:05:15.975][LoggingMessageHandler][Info   ] [3a771f42] <BackendAPIClient start> POST http://backend/dns/refresh-hosts
+[17:05:15.975][EngineStateNotificationRecorder][Debug  ] Registered state {"State":"starting","Mode":"linux","date":1619535915}
+[17:05:15.976][SystrayNotifications][Info   ] Docker is starting
+[17:05:15.983][LoggingMessageHandler][Info   ] [36f0f697] <Server end> POST http://localhost/settings -> 200 OK (took 158ms)
+[17:05:15.984][LoggingMessageHandler][Info   ] [5341ecbe] <NotificationsClient start> POST http://localhost/engine/state
+[17:05:16.046][LoggingMessageHandler][Info   ] [3a771f42] <BackendAPIClient end> POST http://backend/dns/refresh-hosts -> 204 NoContent (took 70ms)
+[17:05:16.117][WSL2Provisioning  ][Info   ] Checking docker-desktop
+[17:05:16.117][WSL2Provisioning  ][Info   ] deploying WSL distro docker-desktop to C:\Users\Neuro\AppData\Local\Docker\wsl\distro
+[17:05:16.143][LoggingMessageHandler][Info   ] [5341ecbe] <NotificationsClient end> POST http://localhost/engine/state -> 200 OK (took 158ms)
+[17:05:16.144][LoggingMessageHandler][Info   ] [ea228e21] <NotificationsClient start> POST http://localhost/engine/state
+[17:05:16.190][LoggingMessageHandler][Info   ] [ea228e21] <NotificationsClient end> POST http://localhost/engine/state -> 200 OK (took 45ms)
+[17:05:16.309][LoggingMessageHandler][Info   ] [2851b80d] <Server start> GET http://localhost/system/disk-usage?path=C:%5CProgramData%5CDockerDesktop%5Cvm-data
+[17:05:16.311][LoggingMessageHandler][Info   ] [2851b80d] <Server end> GET http://localhost/system/disk-usage?path=C:%5CProgramData%5CDockerDesktop%5Cvm-data -> 200 OK (took 0ms)
+[17:05:16.368][GoBackendProcess  ][Info   ] msg="external: GET /features 200 \"axios/0.21.1\" \"\""
+[17:05:16.444][LinuxWSL2Engine   ][Info   ] Stopping windows side processes
+[17:05:16.556][LinuxWSL2Engine   ][Info   ] Stopping engine
+[17:05:16.632][LoggingMessageHandler][Info   ] [0002514d] <BackendAPIClient start> POST http://backend/windowsfeatures/check
+[17:05:17.103][LoggingMessageHandler][Info   ] [0002514d] <BackendAPIClient end> POST http://backend/windowsfeatures/check -> 200 OK (took 470ms)
+[17:05:17.316][LinuxWSL2Engine   ][Info   ] Terminating lingering processes and wsl distros and patching host file
+[17:05:17.316][LoggingMessageHandler][Info   ] [66e822b1] <BackendAPIClient start> POST http://backend/dns/refresh-hosts
+[17:05:17.367][LoggingMessageHandler][Info   ] [66e822b1] <BackendAPIClient end> POST http://backend/dns/refresh-hosts -> 204 NoContent (took 51ms)
+[17:05:17.399][WSL2Provisioning  ][Info   ] Checking docker-desktop
+[17:05:17.399][WSL2Provisioning  ][Info   ] deploying WSL distro docker-desktop to C:\Users\Neuro\AppData\Local\Docker\wsl\distro
+[17:05:17.661][LinuxWSL2Engine   ][Info   ] Stopping windows side processes
+[17:05:17.733][LinuxWSL2Engine   ][Info   ] Stopping engine
+[17:05:17.797][EngineStateMachine][Debug  ] sending state Docker.ApiServices.StateMachines.FailedToStartState to state change sink
+[17:05:17.797][EngineStateMachine][Debug  ] State Docker.ApiServices.StateMachines.FailedToStartState sent to state change sink
+[17:05:17.797][EngineStateListener][Debug  ] received state Docker.ApiServices.StateMachines.FailedToStartState from LinuxWSL2
+[17:05:17.797][SystrayNotifications][Info   ] Failed to restart
+[17:05:17.798][EngineStateNotificationRecorder][Debug  ] Registered state {"State":"failed to start","Mode":"linux","date":1619535917}
+[17:05:17.798][SystrayNotifications][Info   ] Docker failed to start
+[17:05:17.798][LoggingMessageHandler][Info   ] [2a6c8460] <NotificationsClient start> POST http://localhost/engine/state
+[17:05:17.824][LoggingMessageHandler][Info   ] [2a6c8460] <NotificationsClient end> POST http://localhost/engine/state -> 200 OK (took 25ms)
+[17:05:19.330][Engines           ][Debug  ] Starting
+[17:05:19.331][LoggingMessageHandler][Info   ] [7a0f82ab] <BackendAPIClient start> POST http://backend/versionpack/enable
+[17:05:19.362][LoggingMessageHandler][Info   ] [7a0f82ab] <BackendAPIClient end> POST http://backend/versionpack/enable -> 204 NoContent (took 30ms)
+[17:05:19.363][EngineStateMachine][Debug  ] sending state Docker.ApiServices.StateMachines.StartTransition to state change sink
+[17:05:19.363][EngineStateMachine][Debug  ] State Docker.ApiServices.StateMachines.StartTransition sent to state change sink
+[17:05:19.364][EngineStateListener][Debug  ] received state Docker.ApiServices.StateMachines.StartTransition from LinuxWSL2
+[17:05:19.364][LinuxWSL2Engine   ][Info   ] Terminating lingering processes and wsl distros and patching host file
+[17:05:19.364][LoggingMessageHandler][Info   ] [138ebdfc] <BackendAPIClient start> POST http://backend/dns/refresh-hosts
+[17:05:19.364][EngineStateNotificationRecorder][Debug  ] Registered state {"State":"starting","Mode":"linux","date":1619535919}
+[17:05:19.364][SystrayNotifications][Info   ] Docker is starting
+[17:05:19.365][LoggingMessageHandler][Info   ] [78d10b8c] <NotificationsClient start> POST http://localhost/engine/state
+[17:05:19.398][LoggingMessageHandler][Info   ] [78d10b8c] <NotificationsClient end> POST http://localhost/engine/state -> 200 OK (took 33ms)
+[17:05:19.462][LoggingMessageHandler][Info   ] [138ebdfc] <BackendAPIClient end> POST http://backend/dns/refresh-hosts -> 204 NoContent (took 98ms)
+[17:05:19.553][WSL2Provisioning  ][Info   ] Checking docker-desktop
+[17:05:19.553][WSL2Provisioning  ][Info   ] deploying WSL distro docker-desktop to C:\Users\Neuro\AppData\Local\Docker\wsl\distro
+[17:05:19.853][LinuxWSL2Engine   ][Info   ] Stopping windows side processes
+[17:05:19.934][LinuxWSL2Engine   ][Info   ] Stopping engine
+[17:05:20.000][LoggingMessageHandler][Info   ] [f9a0e66c] <BackendAPIClient start> POST http://backend/windowsfeatures/check
+[17:05:20.492][LoggingMessageHandler][Info   ] [f9a0e66c] <BackendAPIClient end> POST http://backend/windowsfeatures/check -> 200 OK (took 490ms)
+[17:05:20.717][LinuxWSL2Engine   ][Info   ] Terminating lingering processes and wsl distros and patching host file
+[17:05:20.717][LoggingMessageHandler][Info   ] [26fbe1de] <BackendAPIClient start> POST http://backend/dns/refresh-hosts
+[17:05:20.763][LoggingMessageHandler][Info   ] [26fbe1de] <BackendAPIClient end> POST http://backend/dns/refresh-hosts -> 204 NoContent (took 45ms)
+[17:05:20.806][WSL2Provisioning  ][Info   ] Checking docker-desktop
+[17:05:20.806][WSL2Provisioning  ][Info   ] deploying WSL distro docker-desktop to C:\Users\Neuro\AppData\Local\Docker\wsl\distro
+[17:05:21.077][LinuxWSL2Engine   ][Info   ] Stopping windows side processes
+[17:05:21.155][LinuxWSL2Engine   ][Info   ] Stopping engine
+[17:05:21.217][EngineStateMachine][Debug  ] sending state Docker.ApiServices.StateMachines.FailedToStartState to state change sink
+[17:05:21.217][EngineStateMachine][Debug  ] State Docker.ApiServices.StateMachines.FailedToStartState sent to state change sink
+[17:05:21.217][EngineStateListener][Debug  ] received state Docker.ApiServices.StateMachines.FailedToStartState from LinuxWSL2
+[17:05:21.218][EngineStateNotificationRecorder][Debug  ] Registered state {"State":"failed to start","Mode":"linux","date":1619535921}
+[17:05:21.218][SystrayNotifications][Info   ] Docker failed to start
+[17:05:21.218][LoggingMessageHandler][Info   ] [c4429ec7] <NotificationsClient start> POST http://localhost/engine/state
+[17:05:21.246][LoggingMessageHandler][Info   ] [c4429ec7] <NotificationsClient end> POST http://localhost/engine/state -> 200 OK (took 27ms)
+[17:05:21.326][Engines           ][Error  ] Start failed with Byla vyvolána výjimka typu Docker.ApiServices.WSL2.WslKernelUpdateNotInstalledException.
+   v Docker.ApiServices.WSL2.WslShortLivedCommandResult.LogAndThrowIfUnexpectedExitCode(String prefix, ILogger log, Int32 expectedExitCode) v C:\workspaces\PR-15633\src\github.com\docker\pinata\win\src\Docker.ApiServices\WSL2\WslCommand.cs:øádek 140
+   v Docker.Engines.WSL2.WSL2Provisioning.<DeployDistroAsync>d__17.MoveNext() v C:\workspaces\PR-15633\src\github.com\docker\pinata\win\src\Docker.Desktop\Engines\WSL2\WSL2Provisioning.cs:øádek 169
+--- Konec trasování zásobníku z pøedchozího místa, ze kterého byla vyvolána výjimka ---
+   v System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   v System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   v Docker.Engines.WSL2.WSL2Provisioning.<ProvisionAsync>d__8.MoveNext() v C:\workspaces\PR-15633\src\github.com\docker\pinata\win\src\Docker.Desktop\Engines\WSL2\WSL2Provisioning.cs:øádek 78
+--- Konec trasování zásobníku z pøedchozího místa, ze kterého byla vyvolána výjimka ---
+   v System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   v System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   v Docker.Engines.WSL2.LinuxWSL2Engine.<DoStartAsync>d__26.MoveNext() v C:\workspaces\PR-15633\src\github.com\docker\pinata\win\src\Docker.Desktop\Engines\WSL2\LinuxWSL2Engine.cs:øádek 104
+--- Konec trasování zásobníku z pøedchozího místa, ze kterého byla vyvolána výjimka ---
+   v System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   v System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   v Docker.ApiServices.StateMachines.TaskExtensions.<WrapAsyncInCancellationException>d__0.MoveNext() v C:\workspaces\PR-15633\src\github.com\docker\pinata\win\src\Docker.ApiServices\StateMachines\TaskExtensions.cs:øádek 29
+--- Konec trasování zásobníku z pøedchozího místa, ze kterého byla vyvolána výjimka ---
+   v System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   v System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   v Docker.ApiServices.StateMachines.StartTransition.<DoRunAsync>d__5.MoveNext() v C:\workspaces\PR-15633\src\github.com\docker\pinata\win\src\Docker.ApiServices\StateMachines\StartTransition.cs:øádek 67
+--- Konec trasování zásobníku z pøedchozího místa, ze kterého byla vyvolána výjimka ---
+   v System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   v Docker.ApiServices.StateMachines.StartTransition.<DoRunAsync>d__5.MoveNext() v C:\workspaces\PR-15633\src\github.com\docker\pinata\win\src\Docker.ApiServices\StateMachines\StartTransition.cs:øádek 92
+--- Konec trasování zásobníku z pøedchozího místa, ze kterého byla vyvolána výjimka ---
+   v System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   v System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   v Docker.ApiServices.StateMachines.EngineStateMachine.<StartAsync>d__14.MoveNext() v C:\workspaces\PR-15633\src\github.com\docker\pinata\win\src\Docker.ApiServices\StateMachines\EngineStateMachine.cs:øádek 69
+--- Konec trasování zásobníku z pøedchozího místa, ze kterého byla vyvolána výjimka ---
+   v System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   v System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   v Docker.Engines.Engines.<StartAsync>d__21.MoveNext() v C:\workspaces\PR-15633\src\github.com\docker\pinata\win\src\Docker.Desktop\Engines\Engines.cs:øádek 101)
+[17:14:19.125][SegmentApi        ][Info   ] Usage statistic: actionMenuQuickStartGuide
+[17:14:24.001][GoBackendProcess  ][Info   ] msg="received new cli usage: {Command:run Context:moby Status:failure Source:cli}"
+[17:14:24.009][LoggingMessageHandler][Info   ] [d2025492] <Server start> POST http://unix/usage/cli
+[17:14:24.022][LoggingMessageHandler][Info   ] [d2025492] <Server end> POST http://unix/usage/cli -> 200 OK (took 12ms)
+[17:14:24.022][GoBackendProcess  ][Info   ] msg="cli: POST /usage 200 \"Go-http-client/1.1\" \"\""
+[17:14:24.513][GoBackendProcess  ][Info   ] msg="received new cli usage: {Command:cp Context:moby Status:failure Source:cli}"
+[17:14:24.518][LoggingMessageHandler][Info   ] [2d8970f8] <Server start> POST http://unix/usage/cli
+[17:14:24.519][LoggingMessageHandler][Info   ] [2d8970f8] <Server end> POST http://unix/usage/cli -> 200 OK (took 0ms)
+[17:14:24.519][GoBackendProcess  ][Info   ] msg="cli: POST /usage 200 \"Go-http-client/1.1\" \"\""
+[17:14:28.200][GoBackendProcess  ][Info   ] msg="received new cli usage: {Command:build Context:moby Status:failure Source:cli}"
+[17:14:28.206][LoggingMessageHandler][Info   ] [bf1243e0] <Server start> POST http://unix/usage/cli
+[17:14:28.206][LoggingMessageHandler][Info   ] [bf1243e0] <Server end> POST http://unix/usage/cli -> 200 OK (took 0ms)
+[17:14:28.207][GoBackendProcess  ][Info   ] msg="cli: POST /usage 200 \"Go-http-client/1.1\" \"\""
+[17:14:32.337][GoBackendProcess  ][Info   ] msg="received new cli usage: {Command:run Context:moby Status:failure Source:cli}"
+[17:14:32.342][LoggingMessageHandler][Info   ] [d5efc606] <Server start> POST http://unix/usage/cli
+[17:14:32.342][LoggingMessageHandler][Info   ] [d5efc606] <Server end> POST http://unix/usage/cli -> 200 OK (took 0ms)
+[17:14:32.343][GoBackendProcess  ][Info   ] msg="cli: POST /usage 200 \"Go-http-client/1.1\" \"\""
+[17:14:36.692][GoBackendProcess  ][Info   ] msg="received new cli usage: {Command:tag Context:moby Status:failure Source:cli}"
+[17:14:36.698][LoggingMessageHandler][Info   ] [7eaa16c5] <Server start> POST http://unix/usage/cli
+[17:14:36.700][LoggingMessageHandler][Info   ] [7eaa16c5] <Server end> POST http://unix/usage/cli -> 200 OK (took 0ms)
+[17:14:36.700][GoBackendProcess  ][Info   ] msg="cli: POST /usage 200 \"Go-http-client/1.1\" \"\""
+[17:14:37.345][GoBackendProcess  ][Info   ] msg="received new cli usage: {Command:push Context:moby Status:failure Source:cli}"
+[17:14:37.351][LoggingMessageHandler][Info   ] [3d740ad5] <Server start> POST http://unix/usage/cli
+[17:14:37.352][LoggingMessageHandler][Info   ] [3d740ad5] <Server end> POST http://unix/usage/cli -> 200 OK (took 0ms)
+[17:14:37.353][GoBackendProcess  ][Info   ] msg="cli: POST /usage 200 \"Go-http-client/1.1\" \"\""
+[17:14:39.060][LoggingMessageHandler][Info   ] [55639aff] <Server start> POST http://localhost/analytics/track
+[17:14:39.065][LoggingMessageHandler][Info   ] [7698bcfe] <Server start> POST http://localhost/analytics/track
+[17:14:39.067][LoggingMessageHandler][Info   ] [3402f324] <Server start> POST http://localhost/analytics/track
+[17:14:39.068][LoggingMessageHandler][Info   ] [a4aa4e54] <Server start> POST http://localhost/analytics/track
+[17:14:39.081][SegmentApi        ][Info   ] Usage statistic: actionFinishTutorial
+[17:14:39.082][SegmentApi        ][Info   ] Usage statistic: actionFinishTutorial
+[17:14:39.082][LoggingMessageHandler][Info   ] [7698bcfe] <Server end> POST http://localhost/analytics/track -> 200 OK (took 16ms)
+[17:14:39.082][LoggingMessageHandler][Info   ] [55639aff] <Server end> POST http://localhost/analytics/track -> 200 OK (took 22ms)
+[17:14:39.084][SegmentApi        ][Info   ] Usage statistic: actionFinishTutorial
+[17:14:39.084][LoggingMessageHandler][Info   ] [a4aa4e54] <Server end> POST http://localhost/analytics/track -> 200 OK (took 16ms)
+[17:14:39.085][SegmentApi        ][Info   ] Usage statistic: actionFinishTutorial
+[17:14:39.085][LoggingMessageHandler][Info   ] [3402f324] <Server end> POST http://localhost/analytics/track -> 200 OK (took 17ms)
+[17:14:39.092][LoggingMessageHandler][Info   ] [cce60233] <Server start> POST http://localhost/analytics/track
+[17:14:39.093][SegmentApi        ][Info   ] Usage statistic: actionFinishTutorial
+[17:14:39.093][LoggingMessageHandler][Info   ] [cce60233] <Server end> POST http://localhost/analytics/track -> 200 OK (took 1ms)
+[17:14:45.896][GoBackendProcess  ][Info   ] msg="received new cli usage: {Command:run Context:moby Status:failure Source:cli}"
+[17:14:45.901][LoggingMessageHandler][Info   ] [2d39e4cb] <Server start> POST http://unix/usage/cli
+[17:14:45.901][LoggingMessageHandler][Info   ] [2d39e4cb] <Server end> POST http://unix/usage/cli -> 200 OK (took 0ms)
+[17:14:45.902][GoBackendProcess  ][Info   ] msg="cli: POST /usage 200 \"Go-http-client/1.1\" \"\""
+[17:24:54.895][SegmentApi        ][Info   ] Usage statistic: actionMenuCheckForUpdate
+[17:24:54.897][App               ][Debug  ] Check for updates interactive
+[17:24:54.897][Updater           ][Debug  ] Starting check for updates
+[17:24:56.641][CliInstaller      ][Info   ] Reading build information from appcast
+[17:24:56.643][SystrayNotifications][Info   ] Docker is up-to-date
+[17:24:56.656][Updater           ][Debug  ] Finished check for updates
+[17:25:04.722][LoggingMessageHandler][Info   ] [9fd981cf] <Server start> POST http://localhost/analytics/track
+[17:25:04.723][SegmentApi        ][Info   ] Usage statistic: actionDevEnvironmentsGetStarted
+[17:25:04.723][LoggingMessageHandler][Info   ] [9fd981cf] <Server end> POST http://localhost/analytics/track -> 200 OK (took 1ms)
+[17:32:53.974][GoBackendProcess  ][Info   ] msg="external: GET /features 200 \"axios/0.21.1\" \"\""
+[17:32:53.976][LoggingMessageHandler][Info   ] [b880477f] <Server start> GET http://localhost/settings
+[17:32:53.985][LoggingMessageHandler][Info   ] [b880477f] <Server end> GET http://localhost/settings -> 200 OK (took 9ms)
+[17:32:54.124][LoggingMessageHandler][Info   ] [4ec76fd0] <Server start> GET http://localhost/system/disk-usage?path=C:%5CProgramData%5CDockerDesktop%5Cvm-data
+[17:32:54.124][LoggingMessageHandler][Info   ] [4ec76fd0] <Server end> GET http://localhost/system/disk-usage?path=C:%5CProgramData%5CDockerDesktop%5Cvm-data -> 200 OK (took 0ms)
+[17:33:07.273][LoggingMessageHandler][Info   ] [b9985dbb] <Server start> GET http://localhost/settings
+[17:33:07.277][LoggingMessageHandler][Info   ] [b9985dbb] <Server end> GET http://localhost/settings -> 200 OK (took 4ms)
+[17:33:07.302][LoggingMessageHandler][Info   ] [a1a627d7] <Server start> POST http://localhost/settings
+[17:33:07.303][EngineStateNotificationRecorder][Debug  ] Registered state {"State":"updating","Mode":"linux","date":1619537587}
+[17:33:07.303][LoggingMessageHandler][Info   ] [810c713c] <NotificationsClient start> POST http://localhost/engine/state
+[17:33:07.314][SystrayNotifications][Info   ] Docker Desktop is restarting...
+[17:33:07.322][LoggingMessageHandler][Info   ] [810c713c] <NotificationsClient end> POST http://localhost/engine/state -> 200 OK (took 18ms)
+[17:33:07.332][EngineStateMachine][Debug  ] sending state Docker.ApiServices.StateMachines.StoppedState to state change sink
+[17:33:07.332][EngineStateMachine][Debug  ] State Docker.ApiServices.StateMachines.StoppedState sent to state change sink
+[17:33:07.332][EngineStateMachine][Debug  ] sending state Docker.ApiServices.StateMachines.StartTransition to state change sink
+[17:33:07.332][EngineStateMachine][Debug  ] State Docker.ApiServices.StateMachines.StartTransition sent to state change sink
+[17:33:07.332][EngineStateListener][Debug  ] received state Docker.ApiServices.StateMachines.StoppedState from LinuxWSL2
+[17:33:07.333][LinuxWSL2Engine   ][Info   ] Terminating lingering processes and wsl distros and patching host file
+[17:33:07.333][LoggingMessageHandler][Info   ] [d5cd06ce] <BackendAPIClient start> POST http://backend/dns/refresh-hosts
+[17:33:07.334][EngineStateNotificationRecorder][Debug  ] Registered state {"State":"stopped","Mode":"linux","date":1619537587}
+[17:33:07.334][SystrayNotifications][Info   ] Docker has stopped
+[17:33:07.335][EngineStateListener][Debug  ] received state Docker.ApiServices.StateMachines.StartTransition from LinuxWSL2
+[17:33:07.336][LoggingMessageHandler][Info   ] [9d5795da] <NotificationsClient start> POST http://localhost/engine/state
+[17:33:07.336][EngineStateNotificationRecorder][Debug  ] Registered state {"State":"starting","Mode":"linux","date":1619537587}
+[17:33:07.336][SystrayNotifications][Info   ] Docker is starting
+[17:33:07.343][LoggingMessageHandler][Info   ] [a1a627d7] <Server end> POST http://localhost/settings -> 200 OK (took 41ms)
+[17:33:07.364][LoggingMessageHandler][Info   ] [9d5795da] <NotificationsClient end> POST http://localhost/engine/state -> 200 OK (took 27ms)
+[17:33:07.567][LoggingMessageHandler][Info   ] [d5cd06ce] <BackendAPIClient end> POST http://backend/dns/refresh-hosts -> 204 NoContent (took 233ms)
+[17:33:07.616][LoggingMessageHandler][Info   ] [43b11f8e] <NotificationsClient start> POST http://localhost/engine/state
+[17:33:07.636][WSL2Provisioning  ][Info   ] Checking docker-desktop
+[17:33:07.637][WSL2Provisioning  ][Info   ] deploying WSL distro docker-desktop to C:\Users\Neuro\AppData\Local\Docker\wsl\distro
+[17:33:07.657][LoggingMessageHandler][Info   ] [43b11f8e] <NotificationsClient end> POST http://localhost/engine/state -> 200 OK (took 41ms)
+[17:33:07.770][LoggingMessageHandler][Info   ] [64fa3f2a] <Server start> GET http://localhost/system/disk-usage?path=C:%5CProgramData%5CDockerDesktop%5Cvm-data
+[17:33:07.771][LoggingMessageHandler][Info   ] [64fa3f2a] <Server end> GET http://localhost/system/disk-usage?path=C:%5CProgramData%5CDockerDesktop%5Cvm-data -> 200 OK (took 0ms)
+[17:33:07.822][GoBackendProcess  ][Info   ] msg="external: GET /features 200 \"axios/0.21.1\" \"\""
+[17:33:07.982][LinuxWSL2Engine   ][Info   ] Stopping windows side processes
+[17:33:08.063][LinuxWSL2Engine   ][Info   ] Stopping engine
+[17:33:08.122][LoggingMessageHandler][Info   ] [ac676e44] <BackendAPIClient start> POST http://backend/windowsfeatures/check
+[17:33:08.884][LoggingMessageHandler][Info   ] [ac676e44] <BackendAPIClient end> POST http://backend/windowsfeatures/check -> 200 OK (took 762ms)
+[17:33:09.104][LinuxWSL2Engine   ][Info   ] Terminating lingering processes and wsl distros and patching host file
+[17:33:09.104][LoggingMessageHandler][Info   ] [8eef8bbc] <BackendAPIClient start> POST http://backend/dns/refresh-hosts
+[17:33:09.144][LoggingMessageHandler][Info   ] [8eef8bbc] <BackendAPIClient end> POST http://backend/dns/refresh-hosts -> 204 NoContent (took 40ms)
+[17:33:09.182][WSL2Provisioning  ][Info   ] Checking docker-desktop
+[17:33:09.183][WSL2Provisioning  ][Info   ] deploying WSL distro docker-desktop to C:\Users\Neuro\AppData\Local\Docker\wsl\distro
+[17:33:09.431][LinuxWSL2Engine   ][Info   ] Stopping windows side processes
+[17:33:09.500][LinuxWSL2Engine   ][Info   ] Stopping engine
+[17:33:09.558][EngineStateMachine][Debug  ] sending state Docker.ApiServices.StateMachines.FailedToStartState to state change sink
+[17:33:09.558][EngineStateMachine][Debug  ] State Docker.ApiServices.StateMachines.FailedToStartState sent to state change sink
+[17:33:09.558][EngineStateListener][Debug  ] received state Docker.ApiServices.StateMachines.FailedToStartState from LinuxWSL2
+[17:33:09.558][SystrayNotifications][Info   ] Failed to restart
+[17:33:09.559][EngineStateNotificationRecorder][Debug  ] Registered state {"State":"failed to start","Mode":"linux","date":1619537589}
+[17:33:09.559][SystrayNotifications][Info   ] Docker failed to start
+[17:33:09.559][LoggingMessageHandler][Info   ] [2a8fb61a] <NotificationsClient start> POST http://localhost/engine/state
+[17:33:09.588][LoggingMessageHandler][Info   ] [2a8fb61a] <NotificationsClient end> POST http://localhost/engine/state -> 200 OK (took 28ms)
+[17:33:21.931][Engines           ][Debug  ] Starting
+[17:33:21.933][LoggingMessageHandler][Info   ] [57af607f] <BackendAPIClient start> POST http://backend/versionpack/enable
+[17:33:21.974][LoggingMessageHandler][Info   ] [57af607f] <BackendAPIClient end> POST http://backend/versionpack/enable -> 204 NoContent (took 40ms)
+[17:33:21.976][EngineStateMachine][Debug  ] sending state Docker.ApiServices.StateMachines.StartTransition to state change sink
+[17:33:21.976][EngineStateMachine][Debug  ] State Docker.ApiServices.StateMachines.StartTransition sent to state change sink
+[17:33:21.976][EngineStateListener][Debug  ] received state Docker.ApiServices.StateMachines.StartTransition from LinuxWSL2
+[17:33:21.976][LinuxWSL2Engine   ][Info   ] Terminating lingering processes and wsl distros and patching host file
+[17:33:21.976][LoggingMessageHandler][Info   ] [a8f717c9] <BackendAPIClient start> POST http://backend/dns/refresh-hosts
+[17:33:21.979][EngineStateNotificationRecorder][Debug  ] Registered state {"State":"starting","Mode":"linux","date":1619537601}
+[17:33:21.979][SystrayNotifications][Info   ] Docker is starting
+[17:33:21.979][LoggingMessageHandler][Info   ] [db4d5a70] <NotificationsClient start> POST http://localhost/engine/state
+[17:33:22.001][LoggingMessageHandler][Info   ] [db4d5a70] <NotificationsClient end> POST http://localhost/engine/state -> 200 OK (took 21ms)
+[17:33:22.061][LoggingMessageHandler][Info   ] [a8f717c9] <BackendAPIClient end> POST http://backend/dns/refresh-hosts -> 204 NoContent (took 84ms)
+[17:33:22.158][WSL2Provisioning  ][Info   ] Checking docker-desktop
+[17:33:22.158][WSL2Provisioning  ][Info   ] deploying WSL distro docker-desktop to C:\Users\Neuro\AppData\Local\Docker\wsl\distro
+[17:33:22.487][LinuxWSL2Engine   ][Info   ] Stopping windows side processes
+[17:33:22.559][LinuxWSL2Engine   ][Info   ] Stopping engine
+[17:33:22.622][LoggingMessageHandler][Info   ] [eeff181a] <BackendAPIClient start> POST http://backend/windowsfeatures/check
+[17:33:23.102][LoggingMessageHandler][Info   ] [eeff181a] <BackendAPIClient end> POST http://backend/windowsfeatures/check -> 200 OK (took 479ms)
+[17:33:23.321][LinuxWSL2Engine   ][Info   ] Terminating lingering processes and wsl distros and patching host file
+[17:33:23.321][LoggingMessageHandler][Info   ] [4a778964] <BackendAPIClient start> POST http://backend/dns/refresh-hosts
+[17:33:23.372][LoggingMessageHandler][Info   ] [4a778964] <BackendAPIClient end> POST http://backend/dns/refresh-hosts -> 204 NoContent (took 51ms)
+[17:33:23.403][WSL2Provisioning  ][Info   ] Checking docker-desktop
+[17:33:23.404][WSL2Provisioning  ][Info   ] deploying WSL distro docker-desktop to C:\Users\Neuro\AppData\Local\Docker\wsl\distro
+[17:33:23.705][LinuxWSL2Engine   ][Info   ] Stopping windows side processes
+[17:33:23.795][LinuxWSL2Engine   ][Info   ] Stopping engine
+[17:33:23.855][EngineStateMachine][Debug  ] sending state Docker.ApiServices.StateMachines.FailedToStartState to state change sink
+[17:33:23.855][EngineStateMachine][Debug  ] State Docker.ApiServices.StateMachines.FailedToStartState sent to state change sink
+[17:33:23.855][EngineStateListener][Debug  ] received state Docker.ApiServices.StateMachines.FailedToStartState from LinuxWSL2
+[17:33:23.856][EngineStateNotificationRecorder][Debug  ] Registered state {"State":"failed to start","Mode":"linux","date":1619537603}
+[17:33:23.856][SystrayNotifications][Info   ] Docker failed to start
+[17:33:23.856][LoggingMessageHandler][Info   ] [4f7f793e] <NotificationsClient start> POST http://localhost/engine/state
+[17:33:23.886][LoggingMessageHandler][Info   ] [4f7f793e] <NotificationsClient end> POST http://localhost/engine/state -> 200 OK (took 29ms)
+[17:33:23.994][Engines           ][Error  ] Start failed with Byla vyvolána výjimka typu Docker.ApiServices.WSL2.WslKernelUpdateNotInstalledException.
+   v Docker.ApiServices.WSL2.WslShortLivedCommandResult.LogAndThrowIfUnexpectedExitCode(String prefix, ILogger log, Int32 expectedExitCode) v C:\workspaces\PR-15633\src\github.com\docker\pinata\win\src\Docker.ApiServices\WSL2\WslCommand.cs:øádek 140
+   v Docker.Engines.WSL2.WSL2Provisioning.<DeployDistroAsync>d__17.MoveNext() v C:\workspaces\PR-15633\src\github.com\docker\pinata\win\src\Docker.Desktop\Engines\WSL2\WSL2Provisioning.cs:øádek 169
+--- Konec trasování zásobníku z pøedchozího místa, ze kterého byla vyvolána výjimka ---
+   v System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   v System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   v Docker.Engines.WSL2.WSL2Provisioning.<ProvisionAsync>d__8.MoveNext() v C:\workspaces\PR-15633\src\github.com\docker\pinata\win\src\Docker.Desktop\Engines\WSL2\WSL2Provisioning.cs:øádek 78
+--- Konec trasování zásobníku z pøedchozího místa, ze kterého byla vyvolána výjimka ---
+   v System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   v System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   v Docker.Engines.WSL2.LinuxWSL2Engine.<DoStartAsync>d__26.MoveNext() v C:\workspaces\PR-15633\src\github.com\docker\pinata\win\src\Docker.Desktop\Engines\WSL2\LinuxWSL2Engine.cs:øádek 104
+--- Konec trasování zásobníku z pøedchozího místa, ze kterého byla vyvolána výjimka ---
+   v System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   v System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   v Docker.ApiServices.StateMachines.TaskExtensions.<WrapAsyncInCancellationException>d__0.MoveNext() v C:\workspaces\PR-15633\src\github.com\docker\pinata\win\src\Docker.ApiServices\StateMachines\TaskExtensions.cs:øádek 29
+--- Konec trasování zásobníku z pøedchozího místa, ze kterého byla vyvolána výjimka ---
+   v System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   v System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   v Docker.ApiServices.StateMachines.StartTransition.<DoRunAsync>d__5.MoveNext() v C:\workspaces\PR-15633\src\github.com\docker\pinata\win\src\Docker.ApiServices\StateMachines\StartTransition.cs:øádek 67
+--- Konec trasování zásobníku z pøedchozího místa, ze kterého byla vyvolána výjimka ---
+   v System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   v Docker.ApiServices.StateMachines.StartTransition.<DoRunAsync>d__5.MoveNext() v C:\workspaces\PR-15633\src\github.com\docker\pinata\win\src\Docker.ApiServices\StateMachines\StartTransition.cs:øádek 92
+--- Konec trasování zásobníku z pøedchozího místa, ze kterého byla vyvolána výjimka ---
+   v System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   v System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   v Docker.ApiServices.StateMachines.EngineStateMachine.<StartAsync>d__14.MoveNext() v C:\workspaces\PR-15633\src\github.com\docker\pinata\win\src\Docker.ApiServices\StateMachines\EngineStateMachine.cs:øádek 69
+--- Konec trasování zásobníku z pøedchozího místa, ze kterého byla vyvolána výjimka ---
+   v System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   v System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   v Docker.Engines.Engines.<StartAsync>d__21.MoveNext() v C:\workspaces\PR-15633\src\github.com\docker\pinata\win\src\Docker.Desktop\Engines\Engines.cs:øádek 101)
+[17:37:28.844][GoBackendProcess  ][Info   ] msg="external: POST /diagnostics/gather 202 \"axios/0.21.1\" \"\""
+[17:37:33.846][GoBackendProcess  ][Info   ] msg="external: GET /diagnostics/status 200 \"axios/0.21.1\" \"\""
+[17:37:38.853][GoBackendProcess  ][Info   ] msg="external: GET /diagnostics/status 200 \"axios/0.21.1\" \"\""
+[17:37:43.854][GoBackendProcess  ][Info   ] msg="external: GET /diagnostics/status 200 \"axios/0.21.1\" \"\""
+[17:37:48.854][GoBackendProcess  ][Info   ] msg="external: GET /diagnostics/status 200 \"axios/0.21.1\" \"\""
+[17:37:52.272][GoBackendProcess  ][Info   ] msg="external: GET /ping 200 \"DockerDesktopGo\" \"\""
+[17:37:52.276][GoBackendProcess  ][Info   ] msg="external: GET /diagnostics/goroutines 200 \"Go-http-client/1.1\" \"\""
+[17:37:52.277][GoBackendProcess  ][Info   ] msg="external: GET /events 200 \"DockerDesktopGo\" \"\""
+[17:37:52.281][GoBackendProcess  ][Info   ] GET failed with Get "http://unix/forwards/list": open \\.\pipe\dockerWsl2BootstrapExposePorts: SystÃ©m nemÅ¯Å¾e nalÃ©zt uvedenÃ½ soubor.
+[17:37:52.281][GoBackendProcess  ][Info   ] msg="external: GET /forwards/list 200 \"Go-http-client/1.1\" \"\""
+[17:37:53.862][GoBackendProcess  ][Info   ] msg="external: GET /diagnostics/status 200 \"axios/0.21.1\" \"\""
+[17:37:58.848][GoBackendProcess  ][Info   ] msg="external: GET /diagnostics/status 200 \"axios/0.21.1\" \"\""
+[17:38:03.850][GoBackendProcess  ][Info   ] msg="external: GET /diagnostics/status 200 \"axios/0.21.1\" \"\""
+[17:38:08.843][GoBackendProcess  ][Info   ] msg="external: GET /diagnostics/status 200 \"axios/0.21.1\" \"\""
+[17:38:13.842][GoBackendProcess  ][Info   ] msg="external: GET /diagnostics/status 200 \"axios/0.21.1\" \"\""
+[17:38:18.847][GoBackendProcess  ][Info   ] msg="external: GET /diagnostics/status 200 \"axios/0.21.1\" \"\""
+[17:38:23.849][GoBackendProcess  ][Info   ] msg="external: GET /diagnostics/status 200 \"axios/0.21.1\" \"\""
+[17:38:28.853][GoBackendProcess  ][Info   ] msg="external: GET /diagnostics/status 200 \"axios/0.21.1\" \"\""
+[17:38:33.842][GoBackendProcess  ][Info   ] msg="external: GET /diagnostics/status 200 \"axios/0.21.1\" \"\""
+[17:38:38.842][GoBackendProcess  ][Info   ] msg="external: GET /diagnostics/status 200 \"axios/0.21.1\" \"\""
+[17:38:43.853][GoBackendProcess  ][Info   ] msg="external: GET /diagnostics/status 200 \"axios/0.21.1\" \"\""
+[17:38:48.857][GoBackendProcess  ][Info   ] msg="external: GET /diagnostics/status 200 \"axios/0.21.1\" \"\""
+[17:38:53.848][GoBackendProcess  ][Info   ] msg="external: GET /diagnostics/status 200 \"axios/0.21.1\" \"\""
+[17:38:58.858][GoBackendProcess  ][Info   ] msg="external: GET /diagnostics/status 200 \"axios/0.21.1\" \"\""
+[17:39:03.853][GoBackendProcess  ][Info   ] msg="external: GET /diagnostics/status 200 \"axios/0.21.1\" \"\""
+[17:39:08.852][GoBackendProcess  ][Info   ] msg="external: GET /diagnostics/status 200 \"axios/0.21.1\" \"\""
+[17:39:13.847][GoBackendProcess  ][Info   ] msg="external: GET /diagnostics/status 200 \"axios/0.21.1\" \"\""
+[17:39:18.846][GoBackendProcess  ][Info   ] msg="external: GET /diagnostics/status 200 \"axios/0.21.1\" \"\""
+[17:39:23.848][GoBackendProcess  ][Info   ] msg="external: GET /diagnostics/status 200 \"axios/0.21.1\" \"\""
+[17:39:28.854][GoBackendProcess  ][Info   ] msg="external: GET /diagnostics/status 200 \"axios/0.21.1\" \"\""
+[17:39:33.849][GoBackendProcess  ][Info   ] msg="external: GET /diagnostics/status 200 \"axios/0.21.1\" \"\""
+[17:39:38.850][GoBackendProcess  ][Info   ] msg="external: GET /diagnostics/status 200 \"axios/0.21.1\" \"\""
+[17:39:43.854][GoBackendProcess  ][Info   ] msg="external: GET /diagnostics/status 200 \"axios/0.21.1\" \"\""
+[17:39:48.847][GoBackendProcess  ][Info   ] msg="external: GET /diagnostics/status 200 \"axios/0.21.1\" \"\""

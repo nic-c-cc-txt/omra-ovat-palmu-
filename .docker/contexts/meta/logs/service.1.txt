@@ -1,0 +1,74 @@
+Version: 3.3.1 (63152)
+Sha1: 6b70fc1f64d103396b0f5d514398e25cc0b1a003
+Started on: 2021/04/27 15:53:16.528
+Resources: C:\Program Files\Docker\Docker\resources
+OS: Windows 10 Pro
+Edition: Professional
+Id: 2009
+Build: 19042
+BuildLabName: 19041.1.amd64fre.vb_release.191206-1406
+File: C:\ProgramData\DockerDesktop\service.txt
+CommandLine: "C:\Program Files\Docker\Docker\com.docker.service"
+You can send feedback, including this log file, at https://github.com/docker/for-win/issues
+[15:53:17.966][DockerService     ][Info   ] Starting service
+[15:54:06.899][LoggingMessageHandler][Info   ] [c2ee77f4] <Server start> GET http://localhost/version
+[15:54:07.142][LoggingMessageHandler][Info   ] [c2ee77f4] <Server end> GET http://localhost/version -> 200 OK (took 236ms)
+[15:54:07.437][LoggingMessageHandler][Info   ] [89c18c9f] <Server start> GET http://localhost/hyperv/vhdx-size?path=C:%5CProgramData%5CDockerDesktop%5Cvm-data%5CDockerDesktop.vhdx
+[15:54:07.562][LoggingMessageHandler][Info   ] [89c18c9f] <Server end> GET http://localhost/hyperv/vhdx-size?path=C:%5CProgramData%5CDockerDesktop%5Cvm-data%5CDockerDesktop.vhdx -> 200 OK (took 120ms)
+[15:54:07.593][LoggingMessageHandler][Info   ] [f3bc105a] <Server start> POST http://localhost/migrate/app
+[15:54:07.593][LoggingMessageHandler][Info   ] [f3bc105a] <Server end> POST http://localhost/migrate/app -> 204 NoContent (took 3ms)
+[15:54:10.090][LoggingMessageHandler][Info   ] [f3300ee1] <Server start> POST http://localhost/versionpack/enable
+[15:54:10.293][VersionPackConfigLoader][Info   ] Version pack folder not found (C:\ProgramData\DockerDesktop\version-packs), returning empty config.
+[15:54:10.293][LoggingMessageHandler][Info   ] [f3300ee1] <Server end> POST http://localhost/versionpack/enable -> 204 NoContent (took 200ms)
+[15:54:11.476][LoggingMessageHandler][Info   ] [e1bf72fc] <Server start> POST http://localhost/dns/refresh-hosts
+[15:54:11.521][LoggingMessageHandler][Info   ] [ec2e9d94] <Server start> POST http://localhost/windowsfeatures/check
+[15:54:11.596][Installer         ][Info   ] Checking for features: VirtualMachinePlatform, Microsoft-Windows-Subsystem-Linux
+[15:54:12.111][LoggingMessageHandler][Info   ] [e1bf72fc] <Server end> POST http://localhost/dns/refresh-hosts -> 204 NoContent (took 635ms)
+[15:54:12.496][LoggingMessageHandler][Info   ] [ec2e9d94] <Server end> POST http://localhost/windowsfeatures/check -> 200 OK (took 978ms)
+[15:54:13.011][LoggingMessageHandler][Info   ] [0cc11975] <Server start> POST http://localhost/dns/refresh-hosts
+[15:54:13.051][LoggingMessageHandler][Info   ] [0cc11975] <Server end> POST http://localhost/dns/refresh-hosts -> 204 NoContent (took 40ms)
+[16:02:44.016][LoggingMessageHandler][Info   ] [8e4420e6] <Server start> POST http://localhost/versionpack/enable
+[16:02:44.016][VersionPackConfigLoader][Info   ] Version pack folder not found (C:\ProgramData\DockerDesktop\version-packs), returning empty config.
+[16:02:44.016][LoggingMessageHandler][Info   ] [8e4420e6] <Server end> POST http://localhost/versionpack/enable -> 204 NoContent (took 1ms)
+[16:02:44.663][LoggingMessageHandler][Info   ] [153551b2] <Server start> POST http://localhost/dns/refresh-hosts
+[16:02:44.668][LoggingMessageHandler][Info   ] [e9b3f014] <Server start> POST http://localhost/windowsfeatures/check
+[16:02:44.668][Installer         ][Info   ] Checking for features: VirtualMachinePlatform, Microsoft-Windows-Subsystem-Linux
+[16:02:44.719][LoggingMessageHandler][Info   ] [153551b2] <Server end> POST http://localhost/dns/refresh-hosts -> 204 NoContent (took 55ms)
+[16:02:45.370][LoggingMessageHandler][Info   ] [e9b3f014] <Server end> POST http://localhost/windowsfeatures/check -> 200 OK (took 708ms)
+[16:02:46.069][LoggingMessageHandler][Info   ] [6945046c] <Server start> POST http://localhost/dns/refresh-hosts
+[16:02:46.105][LoggingMessageHandler][Info   ] [6945046c] <Server end> POST http://localhost/dns/refresh-hosts -> 204 NoContent (took 30ms)
+[16:02:48.337][LoggingMessageHandler][Info   ] [941cd9dd] <Server start> POST http://localhost/versionpack/enable
+[16:02:48.339][VersionPackConfigLoader][Info   ] Version pack folder not found (C:\ProgramData\DockerDesktop\version-packs), returning empty config.
+[16:02:48.339][LoggingMessageHandler][Info   ] [941cd9dd] <Server end> POST http://localhost/versionpack/enable -> 204 NoContent (took 2ms)
+[16:02:48.427][LoggingMessageHandler][Info   ] [66348fdb] <Server start> POST http://localhost/dns/refresh-hosts
+[16:02:48.534][LoggingMessageHandler][Info   ] [66348fdb] <Server end> POST http://localhost/dns/refresh-hosts -> 204 NoContent (took 107ms)
+[16:02:49.059][LoggingMessageHandler][Info   ] [6f55a230] <Server start> POST http://localhost/windowsfeatures/check
+[16:02:49.059][Installer         ][Info   ] Checking for features: VirtualMachinePlatform, Microsoft-Windows-Subsystem-Linux
+[16:02:49.452][LoggingMessageHandler][Info   ] [6f55a230] <Server end> POST http://localhost/windowsfeatures/check -> 200 OK (took 395ms)
+[16:02:49.672][LoggingMessageHandler][Info   ] [6df9a557] <Server start> POST http://localhost/dns/refresh-hosts
+[16:02:49.692][LoggingMessageHandler][Info   ] [6df9a557] <Server end> POST http://localhost/dns/refresh-hosts -> 204 NoContent (took 27ms)
+[16:03:10.807][LoggingMessageHandler][Info   ] [f6e9dc44] <Server start> POST http://localhost/windowsfeatures/check
+[16:03:10.807][Installer         ][Info   ] Checking for features: *Hyper-V*, Containers
+[16:03:11.233][LoggingMessageHandler][Info   ] [f6e9dc44] <Server end> POST http://localhost/windowsfeatures/check -> 200 OK (took 420ms)
+[16:03:11.263][LoggingMessageHandler][Info   ] [118bb3ec] <Server start> POST http://localhost/windowscontainers/stop
+[16:03:11.273][LoggingMessageHandler][Info   ] [118bb3ec] <Server end> POST http://localhost/windowscontainers/stop -> 204 NoContent (took 6ms)
+[16:03:11.283][LoggingMessageHandler][Info   ] [1b01dee6] <Server start> POST http://localhost/windowsfeatures/check
+[16:03:11.283][Installer         ][Info   ] Checking for features: *Hyper-V*, Containers
+[16:03:11.655][LoggingMessageHandler][Info   ] [1b01dee6] <Server end> POST http://localhost/windowsfeatures/check -> 200 OK (took 378ms)
+[16:03:12.183][LoggingMessageHandler][Info   ] [092ce3e0] <Server start> POST http://localhost/dns/refresh-hosts
+[16:03:12.194][LoggingMessageHandler][Info   ] [93264a8d] <Server start> POST http://localhost/windowsfeatures/check
+[16:03:12.194][Installer         ][Info   ] Checking for features: VirtualMachinePlatform, Microsoft-Windows-Subsystem-Linux
+[16:03:12.213][LoggingMessageHandler][Info   ] [092ce3e0] <Server end> POST http://localhost/dns/refresh-hosts -> 204 NoContent (took 26ms)
+[16:03:12.584][LoggingMessageHandler][Info   ] [93264a8d] <Server end> POST http://localhost/windowsfeatures/check -> 200 OK (took 387ms)
+[16:03:13.068][LoggingMessageHandler][Info   ] [8748fc09] <Server start> POST http://localhost/dns/refresh-hosts
+[16:03:13.095][LoggingMessageHandler][Info   ] [8748fc09] <Server end> POST http://localhost/dns/refresh-hosts -> 204 NoContent (took 29ms)
+[16:03:14.524][LoggingMessageHandler][Info   ] [83ac80c5] <Server start> POST http://localhost/versionpack/enable
+[16:03:14.524][VersionPackConfigLoader][Info   ] Version pack folder not found (C:\ProgramData\DockerDesktop\version-packs), returning empty config.
+[16:03:14.524][LoggingMessageHandler][Info   ] [83ac80c5] <Server end> POST http://localhost/versionpack/enable -> 204 NoContent (took 0ms)
+[16:03:14.534][LoggingMessageHandler][Info   ] [10066c8b] <Server start> POST http://localhost/dns/refresh-hosts
+[16:03:14.564][LoggingMessageHandler][Info   ] [10066c8b] <Server end> POST http://localhost/dns/refresh-hosts -> 204 NoContent (took 44ms)
+[16:03:15.011][LoggingMessageHandler][Info   ] [b2c9e15b] <Server start> POST http://localhost/windowsfeatures/check
+[16:03:15.011][Installer         ][Info   ] Checking for features: VirtualMachinePlatform, Microsoft-Windows-Subsystem-Linux
+[16:03:15.401][LoggingMessageHandler][Info   ] [b2c9e15b] <Server end> POST http://localhost/windowsfeatures/check -> 200 OK (took 388ms)
+[16:03:15.581][LoggingMessageHandler][Info   ] [54400a7f] <Server start> POST http://localhost/dns/refresh-hosts
+[16:03:15.621][LoggingMessageHandler][Info   ] [54400a7f] <Server end> POST http://localhost/dns/refresh-hosts -> 204 NoContent (took 37ms)

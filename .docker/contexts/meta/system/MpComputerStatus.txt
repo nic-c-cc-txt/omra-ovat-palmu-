@@ -1,0 +1,42 @@
+
+
+AMEngineVersion                 : 0.0.0.0
+AMProductVersion                : 4.18.2103.7
+AMRunningMode                   : Not running
+AMServiceEnabled                : False
+AMServiceVersion                : 0.0.0.0
+AntispywareEnabled              : False
+AntispywareSignatureAge         : 4294967295
+AntispywareSignatureLastUpdated : 
+AntispywareSignatureVersion     : 0.0.0.0
+AntivirusEnabled                : False
+AntivirusSignatureAge           : 4294967295
+AntivirusSignatureLastUpdated   : 
+AntivirusSignatureVersion       : 0.0.0.0
+BehaviorMonitorEnabled          : False
+ComputerID                      : 51FDE4D6-4C1B-4E70-8880-1682CCE18B12
+ComputerState                   : 0
+FullScanAge                     : 4294967295
+FullScanEndTime                 : 
+FullScanStartTime               : 
+IoavProtectionEnabled           : False
+IsTamperProtected               : False
+IsVirtualMachine                : False
+LastFullScanSource              : 0
+LastQuickScanSource             : 0
+NISEnabled                      : False
+NISEngineVersion                : 0.0.0.0
+NISSignatureAge                 : 4294967295
+NISSignatureLastUpdated         : 
+NISSignatureVersion             : 0.0.0.0
+OnAccessProtectionEnabled       : False
+QuickScanAge                    : 4294967295
+QuickScanEndTime                : 
+QuickScanStartTime              : 
+RealTimeProtectionEnabled       : False
+RealTimeScanDirection           : 0
+TamperProtectionSource          : Signatures
+PSComputerName                  : 
+
+
+

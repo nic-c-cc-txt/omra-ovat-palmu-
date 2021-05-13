@@ -1,0 +1,1 @@
+powershell -NoProfile -Command &{ $(Get-WmiObject Win32_ComputerSystem) | ConvertTo-json -Depth 1 }

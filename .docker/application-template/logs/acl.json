@@ -1,0 +1,26 @@
+[
+    {
+        "FileSystemRights":  2032127,
+        "AccessControlType":  0,
+        "IdentityReference":  "NT AUTHORITY\\SYSTEM",
+        "IsInherited":  false,
+        "InheritanceFlags":  3,
+        "PropagationFlags":  0
+    },
+    {
+        "FileSystemRights":  2032127,
+        "AccessControlType":  0,
+        "IdentityReference":  "BUILTIN\\Administrators",
+        "IsInherited":  false,
+        "InheritanceFlags":  3,
+        "PropagationFlags":  0
+    },
+    {
+        "FileSystemRights":  1179817,
+        "AccessControlType":  0,
+        "IdentityReference":  "BUILTIN\\Users",
+        "IsInherited":  false,
+        "InheritanceFlags":  3,
+        "PropagationFlags":  0
+    }
+]

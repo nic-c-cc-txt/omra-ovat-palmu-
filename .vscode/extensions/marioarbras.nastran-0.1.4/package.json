@@ -1,0 +1,62 @@
+{
+	"name": "nastran",
+	"displayName": "NASTRAN",
+	"description": "NASTRAN Language Support",
+	"version": "0.1.4",
+	"publisher": "marioarbras",
+	"license": "MIT",
+	"icon": "images/logo.png",
+	"engines": {
+		"vscode": "^1.31.0"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/marioarbras/vscode-nastran"
+	},
+	"categories": [
+		"Programming Languages",
+		"Snippets"
+	],
+	"keywords": [
+		"nastran"
+	],
+	"devDependencies": {
+		"js-yaml": "^3.12.2"
+	},
+	"contributes": {
+		"languages": [
+			{
+				"id": "nastran",
+				"aliases": [
+					"NASTRAN",
+					"nastran"
+				],
+				"extensions": [
+					".bdf",
+					".dat",
+					".nas"
+				],
+				"configuration": "./language-configuration.json"
+			}
+		],
+		"grammars": [
+			{
+				"language": "nastran",
+				"scopeName": "source.nastran",
+				"path": "./syntaxes/nastran.tmLanguage.json"
+			}
+		],
+		"snippets": [
+			{
+				"language": "nastran",
+				"path": "./snippets/nastran.json"
+			}
+		]
+	},
+	"__metadata": {
+		"id": "ec585526-38db-4ab0-9208-c50638b4aed6",
+		"publisherId": "e715dfc8-30bf-4440-90e6-7fc2724f3468",
+		"publisherDisplayName": "Mario Bras",
+		"installedTimestamp": 1619545539211
+	}
+}

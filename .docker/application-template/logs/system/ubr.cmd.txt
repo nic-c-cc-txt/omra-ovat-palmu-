@@ -1,0 +1,1 @@
+powershell -NoProfile -Command &{ (Get-ItemProperty 'HKLM:\Software\Microsoft\Windows NT\CurrentVersion' -Name UBR).UBR }

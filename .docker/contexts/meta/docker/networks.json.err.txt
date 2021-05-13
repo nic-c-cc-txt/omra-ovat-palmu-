@@ -1,0 +1,1 @@
+Get "http://localhost/v1.24/networks": open \\.\pipe\docker_engine: Systém nemůže nalézt uvedený soubor.

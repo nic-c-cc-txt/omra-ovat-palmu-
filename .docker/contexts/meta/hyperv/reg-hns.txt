@@ -1,0 +1,90 @@
+
+
+    Hive: HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\hns
+
+
+Name                           Property                                                                                
+----                           --------                                                                                
+Parameters                     CompatibleMajorVersion : 11                                                             
+                               CompatibleMinorVersion : 10                                                             
+                               CurrentMajorVersion    : 11                                                             
+                               CurrentMinorVersion    : 10                                                             
+                               ServiceDll             : C:\WINDOWS\System32\HostNetSvc.dll                             
+                               ServiceDllUnloadOnStop : 1                                                              
+State                                                                                                                  
+
+
+    Hive: HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\hns\State
+
+
+Name                           Property                                                                                
+----                           --------                                                                                
+HostComputeNetwork                                                                                                     
+
+
+    Hive: HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\hns\State\HostComputeNetwork
+
+
+Name                           Property                                                                                
+----                           --------                                                                                
+PersistentStore                                                                                                        
+
+
+    Hive: HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\hns\State\HostComputeNetwork\PersistentStore
+
+
+Name                           Property                                                                                
+----                           --------                                                                                
+Activity                                                                                                               
+Endpoint                                                                                                               
+GuestNetworkService                                                                                                    
+Namespace                                                                                                              
+Network                                                                                                                
+NonPersistent                                                                                                          
+Pending                                                                                                                
+PolicyList                                                                                                             
+
+
+    Hive: HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\hns\State\HostComputeNetwork
+
+
+Name                           Property                                                                                
+----                           --------                                                                                
+VolatileStore                                                                                                          
+
+
+    Hive: HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\hns\State\HostComputeNetwork\VolatileStore
+
+
+Name                           Property                                                                                
+----                           --------                                                                                
+Activity                                                                                                               
+Endpoint                                                                                                               
+GuestNetworkService                                                                                                    
+Namespace                      910F7D92-BA2D-4C3F-98AE-7C0AC590D2DC : {254, 255, 4, 0...}                              
+Network                                                                                                                
+NonPersistent                                                                                                          
+Pending                                                                                                                
+PolicyList                                                                                                             
+
+
+    Hive: HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\hns
+
+
+Name                           Property                                                                                
+----                           --------                                                                                
+TriggerInfo                                                                                                            
+
+
+    Hive: HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\hns\TriggerInfo
+
+
+Name                           Property                                                                                
+----                           --------                                                                                
+0                              Action    : 1                                                                           
+                               Data0     : {50, 0, 54, 0...}                                                           
+                               DataType0 : 2                                                                           
+                               GUID      : {103, 209, 144, 188...}                                                     
+                               Type      : 6                                                                           
+
+

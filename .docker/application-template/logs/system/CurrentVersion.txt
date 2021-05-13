@@ -1,0 +1,41 @@
+
+
+    Hive: HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT
+
+
+Name                           Property                                                                                
+----                           --------                                                                                
+CurrentVersion                 SystemRoot                : C:\WINDOWS                                                  
+                               BaseBuildRevisionNumber   : 1                                                           
+                               BuildBranch               : vb_release                                                  
+                               BuildGUID                 : ffffffff-ffff-ffff-ffff-ffffffffffff                        
+                               BuildLab                  : 19041.vb_release.191206-1406                                
+                               BuildLabEx                : 19041.1.amd64fre.vb_release.191206-1406                     
+                               CompositionEditionID      : Enterprise                                                  
+                               CurrentBuild              : 19042                                                       
+                               CurrentBuildNumber        : 19042                                                       
+                               CurrentMajorVersionNumber : 10                                                          
+                               CurrentMinorVersionNumber : 0                                                           
+                               CurrentType               : Multiprocessor Free                                         
+                               CurrentVersion            : 6.3                                                         
+                               EditionID                 : Professional                                                
+                               EditionSubManufacturer    :                                                             
+                               EditionSubstring          :                                                             
+                               EditionSubVersion         :                                                             
+                               InstallationType          : Client                                                      
+                               InstallDate               : 1618784427                                                  
+                               ProductName               : Windows 10 Pro                                              
+                               ReleaseId                 : 2009                                                        
+                               SoftwareType              : System                                                      
+                               UBR                       : 928                                                         
+                               PathName                  : C:\Windows                                                  
+                               ProductId                 : 00330-80000-00000-AA186                                     
+                               DigitalProductId          : {164, 0, 0, 0...}                                           
+                               DigitalProductId4         : {248, 4, 0, 0...}                                           
+                               DisplayVersion            : 20H2                                                        
+                               PendingInstall            : 0                                                           
+                               RegisteredOrganization    :                                                             
+                               RegisteredOwner           : Neuromancer@outlook.cz                                      
+                               InstallTime               : 132632580274358386                                          
+
+

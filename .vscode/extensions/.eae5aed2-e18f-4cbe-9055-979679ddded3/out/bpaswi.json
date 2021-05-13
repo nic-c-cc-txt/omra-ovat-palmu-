@@ -1,0 +1,2439 @@
+[
+    {
+        "name": "CASE",
+        "parse": [
+            {
+                "name": "CASE",
+                "startPos": 1,
+                "endPos": 4,
+                "format": "A4",
+                "description": "卡片格式"
+            },
+            {
+                "name": "PFCASE",
+                "startPos": 6,
+                "endPos": 15,
+                "format": "A10",
+                "description": "潮流方式名"
+            },
+            {
+                "name": "ITSKP",
+                "startPos": 17,
+                "endPos": 17,
+                "format": "I1",
+                "description": "求解文件步长"
+            }
+        ],
+        "description": "CASE卡"
+    },
+    {
+        "name": "M ",
+        "parse": [
+            {
+                "name": "M ",
+                "startPos": 1,
+                "endPos": 2,
+                "format": "A2",
+                "description": "卡片格式"
+            },
+            {
+                "name": "Bus Name",
+                "startPos": 4,
+                "endPos": 11,
+                "format": "A8",
+                "description": "母线名称"
+            },
+            {
+                "name": "Bus Base(kV)",
+                "startPos": 12,
+                "endPos": 15,
+                "format": "F4.0",
+                "description": "基准电压"
+            },
+            {
+                "name": "ID",
+                "startPos": 16,
+                "endPos": 16,
+                "format": "A1",
+                "description": "电机识别码"
+            },
+            {
+                "name": "MVA",
+                "startPos": 17,
+                "endPos": 21,
+                "format": "F5.1",
+                "description": "电机额定容量"
+            },
+            {
+                "name": "Power Factor",
+                "startPos": 23,
+                "endPos": 25,
+                "format": "F3.2",
+                "description": "电机功率因数"
+            },
+            {
+                "startPos": 31,
+                "endPos": 32,
+                "format": "A2",
+                "description": "发电机阻尼绕组"
+            },
+            {
+                "name": "Owner",
+                "startPos": 34,
+                "endPos": 36,
+                "format": "A3",
+                "description": "所有者"
+            },
+            {
+                "name": "Xd\"",
+                "startPos": 38,
+                "endPos": 42,
+                "format": "F5.4",
+                "description": "直轴暂态电抗(标么值)"
+            },
+            {
+                "name": "Xq\"",
+                "startPos": 43,
+                "endPos": 47,
+                "format": "F5.4",
+                "description": "交轴暂态电抗(标么值)"
+            },
+            {
+                "name": "Td0\"",
+                "startPos": 48,
+                "endPos": 51,
+                "format": "F4.4",
+                "description": "直轴次暂态时间常数(秒)"
+            },
+            {
+                "name": "Tq0\"",
+                "startPos": 52,
+                "endPos": 55,
+                "format": "F4.4",
+                "description": "交轴次暂态时间常数(秒)"
+            }
+        ],
+        "description": "发电机阻尼绕组卡"
+    },
+    {
+        "name": "MC",
+        "parse": [
+            {
+                "name": "MC",
+                "startPos": 1,
+                "endPos": 2,
+                "format": "A2",
+                "description": "卡片格式"
+            },
+            {
+                "name": "Bus Name",
+                "startPos": 4,
+                "endPos": 11,
+                "format": "A8",
+                "description": "母线名称"
+            },
+            {
+                "name": "Bus Base(kV)",
+                "startPos": 12,
+                "endPos": 15,
+                "format": "F4.0",
+                "description": "基准电压"
+            },
+            {
+                "name": "ID",
+                "startPos": 16,
+                "endPos": 16,
+                "format": "A1",
+                "description": "电机识别码"
+            },
+            {
+                "startPos": 17,
+                "endPos": 22,
+                "format": "F6.0",
+                "description": "发电机动能(MW*秒)"
+            },
+            {
+                "name": "P Percent",
+                "startPos": 23,
+                "endPos": 25,
+                "format": "F3.0",
+                "description": "发电机初始有功功率占母线潮流功率百分数"
+            },
+            {
+                "name": "Q Percent",
+                "startPos": 26,
+                "endPos": 28,
+                "format": "F3.0",
+                "description": "发电机初始无功功率占母线潮流功率百分数"
+            },
+            {
+                "name": "Sbase",
+                "startPos": 29,
+                "endPos": 32,
+                "format": "F4.0",
+                "description": "电机标么参数的基准容量"
+            },
+            {
+                "name": "Rs",
+                "startPos": 33,
+                "endPos": 36,
+                "format": "F4.4",
+                "description": "定子电阻(标么值)"
+            },
+            {
+                "name": "Xd'",
+                "startPos": 37,
+                "endPos": 41,
+                "format": "F5.4",
+                "description": "直轴暂态电抗(标么值)"
+            },
+            {
+                "name": "Xq'",
+                "startPos": 42,
+                "endPos": 46,
+                "format": "F5.4",
+                "description": "交轴暂态电抗(标么值)"
+            },
+            {
+                "name": "Xd",
+                "startPos": 47,
+                "endPos": 51,
+                "format": "F5.4",
+                "description": "直轴不饱和同步电抗(标么值)"
+            },
+            {
+                "name": "Xq",
+                "startPos": 52,
+                "endPos": 56,
+                "format": "F5.4",
+                "description": "交轴不饱和同步电抗(标么值)"
+            },
+            {
+                "name": "Td0'",
+                "startPos": 57,
+                "endPos": 60,
+                "format": "F4.2",
+                "description": "直轴暂态开路时间常数(秒)"
+            },
+            {
+                "name": "Tq0'",
+                "startPos": 61,
+                "endPos": 63,
+                "format": "F4.2",
+                "description": "交轴暂态开路时间常数(秒)"
+            },
+            {
+                "name": "Xp",
+                "startPos": 64,
+                "endPos": 68,
+                "format": "F5.4",
+                "description": "定子漏抗(标么值)"
+            },
+            {
+                "startPos": 69,
+                "endPos": 73,
+                "format": "F5.4",
+                "description": "额定电压时电机饱和系数"
+            },
+            {
+                "startPos": 74,
+                "endPos": 77,
+                "format": "F4.3",
+                "description": "1.2倍额定电压时电机饱和系数"
+            },
+            {
+                "startPos": 78,
+                "endPos": 80,
+                "format": "F3.2",
+                "description": "电机阻尼转距系数百分数"
+            }
+        ],
+        "description": "发电机卡"
+    },
+    {
+        "name": "MF",
+        "parse": [
+            {
+                "name": "MF",
+                "startPos": 1,
+                "endPos": 2,
+                "format": "A2",
+                "description": "卡片格式"
+            },
+            {
+                "name": "Bus Name",
+                "startPos": 4,
+                "endPos": 11,
+                "format": "A8",
+                "description": "母线名称"
+            },
+            {
+                "name": "Bus Base(kV)",
+                "startPos": 12,
+                "endPos": 15,
+                "format": "F4.0",
+                "description": "基准电压"
+            },
+            {
+                "name": "ID",
+                "startPos": 16,
+                "endPos": 16,
+                "format": "A1",
+                "description": "电机识别码"
+            },
+            {
+                "startPos": 17,
+                "endPos": 22,
+                "format": "F6.0",
+                "description": "发电机动能(MW*秒)"
+            },
+            {
+                "name": "P Percent",
+                "startPos": 23,
+                "endPos": 25,
+                "format": "F3.0",
+                "description": "发电机初始有功功率占母线潮流功率百分数"
+            },
+            {
+                "name": "Q Percent",
+                "startPos": 26,
+                "endPos": 28,
+                "format": "F3.0",
+                "description": "发电机初始无功功率占母线潮流功率百分数"
+            },
+            {
+                "name": "Sbase",
+                "startPos": 29,
+                "endPos": 32,
+                "format": "F4.0",
+                "description": "电机标么参数的基准容量"
+            },
+            {
+                "name": "Rs",
+                "startPos": 33,
+                "endPos": 36,
+                "format": "F4.4",
+                "description": "定子电阻(标么值)"
+            },
+            {
+                "name": "Xd'",
+                "startPos": 37,
+                "endPos": 41,
+                "format": "F5.4",
+                "description": "直轴暂态电抗(标么值)"
+            },
+            {
+                "name": "Xq'",
+                "startPos": 42,
+                "endPos": 46,
+                "format": "F5.4",
+                "description": "交轴暂态电抗(标么值)"
+            },
+            {
+                "name": "Xd",
+                "startPos": 47,
+                "endPos": 51,
+                "format": "F5.4",
+                "description": "直轴不饱和同步电抗(标么值)"
+            },
+            {
+                "name": "Xq",
+                "startPos": 52,
+                "endPos": 56,
+                "format": "F5.4",
+                "description": "交轴不饱和同步电抗(标么值)"
+            },
+            {
+                "name": "Td0'",
+                "startPos": 57,
+                "endPos": 60,
+                "format": "F4.2",
+                "description": "直轴暂态开路时间常数(秒)"
+            },
+            {
+                "name": "Tq0'",
+                "startPos": 61,
+                "endPos": 63,
+                "format": "F4.2",
+                "description": "交轴暂态开路时间常数(秒)"
+            },
+            {
+                "name": "Xp",
+                "startPos": 64,
+                "endPos": 68,
+                "format": "F5.4",
+                "description": "定子漏抗(标么值)"
+            },
+            {
+                "startPos": 69,
+                "endPos": 73,
+                "format": "F5.4",
+                "description": "额定电压时电机饱和系数"
+            },
+            {
+                "startPos": 74,
+                "endPos": 77,
+                "format": "F4.3",
+                "description": "1.2倍额定电压时电机饱和系数"
+            },
+            {
+                "startPos": 78,
+                "endPos": 80,
+                "format": "F3.2",
+                "description": "电机阻尼转距系数百分数"
+            }
+        ],
+        "description": "发电机卡"
+    },
+    {
+        "name": "MG",
+        "parse": [
+            {
+                "name": "MG",
+                "startPos": 1,
+                "endPos": 2,
+                "format": "A2",
+                "description": "卡片格式"
+            },
+            {
+                "name": "Bus Name",
+                "startPos": 4,
+                "endPos": 11,
+                "format": "A8",
+                "description": "母线名称"
+            },
+            {
+                "name": "Bus Base(kV)",
+                "startPos": 12,
+                "endPos": 15,
+                "format": "F4.0",
+                "description": "基准电压"
+            },
+            {
+                "name": "ID",
+                "startPos": 16,
+                "endPos": 16,
+                "format": "A1",
+                "description": "电机识别码"
+            },
+            {
+                "startPos": 17,
+                "endPos": 22,
+                "format": "F6.0",
+                "description": "发电机动能(MW*秒)"
+            },
+            {
+                "name": "P Percent",
+                "startPos": 23,
+                "endPos": 25,
+                "format": "F3.0",
+                "description": "发电机初始有功功率占母线潮流功率百分数"
+            },
+            {
+                "name": "Q Percent",
+                "startPos": 26,
+                "endPos": 28,
+                "format": "F3.0",
+                "description": "发电机初始无功功率占母线潮流功率百分数"
+            },
+            {
+                "name": "Sbase",
+                "startPos": 29,
+                "endPos": 32,
+                "format": "F4.0",
+                "description": "电机标么参数的基准容量"
+            },
+            {
+                "name": "Rs",
+                "startPos": 33,
+                "endPos": 36,
+                "format": "F4.4",
+                "description": "定子电阻(标么值)"
+            },
+            {
+                "name": "Xd'",
+                "startPos": 37,
+                "endPos": 41,
+                "format": "F5.4",
+                "description": "直轴暂态电抗(标么值)"
+            },
+            {
+                "name": "Xq'",
+                "startPos": 42,
+                "endPos": 46,
+                "format": "F5.4",
+                "description": "交轴暂态电抗(标么值)"
+            },
+            {
+                "name": "Xd",
+                "startPos": 47,
+                "endPos": 51,
+                "format": "F5.4",
+                "description": "直轴不饱和同步电抗(标么值)"
+            },
+            {
+                "name": "Xq",
+                "startPos": 52,
+                "endPos": 56,
+                "format": "F5.4",
+                "description": "交轴不饱和同步电抗(标么值)"
+            },
+            {
+                "name": "Td0'",
+                "startPos": 57,
+                "endPos": 60,
+                "format": "F4.2",
+                "description": "直轴暂态开路时间常数(秒)"
+            },
+            {
+                "name": "Tq0'",
+                "startPos": 61,
+                "endPos": 63,
+                "format": "F4.2",
+                "description": "交轴暂态开路时间常数(秒)"
+            },
+            {
+                "name": "N",
+                "startPos": 64,
+                "endPos": 68,
+                "format": "F5.4",
+                "description": "饱和系数"
+            },
+            {
+                "name": "a",
+                "startPos": 69,
+                "endPos": 73,
+                "format": "F5.4",
+                "description": "饱和系数"
+            },
+            {
+                "name": "b",
+                "startPos": 74,
+                "endPos": 77,
+                "format": "F4.2",
+                "description": "饱和系数"
+            },
+            {
+                "startPos": 78,
+                "endPos": 80,
+                "format": "F3.2",
+                "description": "电机阻尼转距系数百分数"
+            }
+        ],
+        "description": "PSASP发电机卡"
+    },
+    {
+        "name": "EA",
+        "parse": [
+            {
+                "name": "EA",
+                "startPos": 1,
+                "endPos": 2,
+                "format": "A2",
+                "description": "卡片格式"
+            },
+            {
+                "name": "Bus Name",
+                "startPos": 4,
+                "endPos": 11,
+                "format": "A8",
+                "description": "母线名称"
+            },
+            {
+                "name": "Bus Base(kV)",
+                "startPos": 12,
+                "endPos": 15,
+                "format": "F4.0",
+                "description": "基准电压"
+            },
+            {
+                "name": "ID",
+                "startPos": 16,
+                "endPos": 16,
+                "format": "A1",
+                "description": "电机识别码"
+            },
+            {
+                "name": "TR",
+                "startPos": 17,
+                "endPos": 20,
+                "format": "F4.3",
+                "description": "调压器输入的滤波器时间常数"
+            },
+            {
+                "name": "KA",
+                "startPos": 21,
+                "endPos": 25,
+                "format": "F5.2",
+                "description": "调压器增益"
+            },
+            {
+                "name": "TA",
+                "startPos": 26,
+                "endPos": 29,
+                "format": "F4.2",
+                "description": "调压器放大器时间常数"
+            },
+            {
+                "name": "TA1",
+                "startPos": 30,
+                "endPos": 33,
+                "format": "F4.3",
+                "description": "调压器放大器时间常数"
+            },
+            {
+                "name": "VRMAX",
+                "startPos": 34,
+                "endPos": 37,
+                "format": "F4.2",
+                "description": "VRMAX MULT乘子"
+            },
+            {
+                "name": "KE",
+                "startPos": 42,
+                "endPos": 45,
+                "format": "F4.3",
+                "description": "与自励有关的励磁常数"
+            },
+            {
+                "name": "TE",
+                "startPos": 42,
+                "endPos": 45,
+                "format": "F4.3",
+                "description": "励磁机时间常数"
+            },
+            {
+                "name": "SE.75MAX",
+                "startPos": 46,
+                "endPos": 49,
+                "format": "F4.3",
+                "description": "75％最大励磁电压时的励磁机饱和系数"
+            },
+            {
+                "name": "SEMAX",
+                "startPos": 50,
+                "endPos": 53,
+                "format": "F4.3",
+                "description": "最大励磁电压时的励磁机饱和系数"
+            },
+            {
+                "name": "EFDMIN",
+                "startPos": 54,
+                "endPos": 58,
+                "format": "F5.3",
+                "description": "最小励磁电压"
+            },
+            {
+                "name": "EFDMAX",
+                "startPos": 59,
+                "endPos": 62,
+                "format": "F4.3",
+                "description": "最大励磁电压"
+            },
+            {
+                "name": "KF",
+                "startPos": 63,
+                "endPos": 66,
+                "format": "F4.3",
+                "description": "调压器稳定回路增益"
+            },
+            {
+                "name": "TF",
+                "startPos": 67,
+                "endPos": 70,
+                "format": "F4.3",
+                "description": "调压器稳定回路时间常数"
+            }
+        ],
+        "description": "连续旋转直流励磁系统"
+    },
+    {
+        "name": "FM",
+        "parse": [
+            {
+                "name": "FM",
+                "startPos": 1,
+                "endPos": 2,
+                "format": "A2",
+                "description": "卡片格式"
+            },
+            {
+                "name": "Bus Name",
+                "startPos": 4,
+                "endPos": 11,
+                "format": "A8",
+                "description": "母线名称"
+            },
+            {
+                "name": "Bus Base(kV)",
+                "startPos": 12,
+                "endPos": 15,
+                "format": "F4.0",
+                "description": "基准电压"
+            },
+            {
+                "name": "ID",
+                "startPos": 16,
+                "endPos": 16,
+                "format": "A1",
+                "description": "电机识别码"
+            },
+            {
+                "name": "RC",
+                "startPos": 17,
+                "endPos": 20,
+                "format": "F4.3",
+                "description": "负载补偿之有功关分量（标么值）"
+            },
+            {
+                "name": "XC",
+                "startPos": 21,
+                "endPos": 24,
+                "format": "F4.3",
+                "description": "负载补偿之有功关分量（标么值）"
+            },
+            {
+                "name": "TR",
+                "startPos": 25,
+                "endPos": 29,
+                "format": "F5.3",
+                "description": "调节器输入滤波器时间常数(秒)"
+            },
+            {
+                "name": "K",
+                "startPos": 30,
+                "endPos": 34,
+                "format": "F5.3",
+                "description": "调节器增益（标么值）"
+            },
+            {
+                "name": "KV",
+                "startPos": 35,
+                "endPos": 37,
+                "format": "F3.0",
+                "description": "比例积分或纯积分调节选择因子"
+            },
+            {
+                "name": "T1",
+                "startPos": 38,
+                "endPos": 42,
+                "format": "F5.3",
+                "description": "电压调节器时间常数（秒）"
+            },
+            {
+                "name": "T2",
+                "startPos": 43,
+                "endPos": 47,
+                "format": "F5.3",
+                "description": "电压调节器时间常数（秒）"
+            },
+            {
+                "name": "T3",
+                "startPos": 48,
+                "endPos": 52,
+                "format": "F5.3",
+                "description": "电压调节器时间常数（秒）"
+            },
+            {
+                "name": "T4",
+                "startPos": 53,
+                "endPos": 57,
+                "format": "F5.3",
+                "description": "电压调节器时间常数（秒）"
+            },
+            {
+                "name": "KA",
+                "startPos": 58,
+                "endPos": 62,
+                "format": "F5.3",
+                "description": "调压器增益（标么值）"
+            },
+            {
+                "name": "TA",
+                "startPos": 63,
+                "endPos": 67,
+                "format": "F5.3",
+                "description": "调压器放大器的时间常数（秒）"
+            },
+            {
+                "name": "KF",
+                "startPos": 68,
+                "endPos": 72,
+                "format": "F5.3",
+                "description": "调压器稳定回路增益（标么值）"
+            },
+            {
+                "name": "TF",
+                "startPos": 73,
+                "endPos": 76,
+                "format": "F4.3",
+                "description": "调压器稳定回路时间常数（秒）"
+            },
+            {
+                "name": "KH",
+                "startPos": 77,
+                "endPos": 80,
+                "format": "F4.2",
+                "description": "励磁机电流反馈增益（标么值）"
+            }
+        ],
+        "description": "新励磁系统母线卡"
+    },
+    {
+        "name": "FN",
+        "parse": [
+            {
+                "name": "FN",
+                "startPos": 1,
+                "endPos": 2,
+                "format": "A2",
+                "description": "卡片格式"
+            },
+            {
+                "name": "Bus Name",
+                "startPos": 4,
+                "endPos": 11,
+                "format": "A8",
+                "description": "母线名称"
+            },
+            {
+                "name": "Bus Base(kV)",
+                "startPos": 12,
+                "endPos": 15,
+                "format": "F4.0",
+                "description": "基准电压"
+            },
+            {
+                "name": "ID",
+                "startPos": 16,
+                "endPos": 16,
+                "format": "A1",
+                "description": "电机识别码"
+            },
+            {
+                "name": "RC",
+                "startPos": 17,
+                "endPos": 20,
+                "format": "F4.3",
+                "description": "负载补偿之有功关分量（标么值）"
+            },
+            {
+                "name": "XC",
+                "startPos": 21,
+                "endPos": 24,
+                "format": "F4.3",
+                "description": "负载补偿之有功关分量（标么值）"
+            },
+            {
+                "name": "TR",
+                "startPos": 25,
+                "endPos": 29,
+                "format": "F5.3",
+                "description": "调节器输入滤波器时间常数(秒)"
+            },
+            {
+                "name": "K",
+                "startPos": 30,
+                "endPos": 34,
+                "format": "F5.3",
+                "description": "调节器增益（标么值）"
+            },
+            {
+                "name": "KV",
+                "startPos": 35,
+                "endPos": 37,
+                "format": "F3.0",
+                "description": "比例积分或纯积分调节选择因子"
+            },
+            {
+                "name": "T1",
+                "startPos": 38,
+                "endPos": 42,
+                "format": "F5.3",
+                "description": "电压调节器时间常数（秒）"
+            },
+            {
+                "name": "T2",
+                "startPos": 43,
+                "endPos": 47,
+                "format": "F5.3",
+                "description": "电压调节器时间常数（秒）"
+            },
+            {
+                "name": "T3",
+                "startPos": 48,
+                "endPos": 52,
+                "format": "F5.3",
+                "description": "电压调节器时间常数（秒）"
+            },
+            {
+                "name": "T4",
+                "startPos": 53,
+                "endPos": 57,
+                "format": "F5.3",
+                "description": "电压调节器时间常数（秒）"
+            },
+            {
+                "name": "KA",
+                "startPos": 58,
+                "endPos": 62,
+                "format": "F5.3",
+                "description": "调压器增益（标么值）"
+            },
+            {
+                "name": "TA",
+                "startPos": 63,
+                "endPos": 67,
+                "format": "F5.3",
+                "description": "调压器放大器的时间常数（秒）"
+            },
+            {
+                "name": "KF",
+                "startPos": 68,
+                "endPos": 72,
+                "format": "F5.3",
+                "description": "调压器稳定回路增益（标么值）"
+            },
+            {
+                "name": "TF",
+                "startPos": 73,
+                "endPos": 76,
+                "format": "F4.3",
+                "description": "调压器稳定回路时间常数（秒）"
+            },
+            {
+                "name": "KH",
+                "startPos": 77,
+                "endPos": 80,
+                "format": "F4.2",
+                "description": "励磁机电流反馈增益（标么值）"
+            }
+        ],
+        "description": "新励磁系统母线卡"
+    },
+    {
+        "name": "FO",
+        "parse": [
+            {
+                "name": "FO",
+                "startPos": 1,
+                "endPos": 2,
+                "format": "A2",
+                "description": "卡片格式"
+            },
+            {
+                "name": "Bus Name",
+                "startPos": 4,
+                "endPos": 11,
+                "format": "A8",
+                "description": "母线名称"
+            },
+            {
+                "name": "Bus Base(kV)",
+                "startPos": 12,
+                "endPos": 15,
+                "format": "F4.0",
+                "description": "基准电压"
+            },
+            {
+                "name": "ID",
+                "startPos": 16,
+                "endPos": 16,
+                "format": "A1",
+                "description": "电机识别码"
+            },
+            {
+                "name": "RC",
+                "startPos": 17,
+                "endPos": 20,
+                "format": "F4.3",
+                "description": "负载补偿之有功关分量（标么值）"
+            },
+            {
+                "name": "XC",
+                "startPos": 21,
+                "endPos": 24,
+                "format": "F4.3",
+                "description": "负载补偿之有功关分量（标么值）"
+            },
+            {
+                "name": "TR",
+                "startPos": 25,
+                "endPos": 29,
+                "format": "F5.3",
+                "description": "调节器输入滤波器时间常数(秒)"
+            },
+            {
+                "name": "K",
+                "startPos": 30,
+                "endPos": 34,
+                "format": "F5.3",
+                "description": "调节器增益（标么值）"
+            },
+            {
+                "name": "KV",
+                "startPos": 35,
+                "endPos": 37,
+                "format": "F3.0",
+                "description": "比例积分或纯积分调节选择因子"
+            },
+            {
+                "name": "T1",
+                "startPos": 38,
+                "endPos": 42,
+                "format": "F5.3",
+                "description": "电压调节器时间常数（秒）"
+            },
+            {
+                "name": "T2",
+                "startPos": 43,
+                "endPos": 47,
+                "format": "F5.3",
+                "description": "电压调节器时间常数（秒）"
+            },
+            {
+                "name": "T3",
+                "startPos": 48,
+                "endPos": 52,
+                "format": "F5.3",
+                "description": "电压调节器时间常数（秒）"
+            },
+            {
+                "name": "T4",
+                "startPos": 53,
+                "endPos": 57,
+                "format": "F5.3",
+                "description": "电压调节器时间常数（秒）"
+            },
+            {
+                "name": "KA",
+                "startPos": 58,
+                "endPos": 62,
+                "format": "F5.3",
+                "description": "调压器增益（标么值）"
+            },
+            {
+                "name": "TA",
+                "startPos": 63,
+                "endPos": 67,
+                "format": "F5.3",
+                "description": "调压器放大器的时间常数（秒）"
+            },
+            {
+                "name": "KF",
+                "startPos": 68,
+                "endPos": 72,
+                "format": "F5.3",
+                "description": "调压器稳定回路增益（标么值）"
+            },
+            {
+                "name": "TF",
+                "startPos": 73,
+                "endPos": 76,
+                "format": "F4.3",
+                "description": "调压器稳定回路时间常数（秒）"
+            },
+            {
+                "name": "KH",
+                "startPos": 77,
+                "endPos": 80,
+                "format": "F4.2",
+                "description": "励磁机电流反馈增益（标么值）"
+            }
+        ],
+        "description": "新励磁系统母线卡"
+    },
+    {
+        "name": "FP",
+        "parse": [
+            {
+                "name": "FP",
+                "startPos": 1,
+                "endPos": 2,
+                "format": "A2",
+                "description": "卡片格式"
+            },
+            {
+                "name": "Bus Name",
+                "startPos": 4,
+                "endPos": 11,
+                "format": "A8",
+                "description": "母线名称"
+            },
+            {
+                "name": "Bus Base(kV)",
+                "startPos": 12,
+                "endPos": 15,
+                "format": "F4.0",
+                "description": "基准电压"
+            },
+            {
+                "name": "ID",
+                "startPos": 16,
+                "endPos": 16,
+                "format": "A1",
+                "description": "电机识别码"
+            },
+            {
+                "name": "RC",
+                "startPos": 17,
+                "endPos": 20,
+                "format": "F4.3",
+                "description": "负载补偿之有功关分量（标么值）"
+            },
+            {
+                "name": "XC",
+                "startPos": 21,
+                "endPos": 24,
+                "format": "F4.3",
+                "description": "负载补偿之有功关分量（标么值）"
+            },
+            {
+                "name": "TR",
+                "startPos": 25,
+                "endPos": 29,
+                "format": "F5.3",
+                "description": "调节器输入滤波器时间常数(秒)"
+            },
+            {
+                "name": "K",
+                "startPos": 30,
+                "endPos": 34,
+                "format": "F5.3",
+                "description": "调节器增益（标么值）"
+            },
+            {
+                "name": "KV",
+                "startPos": 35,
+                "endPos": 37,
+                "format": "F3.0",
+                "description": "比例积分或纯积分调节选择因子"
+            },
+            {
+                "name": "T1",
+                "startPos": 38,
+                "endPos": 42,
+                "format": "F5.3",
+                "description": "电压调节器时间常数（秒）"
+            },
+            {
+                "name": "T2",
+                "startPos": 43,
+                "endPos": 47,
+                "format": "F5.3",
+                "description": "电压调节器时间常数（秒）"
+            },
+            {
+                "name": "T3",
+                "startPos": 48,
+                "endPos": 52,
+                "format": "F5.3",
+                "description": "电压调节器时间常数（秒）"
+            },
+            {
+                "name": "T4",
+                "startPos": 53,
+                "endPos": 57,
+                "format": "F5.3",
+                "description": "电压调节器时间常数（秒）"
+            },
+            {
+                "name": "KA",
+                "startPos": 58,
+                "endPos": 62,
+                "format": "F5.3",
+                "description": "调压器增益（标么值）"
+            },
+            {
+                "name": "TA",
+                "startPos": 63,
+                "endPos": 67,
+                "format": "F5.3",
+                "description": "调压器放大器的时间常数（秒）"
+            },
+            {
+                "name": "KF",
+                "startPos": 68,
+                "endPos": 72,
+                "format": "F5.3",
+                "description": "调压器稳定回路增益（标么值）"
+            },
+            {
+                "name": "TF",
+                "startPos": 73,
+                "endPos": 76,
+                "format": "F4.3",
+                "description": "调压器稳定回路时间常数（秒）"
+            },
+            {
+                "name": "KH",
+                "startPos": 77,
+                "endPos": 80,
+                "format": "F4.2",
+                "description": "励磁机电流反馈增益（标么值）"
+            }
+        ],
+        "description": "新励磁系统母线卡"
+    },
+    {
+        "name": "FQ",
+        "parse": [
+            {
+                "name": "FQ",
+                "startPos": 1,
+                "endPos": 2,
+                "format": "A2",
+                "description": "卡片格式"
+            },
+            {
+                "name": "Bus Name",
+                "startPos": 4,
+                "endPos": 11,
+                "format": "A8",
+                "description": "母线名称"
+            },
+            {
+                "name": "Bus Base(kV)",
+                "startPos": 12,
+                "endPos": 15,
+                "format": "F4.0",
+                "description": "基准电压"
+            },
+            {
+                "name": "ID",
+                "startPos": 16,
+                "endPos": 16,
+                "format": "A1",
+                "description": "电机识别码"
+            },
+            {
+                "name": "RC",
+                "startPos": 17,
+                "endPos": 20,
+                "format": "F4.3",
+                "description": "负载补偿之有功关分量（标么值）"
+            },
+            {
+                "name": "XC",
+                "startPos": 21,
+                "endPos": 24,
+                "format": "F4.3",
+                "description": "负载补偿之有功关分量（标么值）"
+            },
+            {
+                "name": "TR",
+                "startPos": 25,
+                "endPos": 29,
+                "format": "F5.3",
+                "description": "调节器输入滤波器时间常数(秒)"
+            },
+            {
+                "name": "K",
+                "startPos": 30,
+                "endPos": 34,
+                "format": "F5.3",
+                "description": "调节器增益（标么值）"
+            },
+            {
+                "name": "KV",
+                "startPos": 35,
+                "endPos": 37,
+                "format": "F3.0",
+                "description": "比例积分或纯积分调节选择因子"
+            },
+            {
+                "name": "T1",
+                "startPos": 38,
+                "endPos": 42,
+                "format": "F5.3",
+                "description": "电压调节器时间常数（秒）"
+            },
+            {
+                "name": "T2",
+                "startPos": 43,
+                "endPos": 47,
+                "format": "F5.3",
+                "description": "电压调节器时间常数（秒）"
+            },
+            {
+                "name": "T3",
+                "startPos": 48,
+                "endPos": 52,
+                "format": "F5.3",
+                "description": "电压调节器时间常数（秒）"
+            },
+            {
+                "name": "T4",
+                "startPos": 53,
+                "endPos": 57,
+                "format": "F5.3",
+                "description": "电压调节器时间常数（秒）"
+            },
+            {
+                "name": "KA",
+                "startPos": 58,
+                "endPos": 62,
+                "format": "F5.3",
+                "description": "调压器增益（标么值）"
+            },
+            {
+                "name": "TA",
+                "startPos": 63,
+                "endPos": 67,
+                "format": "F5.3",
+                "description": "调压器放大器的时间常数（秒）"
+            },
+            {
+                "name": "KF",
+                "startPos": 68,
+                "endPos": 72,
+                "format": "F5.3",
+                "description": "调压器稳定回路增益（标么值）"
+            },
+            {
+                "name": "TF",
+                "startPos": 73,
+                "endPos": 76,
+                "format": "F4.3",
+                "description": "调压器稳定回路时间常数（秒）"
+            },
+            {
+                "name": "KH",
+                "startPos": 77,
+                "endPos": 80,
+                "format": "F4.2",
+                "description": "励磁机电流反馈增益（标么值）"
+            }
+        ],
+        "description": "新励磁系统母线卡"
+    },
+    {
+        "name": "FR",
+        "parse": [
+            {
+                "name": "FR",
+                "startPos": 1,
+                "endPos": 2,
+                "format": "A2",
+                "description": "卡片格式"
+            },
+            {
+                "name": "Bus Name",
+                "startPos": 4,
+                "endPos": 11,
+                "format": "A8",
+                "description": "母线名称"
+            },
+            {
+                "name": "Bus Base(kV)",
+                "startPos": 12,
+                "endPos": 15,
+                "format": "F4.0",
+                "description": "基准电压"
+            },
+            {
+                "name": "ID",
+                "startPos": 16,
+                "endPos": 16,
+                "format": "A1",
+                "description": "电机识别码"
+            },
+            {
+                "name": "RC",
+                "startPos": 17,
+                "endPos": 20,
+                "format": "F4.3",
+                "description": "负载补偿之有功关分量（标么值）"
+            },
+            {
+                "name": "XC",
+                "startPos": 21,
+                "endPos": 24,
+                "format": "F4.3",
+                "description": "负载补偿之有功关分量（标么值）"
+            },
+            {
+                "name": "TR",
+                "startPos": 25,
+                "endPos": 29,
+                "format": "F5.3",
+                "description": "调节器输入滤波器时间常数(秒)"
+            },
+            {
+                "name": "K",
+                "startPos": 30,
+                "endPos": 34,
+                "format": "F5.3",
+                "description": "调节器增益（标么值）"
+            },
+            {
+                "name": "KV",
+                "startPos": 35,
+                "endPos": 37,
+                "format": "F3.0",
+                "description": "比例积分或纯积分调节选择因子"
+            },
+            {
+                "name": "T1",
+                "startPos": 38,
+                "endPos": 42,
+                "format": "F5.3",
+                "description": "电压调节器时间常数（秒）"
+            },
+            {
+                "name": "T2",
+                "startPos": 43,
+                "endPos": 47,
+                "format": "F5.3",
+                "description": "电压调节器时间常数（秒）"
+            },
+            {
+                "name": "T3",
+                "startPos": 48,
+                "endPos": 52,
+                "format": "F5.3",
+                "description": "电压调节器时间常数（秒）"
+            },
+            {
+                "name": "T4",
+                "startPos": 53,
+                "endPos": 57,
+                "format": "F5.3",
+                "description": "电压调节器时间常数（秒）"
+            },
+            {
+                "name": "KA",
+                "startPos": 58,
+                "endPos": 62,
+                "format": "F5.3",
+                "description": "调压器增益（标么值）"
+            },
+            {
+                "name": "TA",
+                "startPos": 63,
+                "endPos": 67,
+                "format": "F5.3",
+                "description": "调压器放大器的时间常数（秒）"
+            },
+            {
+                "name": "KF",
+                "startPos": 68,
+                "endPos": 72,
+                "format": "F5.3",
+                "description": "调压器稳定回路增益（标么值）"
+            },
+            {
+                "name": "TF",
+                "startPos": 73,
+                "endPos": 76,
+                "format": "F4.3",
+                "description": "调压器稳定回路时间常数（秒）"
+            },
+            {
+                "name": "KH",
+                "startPos": 77,
+                "endPos": 80,
+                "format": "F4.2",
+                "description": "励磁机电流反馈增益（标么值）"
+            }
+        ],
+        "description": "新励磁系统母线卡"
+    },
+    {
+        "name": "FS",
+        "parse": [
+            {
+                "name": "FS",
+                "startPos": 1,
+                "endPos": 2,
+                "format": "A2",
+                "description": "卡片格式"
+            },
+            {
+                "name": "Bus Name",
+                "startPos": 4,
+                "endPos": 11,
+                "format": "A8",
+                "description": "母线名称"
+            },
+            {
+                "name": "Bus Base(kV)",
+                "startPos": 12,
+                "endPos": 15,
+                "format": "F4.0",
+                "description": "基准电压"
+            },
+            {
+                "name": "ID",
+                "startPos": 16,
+                "endPos": 16,
+                "format": "A1",
+                "description": "电机识别码"
+            },
+            {
+                "name": "RC",
+                "startPos": 17,
+                "endPos": 20,
+                "format": "F4.3",
+                "description": "负载补偿之有功关分量（标么值）"
+            },
+            {
+                "name": "XC",
+                "startPos": 21,
+                "endPos": 24,
+                "format": "F4.3",
+                "description": "负载补偿之有功关分量（标么值）"
+            },
+            {
+                "name": "TR",
+                "startPos": 25,
+                "endPos": 29,
+                "format": "F5.3",
+                "description": "调节器输入滤波器时间常数(秒)"
+            },
+            {
+                "name": "K",
+                "startPos": 30,
+                "endPos": 34,
+                "format": "F5.3",
+                "description": "调节器增益（标么值）"
+            },
+            {
+                "name": "KV",
+                "startPos": 35,
+                "endPos": 37,
+                "format": "F3.0",
+                "description": "比例积分或纯积分调节选择因子"
+            },
+            {
+                "name": "T1",
+                "startPos": 38,
+                "endPos": 42,
+                "format": "F5.3",
+                "description": "电压调节器时间常数（秒）"
+            },
+            {
+                "name": "T2",
+                "startPos": 43,
+                "endPos": 47,
+                "format": "F5.3",
+                "description": "电压调节器时间常数（秒）"
+            },
+            {
+                "name": "T3",
+                "startPos": 48,
+                "endPos": 52,
+                "format": "F5.3",
+                "description": "电压调节器时间常数（秒）"
+            },
+            {
+                "name": "T4",
+                "startPos": 53,
+                "endPos": 57,
+                "format": "F5.3",
+                "description": "电压调节器时间常数（秒）"
+            },
+            {
+                "name": "KA",
+                "startPos": 58,
+                "endPos": 62,
+                "format": "F5.3",
+                "description": "调压器增益（标么值）"
+            },
+            {
+                "name": "TA",
+                "startPos": 63,
+                "endPos": 67,
+                "format": "F5.3",
+                "description": "调压器放大器的时间常数（秒）"
+            },
+            {
+                "name": "KF",
+                "startPos": 68,
+                "endPos": 72,
+                "format": "F5.3",
+                "description": "调压器稳定回路增益（标么值）"
+            },
+            {
+                "name": "TF",
+                "startPos": 73,
+                "endPos": 76,
+                "format": "F4.3",
+                "description": "调压器稳定回路时间常数（秒）"
+            },
+            {
+                "name": "KH",
+                "startPos": 77,
+                "endPos": 80,
+                "format": "F4.2",
+                "description": "励磁机电流反馈增益（标么值）"
+            }
+        ],
+        "description": "新励磁系统母线卡"
+    },
+    {
+        "name": "FT",
+        "parse": [
+            {
+                "name": "FT",
+                "startPos": 1,
+                "endPos": 2,
+                "format": "A2",
+                "description": "卡片格式"
+            },
+            {
+                "name": "Bus Name",
+                "startPos": 4,
+                "endPos": 11,
+                "format": "A8",
+                "description": "母线名称"
+            },
+            {
+                "name": "Bus Base(kV)",
+                "startPos": 12,
+                "endPos": 15,
+                "format": "F4.0",
+                "description": "基准电压"
+            },
+            {
+                "name": "ID",
+                "startPos": 16,
+                "endPos": 16,
+                "format": "A1",
+                "description": "电机识别码"
+            },
+            {
+                "name": "RC",
+                "startPos": 17,
+                "endPos": 20,
+                "format": "F4.3",
+                "description": "负载补偿之有功关分量（标么值）"
+            },
+            {
+                "name": "XC",
+                "startPos": 21,
+                "endPos": 24,
+                "format": "F4.3",
+                "description": "负载补偿之有功关分量（标么值）"
+            },
+            {
+                "name": "TR",
+                "startPos": 25,
+                "endPos": 29,
+                "format": "F5.3",
+                "description": "调节器输入滤波器时间常数(秒)"
+            },
+            {
+                "name": "K",
+                "startPos": 30,
+                "endPos": 34,
+                "format": "F5.3",
+                "description": "调节器增益（标么值）"
+            },
+            {
+                "name": "KV",
+                "startPos": 35,
+                "endPos": 37,
+                "format": "F3.0",
+                "description": "比例积分或纯积分调节选择因子"
+            },
+            {
+                "name": "T1",
+                "startPos": 38,
+                "endPos": 42,
+                "format": "F5.3",
+                "description": "电压调节器时间常数（秒）"
+            },
+            {
+                "name": "T2",
+                "startPos": 43,
+                "endPos": 47,
+                "format": "F5.3",
+                "description": "电压调节器时间常数（秒）"
+            },
+            {
+                "name": "T3",
+                "startPos": 48,
+                "endPos": 52,
+                "format": "F5.3",
+                "description": "电压调节器时间常数（秒）"
+            },
+            {
+                "name": "T4",
+                "startPos": 53,
+                "endPos": 57,
+                "format": "F5.3",
+                "description": "电压调节器时间常数（秒）"
+            },
+            {
+                "name": "KA",
+                "startPos": 58,
+                "endPos": 62,
+                "format": "F5.3",
+                "description": "调压器增益（标么值）"
+            },
+            {
+                "name": "TA",
+                "startPos": 63,
+                "endPos": 67,
+                "format": "F5.3",
+                "description": "调压器放大器的时间常数（秒）"
+            },
+            {
+                "name": "KF",
+                "startPos": 68,
+                "endPos": 72,
+                "format": "F5.3",
+                "description": "调压器稳定回路增益（标么值）"
+            },
+            {
+                "name": "TF",
+                "startPos": 73,
+                "endPos": 76,
+                "format": "F4.3",
+                "description": "调压器稳定回路时间常数（秒）"
+            },
+            {
+                "name": "KH",
+                "startPos": 77,
+                "endPos": 80,
+                "format": "F4.2",
+                "description": "励磁机电流反馈增益（标么值）"
+            }
+        ],
+        "description": "新励磁系统母线卡"
+    },
+    {
+        "name": "FU",
+        "parse": [
+            {
+                "name": "FU",
+                "startPos": 1,
+                "endPos": 2,
+                "format": "A2",
+                "description": "卡片格式"
+            },
+            {
+                "name": "Bus Name",
+                "startPos": 4,
+                "endPos": 11,
+                "format": "A8",
+                "description": "母线名称"
+            },
+            {
+                "name": "Bus Base(kV)",
+                "startPos": 12,
+                "endPos": 15,
+                "format": "F4.0",
+                "description": "基准电压"
+            },
+            {
+                "name": "ID",
+                "startPos": 16,
+                "endPos": 16,
+                "format": "A1",
+                "description": "电机识别码"
+            },
+            {
+                "name": "RC",
+                "startPos": 17,
+                "endPos": 20,
+                "format": "F4.3",
+                "description": "负载补偿之有功关分量（标么值）"
+            },
+            {
+                "name": "XC",
+                "startPos": 21,
+                "endPos": 24,
+                "format": "F4.3",
+                "description": "负载补偿之有功关分量（标么值）"
+            },
+            {
+                "name": "TR",
+                "startPos": 25,
+                "endPos": 29,
+                "format": "F5.3",
+                "description": "调节器输入滤波器时间常数(秒)"
+            },
+            {
+                "name": "K",
+                "startPos": 30,
+                "endPos": 34,
+                "format": "F5.3",
+                "description": "调节器增益（标么值）"
+            },
+            {
+                "name": "KV",
+                "startPos": 35,
+                "endPos": 37,
+                "format": "F3.0",
+                "description": "比例积分或纯积分调节选择因子"
+            },
+            {
+                "name": "T1",
+                "startPos": 38,
+                "endPos": 42,
+                "format": "F5.3",
+                "description": "电压调节器时间常数（秒）"
+            },
+            {
+                "name": "T2",
+                "startPos": 43,
+                "endPos": 47,
+                "format": "F5.3",
+                "description": "电压调节器时间常数（秒）"
+            },
+            {
+                "name": "T3",
+                "startPos": 48,
+                "endPos": 52,
+                "format": "F5.3",
+                "description": "电压调节器时间常数（秒）"
+            },
+            {
+                "name": "T4",
+                "startPos": 53,
+                "endPos": 57,
+                "format": "F5.3",
+                "description": "电压调节器时间常数（秒）"
+            },
+            {
+                "name": "KA",
+                "startPos": 58,
+                "endPos": 62,
+                "format": "F5.3",
+                "description": "调压器增益（标么值）"
+            },
+            {
+                "name": "TA",
+                "startPos": 63,
+                "endPos": 67,
+                "format": "F5.3",
+                "description": "调压器放大器的时间常数（秒）"
+            },
+            {
+                "name": "KF",
+                "startPos": 68,
+                "endPos": 72,
+                "format": "F5.3",
+                "description": "调压器稳定回路增益（标么值）"
+            },
+            {
+                "name": "TF",
+                "startPos": 73,
+                "endPos": 76,
+                "format": "F4.3",
+                "description": "调压器稳定回路时间常数（秒）"
+            },
+            {
+                "name": "KH",
+                "startPos": 77,
+                "endPos": 80,
+                "format": "F4.2",
+                "description": "励磁机电流反馈增益（标么值）"
+            }
+        ],
+        "description": "新励磁系统母线卡"
+    },
+    {
+        "name": "FV",
+        "parse": [
+            {
+                "name": "FV",
+                "startPos": 1,
+                "endPos": 2,
+                "format": "A2",
+                "description": "卡片格式"
+            },
+            {
+                "name": "Bus Name",
+                "startPos": 4,
+                "endPos": 11,
+                "format": "A8",
+                "description": "母线名称"
+            },
+            {
+                "name": "Bus Base(kV)",
+                "startPos": 12,
+                "endPos": 15,
+                "format": "F4.0",
+                "description": "基准电压"
+            },
+            {
+                "name": "ID",
+                "startPos": 16,
+                "endPos": 16,
+                "format": "A1",
+                "description": "电机识别码"
+            },
+            {
+                "name": "RC",
+                "startPos": 17,
+                "endPos": 20,
+                "format": "F4.3",
+                "description": "负载补偿之有功关分量（标么值）"
+            },
+            {
+                "name": "XC",
+                "startPos": 21,
+                "endPos": 24,
+                "format": "F4.3",
+                "description": "负载补偿之有功关分量（标么值）"
+            },
+            {
+                "name": "TR",
+                "startPos": 25,
+                "endPos": 29,
+                "format": "F5.3",
+                "description": "调节器输入滤波器时间常数(秒)"
+            },
+            {
+                "name": "K",
+                "startPos": 30,
+                "endPos": 34,
+                "format": "F5.3",
+                "description": "调节器增益（标么值）"
+            },
+            {
+                "name": "KV",
+                "startPos": 35,
+                "endPos": 37,
+                "format": "F3.0",
+                "description": "比例积分或纯积分调节选择因子"
+            },
+            {
+                "name": "T1",
+                "startPos": 38,
+                "endPos": 42,
+                "format": "F5.3",
+                "description": "电压调节器时间常数（秒）"
+            },
+            {
+                "name": "T2",
+                "startPos": 43,
+                "endPos": 47,
+                "format": "F5.3",
+                "description": "电压调节器时间常数（秒）"
+            },
+            {
+                "name": "T3",
+                "startPos": 48,
+                "endPos": 52,
+                "format": "F5.3",
+                "description": "电压调节器时间常数（秒）"
+            },
+            {
+                "name": "T4",
+                "startPos": 53,
+                "endPos": 57,
+                "format": "F5.3",
+                "description": "电压调节器时间常数（秒）"
+            },
+            {
+                "name": "KA",
+                "startPos": 58,
+                "endPos": 62,
+                "format": "F5.3",
+                "description": "调压器增益（标么值）"
+            },
+            {
+                "name": "TA",
+                "startPos": 63,
+                "endPos": 67,
+                "format": "F5.3",
+                "description": "调压器放大器的时间常数（秒）"
+            },
+            {
+                "name": "KF",
+                "startPos": 68,
+                "endPos": 72,
+                "format": "F5.3",
+                "description": "调压器稳定回路增益（标么值）"
+            },
+            {
+                "name": "TF",
+                "startPos": 73,
+                "endPos": 76,
+                "format": "F4.3",
+                "description": "调压器稳定回路时间常数（秒）"
+            },
+            {
+                "name": "KH",
+                "startPos": 77,
+                "endPos": 80,
+                "format": "F4.2",
+                "description": "励磁机电流反馈增益（标么值）"
+            }
+        ],
+        "description": "新励磁系统母线卡"
+    },
+    {
+        "name": "F+",
+        "parse": [
+            {
+                "name": "F+",
+                "startPos": 1,
+                "endPos": 2,
+                "format": "A2",
+                "description": "卡片格式"
+            },
+            {
+                "name": "Bus Name",
+                "startPos": 4,
+                "endPos": 11,
+                "format": "A8",
+                "description": "母线名称"
+            },
+            {
+                "name": "Bus Base(kV)",
+                "startPos": 12,
+                "endPos": 15,
+                "format": "F4.0",
+                "description": "基准电压"
+            },
+            {
+                "name": "ID",
+                "startPos": 16,
+                "endPos": 16,
+                "format": "A1",
+                "description": "电机识别码"
+            },
+            {
+                "name": "VAMAX",
+                "startPos": 17,
+                "endPos": 21,
+                "format": "F5.3",
+                "description": "调节器最大内部电压(标么值)"
+            },
+            {
+                "name": "VAMIN",
+                "startPos": 22,
+                "endPos": 26,
+                "format": "F5.3",
+                "description": "调节器最小内部电压(标么值)"
+            },
+            {
+                "name": "KB",
+                "startPos": 27,
+                "endPos": 30,
+                "format": "F4.2",
+                "description": "第二级调节器增益"
+            },
+            {
+                "name": "T5",
+                "startPos": 31,
+                "endPos": 34,
+                "format": "F4.2",
+                "description": "第二级调节器时间常数"
+            },
+            {
+                "name": "KE",
+                "startPos": 35,
+                "endPos": 38,
+                "format": "F4.2",
+                "description": "励磁机自励磁系数（标么值）"
+            },
+            {
+                "name": "TE",
+                "startPos": 39,
+                "endPos": 42,
+                "format": "F4.2",
+                "description": "励磁机时间常数（秒）"
+            },
+            {
+                "name": "SE1",
+                "startPos": 43,
+                "endPos": 47,
+                "format": "F5.4",
+                "description": "最大励磁电压处的励磁机饱和系数"
+            },
+            {
+                "name": "SE2",
+                "startPos": 48,
+                "endPos": 52,
+                "format": "F5.4",
+                "description": "75％最大励磁电压处的励磁机饱和系数"
+            },
+            {
+                "name": "VRMAX",
+                "startPos": 53,
+                "endPos": 56,
+                "format": "F4.2",
+                "description": "电压调节器最大输出（标么值）"
+            },
+            {
+                "name": "VRMIN",
+                "startPos": 57,
+                "endPos": 60,
+                "format": "F4.2",
+                "description": "电压调节器最小输出（标么值）"
+            },
+            {
+                "name": "KC",
+                "startPos": 61,
+                "endPos": 64,
+                "format": "F4.2",
+                "description": "换相电抗的整流器负载因子"
+            },
+            {
+                "name": "KD",
+                "startPos": 65,
+                "endPos": 68,
+                "format": "F4.2",
+                "description": "去磁因子（标么值）"
+            },
+            {
+                "name": "KL1",
+                "startPos": 69,
+                "endPos": 72,
+                "format": "F4.2",
+                "description": "励磁机励磁电流限制增益（标么值）"
+            },
+            {
+                "name": "VL1R",
+                "startPos": 73,
+                "endPos": 76,
+                "format": "F4.2",
+                "description": "励磁机电流限制（标么值）"
+            },
+            {
+                "name": "EFDMAX",
+                "startPos": 77,
+                "endPos": 80,
+                "format": "F4.2",
+                "description": "最大励磁电压（标么值）"
+            }
+        ],
+        "description": "新F型励磁系统继续卡"
+    },
+    {
+        "name": "FZ",
+        "parse": [
+            {
+                "name": "FZ",
+                "startPos": 1,
+                "endPos": 2,
+                "format": "A2",
+                "description": "卡片格式"
+            },
+            {
+                "name": "Bus Name",
+                "startPos": 4,
+                "endPos": 11,
+                "format": "A8",
+                "description": "母线名称"
+            },
+            {
+                "name": "Bus Base(kV)",
+                "startPos": 12,
+                "endPos": 15,
+                "format": "F4.0",
+                "description": "基准电压"
+            },
+            {
+                "name": "ID",
+                "startPos": 16,
+                "endPos": 16,
+                "format": "A1",
+                "description": "电机识别码"
+            },
+            {
+                "name": "SE1/KI",
+                "startPos": 17,
+                "endPos": 21,
+                "format": "F5.3",
+                "description": "励磁电压处的励磁机饱和系数/电流回路增益系数(D、L)"
+            },
+            {
+                "name": "SE2/KP",
+                "startPos": 22,
+                "endPos": 26,
+                "format": "F5.3",
+                "description": "励磁电压75％处的励磁机饱和系数/电势回路增益系数(D、L)"
+            },
+            {
+                "name": "EFDMIN/EFDN/θp",
+                "startPos": 27,
+                "endPos": 31,
+                "format": "F5.3",
+                "description": "励磁机最小输出电压(J)/稳定反馈增益改变处的励磁电压/电压回路像角差(L)"
+            },
+            {
+                "name": "EFD1/VE1/EFDMAX",
+                "startPos": 32,
+                "endPos": 36,
+                "format": "F5.3",
+                "description": "励磁电压(A、B、E)/换向电抗后励磁电压(C、F、H)/最大励磁电压(D、L)"
+            },
+            {
+                "name": "KF/KG",
+                "startPos": 37,
+                "endPos": 41,
+                "format": "F5.3",
+                "description": "励磁控制系统稳定器增益/内反馈回路常数(L)"
+            },
+            {
+                "name": "TF/VGMAX",
+                "startPos": 42,
+                "endPos": 46,
+                "format": "F5.3",
+                "description": "励磁控制系统时间常数/内反馈回路最大电压(L)"
+            },
+            {
+                "name": "KC",
+                "startPos": 47,
+                "endPos": 51,
+                "format": "F5.4",
+                "description": "换相电抗的整流器负载因子"
+            },
+            {
+                "name": "KD/XL",
+                "startPos": 52,
+                "endPos": 56,
+                "format": "F5.4",
+                "description": "去磁因子(C、F、H)/电势源电压(L)"
+            },
+            {
+                "name": "KB/VLV",
+                "startPos": 57,
+                "endPos": 61,
+                "format": "F5.3",
+                "description": "第二极调节器增益(F)/励磁机低电压限制(H)"
+            },
+            {
+                "name": "KL/KLV",
+                "startPos": 62,
+                "endPos": 66,
+                "format": "F5.3",
+                "description": "励磁机励磁电流限制增益(F)/励磁机低电压限制信号增益(H)"
+            },
+            {
+                "name": "KH/KN",
+                "startPos": 67,
+                "endPos": 71,
+                "format": "F5.3",
+                "description": "励磁机励磁电流反馈增益(F)/励磁控制系统稳定器增益（上段）(H)"
+            },
+            {
+                "name": "VLR/KR",
+                "startPos": 72,
+                "endPos": 76,
+                "format": "F5.3",
+                "description": "励磁机励磁电流限制(F)/联接调节器和变换器励磁功率的常数(H)"
+            }
+        ],
+        "description": "F型励磁系统继续卡"
+    },
+    {
+        "name": "SI ",
+        "parse": [
+            {
+                "name": "SI ",
+                "startPos": 1,
+                "endPos": 3,
+                "format": "A3",
+                "description": "卡片格式"
+            },
+            {
+                "name": "Bus Name",
+                "startPos": 4,
+                "endPos": 11,
+                "format": "A8",
+                "description": "母线名称"
+            },
+            {
+                "name": "Bus Base(kV)",
+                "startPos": 12,
+                "endPos": 15,
+                "format": "F4.0",
+                "description": "基准电压"
+            },
+            {
+                "name": "ID",
+                "startPos": 16,
+                "endPos": 16,
+                "format": "A1",
+                "description": "电机识别码"
+            },
+            {
+                "name": "TRW",
+                "startPos": 17,
+                "endPos": 20,
+                "format": "F4.4"
+            },
+            {
+                "name": "T5",
+                "startPos": 21,
+                "endPos": 25,
+                "format": "F5.3"
+            },
+            {
+                "name": "T6",
+                "startPos": 26,
+                "endPos": 30,
+                "format": "F5.3"
+            },
+            {
+                "name": "T7",
+                "startPos": 31,
+                "endPos": 35,
+                "format": "F5.3"
+            },
+            {
+                "name": "KR",
+                "startPos": 36,
+                "endPos": 41,
+                "format": "F6.4"
+            },
+            {
+                "name": "TRP",
+                "startPos": 42,
+                "endPos": 45,
+                "format": "F4.4"
+            },
+            {
+                "name": "TW",
+                "startPos": 46,
+                "endPos": 50,
+                "format": "F5.3"
+            },
+            {
+                "name": "TW1",
+                "startPos": 51,
+                "endPos": 55,
+                "format": "F5.3"
+            },
+            {
+                "name": "TW2",
+                "startPos": 56,
+                "endPos": 60,
+                "format": "F5.3"
+            },
+            {
+                "name": "KS",
+                "startPos": 61,
+                "endPos": 64,
+                "format": "F4.2"
+            },
+            {
+                "name": "T9",
+                "startPos": 65,
+                "endPos": 69,
+                "format": "F5.3"
+            },
+            {
+                "name": "T10",
+                "startPos": 70,
+                "endPos": 74,
+                "format": "F5.3"
+            },
+            {
+                "name": "T12",
+                "startPos": 75,
+                "endPos": 79,
+                "format": "F5.3"
+            },
+            {
+                "startPos": 80,
+                "endPos": 80,
+                "format": "I1",
+                "description": "0或者空格输入信号为w和PG, 1输入信号只有w, 2输入信号只有PG"
+            }
+        ],
+        "description": "三峡（IEEE2A）PSS模型"
+    },
+    {
+        "name": "SI+",
+        "parse": [
+            {
+                "name": "SI+",
+                "startPos": 1,
+                "endPos": 3,
+                "format": "A3",
+                "description": "卡片格式"
+            },
+            {
+                "name": "Bus Name",
+                "startPos": 4,
+                "endPos": 11,
+                "format": "A8",
+                "description": "母线名称"
+            },
+            {
+                "name": "Bus Base(kV)",
+                "startPos": 12,
+                "endPos": 15,
+                "format": "F4.0",
+                "description": "基准电压"
+            },
+            {
+                "name": "ID",
+                "startPos": 16,
+                "endPos": 16,
+                "format": "A1",
+                "description": "电机识别码"
+            },
+            {
+                "name": "KP",
+                "startPos": 17,
+                "endPos": 21,
+                "format": "F5.3"
+            },
+            {
+                "name": "T1",
+                "startPos": 22,
+                "endPos": 26,
+                "format": "F5.3"
+            },
+            {
+                "name": "T2",
+                "startPos": 27,
+                "endPos": 31,
+                "format": "F5.3"
+            },
+            {
+                "name": "T13",
+                "startPos": 32,
+                "endPos": 36,
+                "format": "F5.3"
+            },
+            {
+                "name": "T14",
+                "startPos": 37,
+                "endPos": 41,
+                "format": "F5.3"
+            },
+            {
+                "name": "T3",
+                "startPos": 42,
+                "endPos": 46,
+                "format": "F5.3"
+            },
+            {
+                "name": "T4",
+                "startPos": 47,
+                "endPos": 51,
+                "format": "F5.3"
+            },
+            {
+                "name": "VSMAX",
+                "startPos": 52,
+                "endPos": 57,
+                "format": "F6.4"
+            },
+            {
+                "name": "VSMIN",
+                "startPos": 58,
+                "endPos": 63,
+                "format": "F6.4"
+            },
+            {
+                "startPos": 77,
+                "endPos": 80,
+                "format": "F4.0",
+                "description": "KR的基准容量(MVA)"
+            }
+        ],
+        "description": "三峡（IEEE2A）PSS模型"
+    }
+]

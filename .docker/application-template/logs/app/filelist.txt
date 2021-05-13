@@ -1,0 +1,833 @@
+$ "Get-ChildItem -Recurse \"C:\\\\Users\\\\Neuro\\\\.docker\""
+
+
+    Directory: C:\Users\Neuro\.docker
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+d-----        27.04.2021     15:53                application-template                                                 
+d-----        27.04.2021     16:48                contexts                                                             
+d-----        27.04.2021     15:53                scan                                                                 
+-a----        27.04.2021     16:14             69 config.json                                                          
+-a----        27.04.2021     16:13            148 daemon.json                                                          
+
+
+    Directory: C:\Users\Neuro\.docker\application-template
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+d-----        27.04.2021     15:53                logs                                                                 
+
+
+    Directory: C:\Users\Neuro\.docker\application-template\logs
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+-a----        27.04.2021     15:53              0 com.docker.backend.log                                               
+
+
+    Directory: C:\Users\Neuro\.docker\contexts
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+d-----        27.04.2021     16:48                meta                                                                 
+
+
+    Directory: C:\Users\Neuro\.docker\scan
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+-a----        27.04.2021     17:01             72 config.json                                                          
+
+
+
+
+$ "Get-ChildItem -Recurse \"C:\\\\Users\\\\Neuro\\\\AppData\\\\Roaming\\\\Docker\""
+
+
+    Directory: C:\Users\Neuro\AppData\Roaming\Docker
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+d-----        27.04.2021     15:53                log                                                                  
+-a----        27.04.2021     15:54              9 .npsid                                                               
+-a----        27.04.2021     13:41             36 .trackid                                                             
+-a----        27.04.2021     17:33           1631 settings.json                                                        
+
+
+    Directory: C:\Users\Neuro\AppData\Roaming\Docker\log
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+d-----        27.04.2021     17:37                host                                                                 
+d-----        27.04.2021     15:53                vm                                                                   
+
+
+    Directory: C:\Users\Neuro\AppData\Roaming\Docker\log\host
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+-a----        27.04.2021     17:40          25572 com.docker.backend.exe.log                                           
+-a----        27.04.2021     17:37              0 com.docker.diagnose.exe.log                                          
+-a----        27.04.2021     15:54              0 docker-credential-desktop.exe.log                                    
+-a----        27.04.2021     16:49              0 docker-credential-desktop.log                                        
+
+
+
+
+$ "Get-ChildItem -Recurse \"C:\\\\Program Files\\\\Docker\\\\Docker\""
+
+
+    Directory: C:\Program Files\Docker\Docker
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+d-----        27.04.2021     13:52                frontend                                                             
+d-----        27.04.2021     13:55                resources                                                            
+-a----        27.04.2021     13:45           4527 app.json                                                             
+-a----        27.04.2021     13:51          23040 BITSReference5_0.dll                                                 
+-a----        27.04.2021     13:51          71168 Bugsnag.dll                                                          
+-a----        27.04.2021     13:45          16352 com.docker.service                                                   
+-a----        27.04.2021     13:45          19303 com.docker.service.config                                            
+-a----        27.04.2021     13:45          22016 com.docker.service.pdb                                               
+-a----        27.04.2021     13:51         963032 courgette64.exe                                                      
+-a----        27.04.2021     13:51        3522536 Docker Desktop Installer.exe                                         
+-a----        27.04.2021     13:45         460288 Docker Desktop Installer.pdb                                         
+-a----        27.04.2021     13:51        7025088 Docker Desktop.exe                                                   
+-a----        27.04.2021     13:45          19743 Docker Desktop.exe.config                                            
+-a----        27.04.2021     13:45         409088 Docker Desktop.pdb                                                   
+-a----        27.04.2021     13:51         210944 Docker.ApiServices.dll                                               
+-a----        27.04.2021     13:45         716288 Docker.ApiServices.pdb                                               
+-a----        27.04.2021     13:51         107520 Docker.Backend.dll                                                   
+-a----        27.04.2021     13:45         255488 Docker.Backend.pdb                                                   
+-a----        27.04.2021     13:51         166912 Docker.Core.dll                                                      
+-a----        27.04.2021     13:45         568832 Docker.Core.pdb                                                      
+-a----        27.04.2021     13:51          39424 Docker.HttpApi.dll                                                   
+-a----        27.04.2021     13:45         148992 Docker.HttpApi.pdb                                                   
+-a----        27.04.2021     13:51         537600 Docker.WPF.dll                                                       
+-a----        27.04.2021     13:45         224768 Docker.WPF.pdb                                                       
+-a----        27.04.2021     13:51          24008 DockerCli.exe                                                        
+-a----        27.04.2021     13:45          19638 DockerCli.exe.config                                                 
+-a----        27.04.2021     13:45          42496 DockerCli.pdb                                                        
+-a----        27.04.2021     13:52          12800 HttpOverStream.Client.dll                                            
+-a----        27.04.2021     13:52          15360 HttpOverStream.dll                                                   
+-a----        27.04.2021     13:52          16896 HttpOverStream.NamedPipe.dll                                         
+-a----        27.04.2021     13:52          18944 HttpOverStream.Server.Owin.dll                                       
+-a----        27.04.2021     13:52         196096 ICSharpCode.SharpZipLib.dll                                          
+-a----        27.04.2021     13:57           4527 installationmanifest.json                                            
+-a----        27.04.2021     13:52          25056 InstallerCli.exe                                                     
+-a----        27.04.2021     13:45          19638 InstallerCli.exe.config                                              
+-a----        27.04.2021     13:45          34304 InstallerCli.pdb                                                     
+-a----        27.04.2021     13:52         101272 Microsoft.Owin.dll                                                   
+-a----        27.04.2021     13:52          65944 Microsoft.Owin.Hosting.dll                                           
+-a----        27.04.2021     13:52          90968 Microsoft.Toolkit.Uwp.Notifications.dll                              
+-a----        27.04.2021     13:52          20992 Microsoft.Virtualization.Client.Common.Types.dll                     
+-a----        27.04.2021     13:52        1621504 Microsoft.Virtualization.Client.Management.dll                       
+-a----        27.04.2021     13:52          21216 Microsoft.Win32.Primitives.dll                                       
+-a----        27.04.2021     13:52          50176 Microsoft.Windows.ComputeVirtualization.dll                          
+-a----        27.04.2021     13:52          98616 netstandard.dll                                                      
+-a----        27.04.2021     13:52         662528 Newtonsoft.Json.dll                                                  
+-a----        27.04.2021     13:52         702464 NLog.dll                                                             
+-a----        27.04.2021     13:52           4608 Owin.dll                                                             
+-a----        27.04.2021     13:55          16896 SimCim.Core.dll                                                      
+-a----        27.04.2021     13:55         463360 SimCim.Root.StandardCimV2.dll                                        
+-a----        27.04.2021     13:55        2076160 SimCim.Root.V2.dll                                                   
+-a----        27.04.2021     13:55         508416 SimCim.Root.Virtualization.V2.dll                                    
+-a----        27.04.2021     13:55          21176 System.AppContext.dll                                                
+-a----        27.04.2021     13:55          21224 System.Collections.Concurrent.dll                                    
+-a----        27.04.2021     13:55          21696 System.Collections.dll                                               
+-a----        27.04.2021     13:55          21224 System.Collections.NonGeneric.dll                                    
+-a----        27.04.2021     13:55          21224 System.Collections.Specialized.dll                                   
+-a----        27.04.2021     13:55          21192 System.ComponentModel.dll                                            
+-a----        27.04.2021     13:55          21768 System.ComponentModel.EventBasedAsync.dll                            
+-a----        27.04.2021     13:55          21752 System.ComponentModel.Primitives.dll                                 
+-a----        27.04.2021     13:55          22784 System.ComponentModel.TypeConverter.dll                              
+-a----        27.04.2021     13:55          21160 System.Console.dll                                                   
+-a----        27.04.2021     13:55         154448 System.Data.Common.dll                                               
+-a----        27.04.2021     13:55          21736 System.Diagnostics.Contracts.dll                                     
+-a----        27.04.2021     13:55          21208 System.Diagnostics.Debug.dll                                         
+-a----        27.04.2021     13:55          35760 System.Diagnostics.DiagnosticSource.dll                              
+-a----        27.04.2021     13:55          21248 System.Diagnostics.FileVersionInfo.dll                               
+-a----        27.04.2021     13:55          21728 System.Diagnostics.Process.dll                                       
+-a----        27.04.2021     13:55          23936 System.Diagnostics.StackTrace.dll                                    
+-a----        27.04.2021     13:55          21280 System.Diagnostics.TextWriterTraceListener.dll                       
+-a----        27.04.2021     13:55          21208 System.Diagnostics.Tools.dll                                         
+-a----        27.04.2021     13:55          21744 System.Diagnostics.TraceSource.dll                                   
+-a----        27.04.2021     13:55          31608 System.Diagnostics.Tracing.dll                                       
+-a----        27.04.2021     13:55          21208 System.Drawing.Primitives.dll                                        
+-a----        27.04.2021     13:55          22224 System.Dynamic.Runtime.dll                                           
+-a----        27.04.2021     13:55          21744 System.Globalization.Calendars.dll                                   
+-a----        27.04.2021     13:55          21192 System.Globalization.dll                                             
+-a----        27.04.2021     13:55          25992 System.Globalization.Extensions.dll                                  
+-a----        27.04.2021     13:55         110944 System.IO.Compression.dll                                            
+-a----        27.04.2021     13:55          21224 System.IO.Compression.ZipFile.dll                                    
+-a----        27.04.2021     13:55          21144 System.IO.dll                                                        
+-a----        27.04.2021     13:55          21192 System.IO.FileSystem.dll                                             
+-a----        27.04.2021     13:55          21232 System.IO.FileSystem.DriveInfo.dll                                   
+-a----        27.04.2021     13:55          21232 System.IO.FileSystem.Primitives.dll                                  
+-a----        27.04.2021     13:55          21224 System.IO.FileSystem.Watcher.dll                                     
+-a----        27.04.2021     13:55          21208 System.IO.IsolatedStorage.dll                                        
+-a----        27.04.2021     13:55          21216 System.IO.MemoryMappedFiles.dll                                      
+-a----        27.04.2021     13:55          21168 System.IO.Pipes.dll                                                  
+-a----        27.04.2021     13:55          21232 System.IO.UnmanagedMemoryStream.dll                                  
+-a----        27.04.2021     13:55          21152 System.Linq.dll                                                      
+-a----        27.04.2021     13:55          22224 System.Linq.Expressions.dll                                          
+-a----        27.04.2021     13:55          21192 System.Linq.Parallel.dll                                             
+-a----        27.04.2021     13:55          21192 System.Linq.Queryable.dll                                            
+-a----        27.04.2021     13:55         360448 System.Management.Automation.dll                                     
+-a----        27.04.2021     13:55         198472 System.Net.Http.dll                                                  
+-a----        27.04.2021     13:55         178808 System.Net.Http.Formatting.dll                                       
+-a----        27.04.2021     13:55          23552 System.Net.IPNetwork.dll                                             
+-a----        27.04.2021     13:55          21208 System.Net.NameResolution.dll                                        
+-a----        27.04.2021     13:55          22248 System.Net.NetworkInformation.dll                                    
+-a----        27.04.2021     13:55          21168 System.Net.Ping.dll                                                  
+-a----        27.04.2021     13:55          22216 System.Net.Primitives.dll                                            
+-a----        27.04.2021     13:55          21184 System.Net.Requests.dll                                              
+-a----        27.04.2021     13:55          21696 System.Net.Security.dll                                              
+-a----        27.04.2021     13:55          30544 System.Net.Sockets.dll                                               
+-a----        27.04.2021     13:55          21232 System.Net.WebHeaderCollection.dll                                   
+-a----        27.04.2021     13:55          21224 System.Net.WebSockets.Client.dll                                     
+-a----        27.04.2021     13:55          21192 System.Net.WebSockets.dll                                            
+-a----        27.04.2021     13:55         115856 System.Numerics.Vectors.dll                                          
+-a----        27.04.2021     13:55          21696 System.ObjectModel.dll                                               
+-a----        27.04.2021     13:55         113944 System.Reactive.Core.dll                                             
+-a----        27.04.2021     13:55        1266128 System.Reactive.dll                                                  
+-a----        27.04.2021     13:55          14288 System.Reactive.Interfaces.dll                                       
+-a----        27.04.2021     13:55          14800 System.Reactive.Linq.dll                                             
+-a----        27.04.2021     13:55          22200 System.Reflection.dll                                                
+-a----        27.04.2021     13:55          21224 System.Reflection.Extensions.dll                                     
+-a----        27.04.2021     13:55          21736 System.Reflection.Primitives.dll                                     
+-a----        27.04.2021     13:55          21200 System.Resources.Reader.dll                                          
+-a----        27.04.2021     13:55          21232 System.Resources.ResourceManager.dll                                 
+-a----        27.04.2021     13:55          21200 System.Resources.Writer.dll                                          
+-a----        27.04.2021     13:55          23600 System.Runtime.CompilerServices.Unsafe.dll                           
+-a----        27.04.2021     13:55          21784 System.Runtime.CompilerServices.VisualC.dll                          
+-a----        27.04.2021     13:55          29360 System.Runtime.dll                                                   
+-a----        27.04.2021     13:55          21720 System.Runtime.Extensions.dll                                        
+-a----        27.04.2021     13:55          21200 System.Runtime.Handles.dll                                           
+-a----        27.04.2021     13:55          24296 System.Runtime.InteropServices.dll                                   
+-a----        27.04.2021     13:55          28624 System.Runtime.InteropServices.RuntimeInformation.dll                
+-a----        27.04.2021     13:55          21200 System.Runtime.Numerics.dll                                          
+-a----        27.04.2021     13:55          21264 System.Runtime.Serialization.Formatters.dll                          
+-a----        27.04.2021     13:55          21240 System.Runtime.Serialization.Json.dll                                
+-a----        27.04.2021     13:55          27048 System.Runtime.Serialization.Primitives.dll                          
+-a----        27.04.2021     13:55          24816 System.Runtime.Serialization.Xml.dll                                 
+-a----        27.04.2021     13:55          28216 System.Runtime.WindowsRuntime.dll                                    
+-a----        27.04.2021     13:55          30312 System.Runtime.WindowsRuntime.UI.Xaml.dll                            
+-a----        27.04.2021     13:55          21200 System.Security.Claims.dll                                           
+-a----        27.04.2021     13:55          47016 System.Security.Cryptography.Algorithms.dll                          
+-a----        27.04.2021     13:55          21240 System.Security.Cryptography.Csp.dll                                 
+-a----        27.04.2021     13:55          21256 System.Security.Cryptography.Encoding.dll                            
+-a----        27.04.2021     13:55          21784 System.Security.Cryptography.Primitives.dll                          
+-a----        27.04.2021     13:55          22832 System.Security.Cryptography.X509Certificates.dll                    
+-a----        27.04.2021     13:55          21208 System.Security.Principal.dll                                        
+-a----        27.04.2021     13:55          22392 System.Security.SecureString.dll                                     
+-a----        27.04.2021     13:55          21696 System.Text.Encoding.dll                                             
+-a----        27.04.2021     13:55          21232 System.Text.Encoding.Extensions.dll                                  
+-a----        27.04.2021     13:55          21232 System.Text.RegularExpressions.dll                                   
+-a----        27.04.2021     13:55          22192 System.Threading.dll                                                 
+-a----        27.04.2021     13:55          37752 System.Threading.Overlapped.dll                                      
+-a----        27.04.2021     13:55          22224 System.Threading.Tasks.dll                                           
+-a----        27.04.2021     13:55          33048 System.Threading.Tasks.Extensions.dll                                
+-a----        27.04.2021     13:55          21232 System.Threading.Tasks.Parallel.dll                                  
+-a----        27.04.2021     13:55          21200 System.Threading.Thread.dll                                          
+-a----        27.04.2021     13:55          21216 System.Threading.ThreadPool.dll                                      
+-a----        27.04.2021     13:55          21200 System.Threading.Timer.dll                                           
+-a----        27.04.2021     13:55          78992 System.ValueTuple.dll                                                
+-a----        27.04.2021     13:55         455096 System.Web.Http.dll                                                  
+-a----        27.04.2021     13:55          61560 System.Web.Http.Owin.dll                                             
+-a----        27.04.2021     13:55          21712 System.Xml.ReaderWriter.dll                                          
+-a----        27.04.2021     13:55          21696 System.Xml.XDocument.dll                                             
+-a----        27.04.2021     13:55          21712 System.Xml.XmlDocument.dll                                           
+-a----        27.04.2021     13:55          21712 System.Xml.XmlSerializer.dll                                         
+-a----        27.04.2021     13:55          21176 System.Xml.XPath.dll                                                 
+-a----        27.04.2021     13:55          22904 System.Xml.XPath.XDocument.dll                                       
+
+
+    Directory: C:\Program Files\Docker\Docker\frontend
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+d-----        27.04.2021     13:45                locales                                                              
+d-----        27.04.2021     13:45                resources                                                            
+d-----        27.04.2021     13:52                swiftshader                                                          
+-a----        27.04.2021     13:45         124377 chrome_100_percent.pak                                               
+-a----        27.04.2021     13:45         185871 chrome_200_percent.pak                                               
+-a----        27.04.2021     13:51        4524696 d3dcompiler_47.dll                                                   
+-a----        27.04.2021     13:52      126329296 Docker Desktop.exe                                                   
+-a----        27.04.2021     13:52        2824192 ffmpeg.dll                                                           
+-a----        27.04.2021     13:45       10527632 icudtl.dat                                                           
+-a----        27.04.2021     13:52         449024 libEGL.dll                                                           
+-a----        27.04.2021     13:52        7620096 libGLESv2.dll                                                        
+-a----        27.04.2021     13:45           1060 LICENSE.electron.txt                                                 
+-a----        27.04.2021     13:45        4715756 LICENSES.chromium.html                                               
+-a----        27.04.2021     13:45        5015760 resources.pak                                                        
+-a----        27.04.2021     13:45          51447 snapshot_blob.bin                                                    
+-a----        27.04.2021     13:45         172274 v8_context_snapshot.bin                                              
+-a----        27.04.2021     13:52        4488192 vk_swiftshader.dll                                                   
+-a----        27.04.2021     13:45            106 vk_swiftshader_icd.json                                              
+-a----        27.04.2021     13:52         732160 vulkan-1.dll                                                         
+
+
+    Directory: C:\Program Files\Docker\Docker\frontend\locales
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+-a----        27.04.2021     13:45         145526 am.pak                                                               
+-a----        27.04.2021     13:45         148341 ar.pak                                                               
+-a----        27.04.2021     13:45         158258 bg.pak                                                               
+-a----        27.04.2021     13:45         208657 bn.pak                                                               
+-a----        27.04.2021     13:45         101737 ca.pak                                                               
+-a----        27.04.2021     13:45         104066 cs.pak                                                               
+-a----        27.04.2021     13:45          95047 da.pak                                                               
+-a----        27.04.2021     13:45         101320 de.pak                                                               
+-a----        27.04.2021     13:45         176527 el.pak                                                               
+-a----        27.04.2021     13:45          84306 en-GB.pak                                                            
+-a----        27.04.2021     13:45          85049 en-US.pak                                                            
+-a----        27.04.2021     13:45          99513 es-419.pak                                                           
+-a----        27.04.2021     13:45         101771 es.pak                                                               
+-a----        27.04.2021     13:45          91078 et.pak                                                               
+-a----        27.04.2021     13:45         142029 fa.pak                                                               
+-a----        27.04.2021     13:45          93627 fi.pak                                                               
+-a----        27.04.2021     13:45         103585 fil.pak                                                              
+-a----        27.04.2021     13:45         109903 fr.pak                                                               
+-a----        27.04.2021     13:45         199334 gu.pak                                                               
+-a----        27.04.2021     13:45         125141 he.pak                                                               
+-a----        27.04.2021     13:45         206176 hi.pak                                                               
+-a----        27.04.2021     13:45          99157 hr.pak                                                               
+-a----        27.04.2021     13:45         106448 hu.pak                                                               
+-a----        27.04.2021     13:45          91200 id.pak                                                               
+-a----        27.04.2021     13:45          99004 it.pak                                                               
+-a----        27.04.2021     13:45         119741 ja.pak                                                               
+-a----        27.04.2021     13:45         229103 kn.pak                                                               
+-a----        27.04.2021     13:45         100969 ko.pak                                                               
+-a----        27.04.2021     13:45         108003 lt.pak                                                               
+-a----        27.04.2021     13:45         106855 lv.pak                                                               
+-a----        27.04.2021     13:45         240723 ml.pak                                                               
+-a----        27.04.2021     13:45         195832 mr.pak                                                               
+-a----        27.04.2021     13:45          93427 ms.pak                                                               
+-a----        27.04.2021     13:45          92178 nb.pak                                                               
+-a----        27.04.2021     13:45          96144 nl.pak                                                               
+-a----        27.04.2021     13:45         104396 pl.pak                                                               
+-a----        27.04.2021     13:45          98809 pt-BR.pak                                                            
+-a----        27.04.2021     13:45          99563 pt-PT.pak                                                            
+-a----        27.04.2021     13:45         101925 ro.pak                                                               
+-a----        27.04.2021     13:45         161679 ru.pak                                                               
+-a----        27.04.2021     13:45         105796 sk.pak                                                               
+-a----        27.04.2021     13:45         101142 sl.pak                                                               
+-a----        27.04.2021     13:45         151778 sr.pak                                                               
+-a----        27.04.2021     13:45          92143 sv.pak                                                               
+-a----        27.04.2021     13:45          93629 sw.pak                                                               
+-a----        27.04.2021     13:45         235855 ta.pak                                                               
+-a----        27.04.2021     13:45         218383 te.pak                                                               
+-a----        27.04.2021     13:45         187535 th.pak                                                               
+-a----        27.04.2021     13:45          97074 tr.pak                                                               
+-a----        27.04.2021     13:45         162279 uk.pak                                                               
+-a----        27.04.2021     13:45         114423 vi.pak                                                               
+-a----        27.04.2021     13:45          85316 zh-CN.pak                                                            
+-a----        27.04.2021     13:45          85482 zh-TW.pak                                                            
+
+
+    Directory: C:\Program Files\Docker\Docker\frontend\resources
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+d-----        27.04.2021     13:45                app.asar.unpacked                                                    
+-a----        27.04.2021     13:45       21205225 app.asar                                                             
+
+
+    Directory: C:\Program Files\Docker\Docker\frontend\resources\app.asar.unpacked
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+d-----        27.04.2021     13:45                node_modules                                                         
+
+
+    Directory: C:\Program Files\Docker\Docker\frontend\resources\app.asar.unpacked\node_modules
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+d-----        27.04.2021     13:45                node-pty                                                             
+d-----        27.04.2021     13:45                ssh2                                                                 
+
+
+    Directory: C:\Program Files\Docker\Docker\frontend\resources\app.asar.unpacked\node_modules\node-pty
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+d-----        27.04.2021     13:45                build                                                                
+d-----        27.04.2021     13:45                lib                                                                  
+d-----        27.04.2021     13:45                scripts                                                              
+d-----        27.04.2021     13:45                src                                                                  
+-a----        27.04.2021     13:45           3326 LICENSE                                                              
+-a----        27.04.2021     13:45            845 package.json                                                         
+
+
+    Directory: C:\Program Files\Docker\Docker\frontend\resources\app.asar.unpacked\node_modules\node-pty\build
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+d-----        27.04.2021     13:45                deps                                                                 
+d-----        27.04.2021     13:52                Release                                                              
+-a----        27.04.2021     13:45          10947 conpty.vcxproj                                                       
+-a----        27.04.2021     13:45           3724 conpty.vcxproj.filters                                               
+-a----        27.04.2021     13:45          10950 conpty_console_list.vcxproj                                          
+-a----        27.04.2021     13:45           3258 conpty_console_list.vcxproj.filters                                  
+-a----        27.04.2021     13:45          11525 pty.vcxproj                                                          
+-a----        27.04.2021     13:45           3724 pty.vcxproj.filters                                                  
+
+
+    Directory: C:\Program Files\Docker\Docker\frontend\resources\app.asar.unpacked\node_modules\node-pty\build\deps
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+d-----        27.04.2021     13:45                winpty                                                               
+
+
+    Directory: C:\Program Files\Docker\Docker\frontend\resources\app.asar.unpacked\node_modules\node-pty\build\deps\win
+    pty
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+d-----        27.04.2021     13:45                src                                                                  
+
+
+    Directory: C:\Program Files\Docker\Docker\frontend\resources\app.asar.unpacked\node_modules\node-pty\build\deps\win
+    pty\src
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+d-----        27.04.2021     13:45                Release                                                              
+-a----        27.04.2021     13:45          15945 winpty-agent.vcxproj                                                 
+-a----        27.04.2021     13:45          83932 winpty-agent.vcxproj.filters                                         
+-a----        27.04.2021     13:45          12177 winpty-debugserver.vcxproj                                           
+-a----        27.04.2021     13:45          25924 winpty-debugserver.vcxproj.filters                                   
+-a----        27.04.2021     13:45          13189 winpty.vcxproj                                                       
+-a----        27.04.2021     13:45          40769 winpty.vcxproj.filters                                               
+
+
+    Directory: C:\Program Files\Docker\Docker\frontend\resources\app.asar.unpacked\node_modules\node-pty\build\deps\win
+    pty\src\Release
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+d-----        27.04.2021     13:45                obj                                                                  
+
+
+    Directory: C:\Program Files\Docker\Docker\frontend\resources\app.asar.unpacked\node_modules\node-pty\build\deps\win
+    pty\src\Release\obj
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+d-----        27.04.2021     13:45                winpty                                                               
+d-----        27.04.2021     13:45                winpty-agent                                                         
+
+
+    Directory: C:\Program Files\Docker\Docker\frontend\resources\app.asar.unpacked\node_modules\node-pty\build\deps\win
+    pty\src\Release\obj\winpty
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+d-----        27.04.2021     13:45                winpty.tlog                                                          
+
+
+    Directory: C:\Program Files\Docker\Docker\frontend\resources\app.asar.unpacked\node_modules\node-pty\build\deps\win
+    pty\src\Release\obj\winpty\winpty.tlog
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+-a----        27.04.2021     13:45           7422 CL.1044.write.1.tlog                                                 
+-a----        27.04.2021     13:45          42542 CL.command.1.tlog                                                    
+-a----        27.04.2021     13:45         501432 CL.read.1.tlog                                                       
+-a----        27.04.2021     13:45           6456 link.command.1.tlog                                                  
+-a----        27.04.2021     13:45          12354 link.read.1.tlog                                                     
+-a----        27.04.2021     13:45           4614 link.write.1.tlog                                                    
+-a----        27.04.2021     13:45            264 winpty.lastbuildstate                                                
+-a----        27.04.2021     13:45            682 winpty.write.1u.tlog                                                 
+
+
+    Directory: C:\Program Files\Docker\Docker\frontend\resources\app.asar.unpacked\node_modules\node-pty\build\deps\win
+    pty\src\Release\obj\winpty-agent
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+d-----        27.04.2021     13:45                winpty-agent.tlog                                                    
+
+
+    Directory: C:\Program Files\Docker\Docker\frontend\resources\app.asar.unpacked\node_modules\node-pty\build\deps\win
+    pty\src\Release\obj\winpty-agent\winpty-agent.tlog
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+-a----        27.04.2021     13:45          15644 CL.10316.write.1.tlog                                                
+-a----        27.04.2021     13:45          88454 CL.command.1.tlog                                                    
+-a----        27.04.2021     13:45        1137350 CL.read.1.tlog                                                       
+-a----        27.04.2021     13:45          12612 link.command.1.tlog                                                  
+-a----        27.04.2021     13:45          21296 link.read.1.tlog                                                     
+-a----        27.04.2021     13:45           9228 link.write.1.tlog                                                    
+-a----        27.04.2021     13:45            264 winpty-agent.lastbuildstate                                          
+
+
+    Directory: C:\Program Files\Docker\Docker\frontend\resources\app.asar.unpacked\node_modules\node-pty\build\Release
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+-a----        27.04.2021     13:45         292864 conpty.node                                                          
+-a----        27.04.2021     13:45         103936 conpty_console_list.node                                             
+-a----        27.04.2021     13:45         266240 pty.node                                                             
+-a----        27.04.2021     13:52         283624 winpty-agent.exe                                                     
+-a----        27.04.2021     13:52         225792 winpty.dll                                                           
+
+
+    Directory: C:\Program Files\Docker\Docker\frontend\resources\app.asar.unpacked\node_modules\node-pty\lib
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+-a----        27.04.2021     13:45            775 conpty_console_list_agent.js                                         
+-a----        27.04.2021     13:45            564 conpty_console_list_agent.js.map                                     
+-a----        27.04.2021     13:45           1600 eventEmitter2.js                                                     
+-a----        27.04.2021     13:45           1155 eventEmitter2.js.map                                                 
+-a----        27.04.2021     13:45           1266 eventEmitter2.test.js                                                
+-a----        27.04.2021     13:45           1396 eventEmitter2.test.js.map                                            
+-a----        27.04.2021     13:45           1972 index.js                                                             
+-a----        27.04.2021     13:45            964 index.js.map                                                         
+-a----        27.04.2021     13:45            233 interfaces.js                                                        
+-a----        27.04.2021     13:45            124 interfaces.js.map                                                    
+-a----        27.04.2021     13:45           7125 terminal.js                                                          
+-a----        27.04.2021     13:45           5596 terminal.js.map                                                      
+-a----        27.04.2021     13:45           6142 terminal.test.js                                                     
+-a----        27.04.2021     13:45           4081 terminal.test.js.map                                                 
+-a----        27.04.2021     13:45            807 testUtils.test.js                                                    
+-a----        27.04.2021     13:45            622 testUtils.test.js.map                                                
+-a----        27.04.2021     13:45            228 types.js                                                             
+-a----        27.04.2021     13:45            114 types.js.map                                                         
+-a----        27.04.2021     13:45           9982 unixTerminal.js                                                      
+-a----        27.04.2021     13:45           7600 unixTerminal.js.map                                                  
+-a----        27.04.2021     13:45          10367 unixTerminal.test.js                                                 
+-a----        27.04.2021     13:45           7063 unixTerminal.test.js.map                                             
+-a----        27.04.2021     13:45            580 utils.js                                                             
+-a----        27.04.2021     13:45            443 utils.js.map                                                         
+-a----        27.04.2021     13:45          11985 windowsPtyAgent.js                                                   
+-a----        27.04.2021     13:45           8547 windowsPtyAgent.js.map                                               
+-a----        27.04.2021     13:45           4147 windowsPtyAgent.test.js                                              
+-a----        27.04.2021     13:45           2951 windowsPtyAgent.test.js.map                                          
+-a----        27.04.2021     13:45           7408 windowsTerminal.js                                                   
+-a----        27.04.2021     13:45           4717 windowsTerminal.js.map                                               
+-a----        27.04.2021     13:45           8698 windowsTerminal.test.js                                              
+-a----        27.04.2021     13:45           7426 windowsTerminal.test.js.map                                          
+
+
+    Directory: C:\Program Files\Docker\Docker\frontend\resources\app.asar.unpacked\node_modules\node-pty\scripts
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+-a----        27.04.2021     13:45            427 install.js                                                           
+-a----        27.04.2021     13:45           1171 post-install.js                                                      
+-a----        27.04.2021     13:45           2369 publish.js                                                           
+
+
+    Directory: C:\Program Files\Docker\Docker\frontend\resources\app.asar.unpacked\node_modules\node-pty\src
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+d-----        27.04.2021     13:45                win                                                                  
+-a----        27.04.2021     13:45            695 conpty_console_list_agent.ts                                         
+-a----        27.04.2021     13:45            975 eventEmitter2.test.ts                                                
+-a----        27.04.2021     13:45           1111 eventEmitter2.ts                                                     
+-a----        27.04.2021     13:45           2115 index.ts                                                             
+-a----        27.04.2021     13:45           2724 interfaces.ts                                                        
+-a----        27.04.2021     13:45           4269 terminal.test.ts                                                     
+-a----        27.04.2021     13:45           6458 terminal.ts                                                          
+-a----        27.04.2021     13:45            567 testUtils.test.ts                                                    
+-a----        27.04.2021     13:45            384 tsconfig.json                                                        
+-a----        27.04.2021     13:45            306 types.ts                                                             
+-a----        27.04.2021     13:45           8377 unixTerminal.test.ts                                                 
+-a----        27.04.2021     13:45           7946 unixTerminal.ts                                                      
+-a----        27.04.2021     13:45            292 utils.ts                                                             
+-a----        27.04.2021     13:45           3419 windowsPtyAgent.test.ts                                              
+-a----        27.04.2021     13:45           9987 windowsPtyAgent.ts                                                   
+-a----        27.04.2021     13:45           6834 windowsTerminal.test.ts                                              
+-a----        27.04.2021     13:45           5393 windowsTerminal.ts                                                   
+
+
+    Directory: C:\Program Files\Docker\Docker\frontend\resources\app.asar.unpacked\node_modules\node-pty\src\win
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+-a----        27.04.2021     13:45            528 path_util.h                                                          
+
+
+    Directory: C:\Program Files\Docker\Docker\frontend\resources\app.asar.unpacked\node_modules\ssh2
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+d-----        27.04.2021     13:45                lib                                                                  
+d-----        27.04.2021     13:52                util                                                                 
+-a----        27.04.2021     13:45           1067 LICENSE                                                              
+-a----        27.04.2021     13:45            509 package.json                                                         
+
+
+    Directory: C:\Program Files\Docker\Docker\frontend\resources\app.asar.unpacked\node_modules\ssh2\lib
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+-a----        27.04.2021     13:45          12522 agent.js                                                             
+-a----        27.04.2021     13:45            649 buffer-helpers.js                                                    
+-a----        27.04.2021     13:45          13301 Channel.js                                                           
+-a----        27.04.2021     13:45          47874 client.js                                                            
+-a----        27.04.2021     13:45           1697 http-agents.js                                                       
+-a----        27.04.2021     13:45           1952 keepalivemgr.js                                                      
+-a----        27.04.2021     13:45          32862 server.js                                                            
+-a----        27.04.2021     13:45           5290 SFTPWrapper.js                                                       
+
+
+    Directory: C:\Program Files\Docker\Docker\frontend\resources\app.asar.unpacked\node_modules\ssh2\util
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+-a----        27.04.2021     13:45             41 build_pagent.bat                                                     
+-a----        27.04.2021     13:45           2096 pagent.c                                                             
+-a----        27.04.2021     13:52          57328 pagent.exe                                                           
+
+
+    Directory: C:\Program Files\Docker\Docker\frontend\swiftshader
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+-a----        27.04.2021     13:52         471552 libEGL.dll                                                           
+-a----        27.04.2021     13:52        3246592 libGLESv2.dll                                                        
+
+
+    Directory: C:\Program Files\Docker\Docker\resources
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+d-----        27.04.2021     13:53                bin                                                                  
+d-----        27.04.2021     13:54                cli-plugins                                                          
+d-----        27.04.2021     13:48                qemu-img                                                             
+d-----        27.04.2021     13:51                wsl                                                                  
+-a----        27.04.2021     13:45            244 .gitignore                                                           
+-a----        27.04.2021     13:54       38489552 com.docker.backend.exe                                               
+-a----        27.04.2021     13:54       13662160 com.docker.diagnose.exe                                              
+-a----        27.04.2021     13:54       15729616 com.docker.proxy.exe                                                 
+-a----        27.04.2021     13:55       29259744 com.docker.wsl-distro-proxy.exe                                      
+-a----        27.04.2021     13:45            331 componentsVersion.json                                               
+-a----        27.04.2021     13:45            616 config-options.json                                                  
+-a----        27.04.2021     13:45         370070 ddvp.ico                                                             
+-a----        27.04.2021     13:45           1243 docker                                                               
+-a----        27.04.2021     13:46      420802560 docker-desktop.iso                                                   
+-a----        27.04.2021     13:48      415636992 docker.tar                                                           
+-a----        27.04.2021     13:55       65471952 dockerd.exe                                                          
+-a----        27.04.2021     13:48          14685 DockerDebugInfo.ps1                                                  
+-a----        27.04.2021     13:48        7376865 lcow-initrd.img                                                      
+-a----        27.04.2021     13:48        8008576 lcow-kernel                                                          
+-a----        27.04.2021     13:48          19036 LICENSE.rtf                                                          
+-a----        27.04.2021     13:48           2237 linux-daemon-options.json                                            
+-a----        27.04.2021     13:48        5291538 OSS-LICENSES                                                         
+-a----        27.04.2021     13:49      142663680 services.tar                                                         
+-a----        27.04.2021     13:55       72015848 snyk.exe                                                             
+-a----        27.04.2021     13:49           5708 tile-error.png                                                       
+-a----        27.04.2021     13:49           5449 tile-icon.png                                                        
+-a----        27.04.2021     13:55        9417680 vpnkit-bridge.exe                                                    
+-a----        27.04.2021     13:55       24999824 vpnkit.exe                                                           
+-a----        27.04.2021     13:49          15146 WinContainersDiags.ps1                                               
+-a----        27.04.2021     13:49           1156 windows-daemon-options.json                                          
+
+
+    Directory: C:\Program Files\Docker\Docker\resources\bin
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+-a----        27.04.2021     13:53       54865360 com.docker.cli.exe                                                   
+-a----        27.04.2021     13:45           1243 docker-compose                                                       
+-a----        27.04.2021     13:53       10453768 docker-compose.exe                                                   
+-a----        27.04.2021     13:53       11815416 docker-credential-desktop.exe                                        
+-a----        27.04.2021     13:53        8290304 docker-credential-ecr-login.exe                                      
+-a----        27.04.2021     13:53        2829800 docker-credential-wincred.exe                                        
+-a----        27.04.2021     13:53       62326216 docker.exe                                                           
+-a----        27.04.2021     13:53       14256592 hub-tool.exe                                                         
+-a----        27.04.2021     13:53       44269704 kubectl.exe                                                          
+-a----        27.04.2021     13:53        9342928 notary.exe                                                           
+
+
+    Directory: C:\Program Files\Docker\Docker\resources\cli-plugins
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+-a----        27.04.2021     13:54       37248648 docker-app.exe                                                       
+-a----        27.04.2021     13:54       60843656 docker-buildx.exe                                                    
+-a----        27.04.2021     13:54       12766168 docker-scan.exe                                                      
+
+
+    Directory: C:\Program Files\Docker\Docker\resources\qemu-img
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+-a----        27.04.2021     13:48          17992 COPYING                                                              
+-a----        27.04.2021     13:48          26426 COPYING.LIB                                                          
+-a----        27.04.2021     13:48            846 LICENSE                                                              
+-a----        27.04.2021     13:48             56 SOURCES                                                              
+-a----        27.04.2021     13:48              6 VERSION                                                              
+
+
+    Directory: C:\Program Files\Docker\Docker\resources\wsl
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+-a----        27.04.2021     13:50      360032256 docker-for-wsl.iso                                                   
+-a----        27.04.2021     13:51      415635456 docker-wsl-cli.iso                                                   
+-a----        27.04.2021     13:51       68103168 wsl-bootstrap.tar                                                    
+-a----        27.04.2021     13:51        1580032 wsl-data.tar                                                         
+
+
+
+
+$ "Get-ChildItem -Recurse \"C:\\\\Users\\\\Neuro\\\\AppData\\\\Local\\\\Docker\""
+
+
+    Directory: C:\Users\Neuro\AppData\Local\Docker
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+d-----        27.04.2021     17:05                pki                                                                  
+d-----        27.04.2021     15:54                wsl                                                                  
+-a----        27.04.2021     17:04            821 install-log.1.txt                                                    
+-a----        27.04.2021     17:01            798 install-log.2.txt                                                    
+-a----        27.04.2021     17:01            533 install-log.3.txt                                                    
+-a----        27.04.2021     16:05            821 install-log.4.txt                                                    
+-a----        27.04.2021     16:05            798 install-log.5.txt                                                    
+-a----        27.04.2021     16:05            533 install-log.6.txt                                                    
+-a----        27.04.2021     15:54            798 install-log.7.txt                                                    
+-a----        27.04.2021     15:54            533 install-log.8.txt                                                    
+-a----        27.04.2021     13:57           1668 install-log.9.txt                                                    
+-a----        27.04.2021     17:24            821 install-log.txt                                                      
+-a----        27.04.2021     16:03          42415 log.0.txt                                                            
+-a----        27.04.2021     16:49         109226 log.1.txt                                                            
+-a----        27.04.2021     17:40          84113 log.txt                                                              
+
+
+    Directory: C:\Users\Neuro\AppData\Local\Docker\pki
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+d-----        27.04.2021     17:05                etcd                                                                 
+-a----        27.04.2021     17:05           1135 apiserver-etcd-client.crt                                            
+-a----        27.04.2021     17:05           1675 apiserver-etcd-client.key                                            
+-a----        27.04.2021     17:05           1143 apiserver-kubelet-client.crt                                         
+-a----        27.04.2021     17:05           1679 apiserver-kubelet-client.key                                         
+-a----        27.04.2021     17:05           1391 apiserver.crt                                                        
+-a----        27.04.2021     17:05           1675 apiserver.key                                                        
+-a----        27.04.2021     17:05           1066 ca.crt                                                               
+-a----        27.04.2021     17:05           1679 ca.key                                                               
+-a----        27.04.2021     17:05           1078 front-proxy-ca.crt                                                   
+-a----        27.04.2021     17:05           1679 front-proxy-ca.key                                                   
+-a----        27.04.2021     17:05           1103 front-proxy-client.crt                                               
+-a----        27.04.2021     17:05           1679 front-proxy-client.key                                               
+-a----        27.04.2021     17:05           1679 sa.key                                                               
+-a----        27.04.2021     17:05            451 sa.pub                                                               
+
+
+    Directory: C:\Users\Neuro\AppData\Local\Docker\pki\etcd
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+-a----        27.04.2021     17:05           1058 ca.crt                                                               
+-a----        27.04.2021     17:05           1675 ca.key                                                               
+-a----        27.04.2021     17:05           1139 healthcheck-client.crt                                               
+-a----        27.04.2021     17:05           1675 healthcheck-client.key                                               
+-a----        27.04.2021     17:05           1204 peer.crt                                                             
+-a----        27.04.2021     17:05           1679 peer.key                                                             
+-a----        27.04.2021     17:05           1204 server.crt                                                           
+-a----        27.04.2021     17:05           1675 server.key                                                           
+
+
+    Directory: C:\Users\Neuro\AppData\Local\Docker\wsl
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+d-----        27.04.2021     17:33                distro                                                               
+
+
+
+
+$ "Get-ChildItem -Recurse \"C:\\\\ProgramData\\\\DockerDesktop\""
+
+
+    Directory: C:\ProgramData\DockerDesktop
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+d-----        27.04.2021     15:54                tmp-d4w                                                              
+d-----        27.04.2021     13:57                version-bin                                                          
+-a----        27.04.2021     13:57            553 service.0.txt                                                        
+-a----        27.04.2021     16:03           8456 service.1.txt                                                        
+-a----        27.04.2021     17:33          24574 service.txt                                                          
+
+
+    Directory: C:\ProgramData\DockerDesktop\tmp-d4w
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+-a----        27.04.2021     16:05             13 host.docker.internal                                                 
+
+
+
+
+$ "Get-ChildItem -Recurse \"C:\\\\ProgramData\\\\Docker\\\\cli-plugins\""
+
+
+    Directory: C:\ProgramData\Docker\cli-plugins
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+-a----        27.04.2021     13:54       37248648 docker-app.exe                                                       
+-a----        27.04.2021     13:54       60843656 docker-buildx.exe                                                    
+-a----        27.04.2021     13:54       12766168 docker-scan.exe                                                      
+
+

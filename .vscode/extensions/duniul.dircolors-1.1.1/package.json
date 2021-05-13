@@ -1,0 +1,112 @@
+{
+	"name": "dircolors",
+	"displayName": "dircolors",
+	"description": "Syntax highlighting, formatting and snippets for .dircolors files",
+	"version": "1.1.1",
+	"author": "Daniel Grefberg",
+	"publisher": "duniul",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/duniul/vscode-dircolors"
+	},
+	"bugs": {
+		"url": "https://github.com/duniul/vscode-dircolors/issues"
+	},
+	"homepage": "https://github.com/duniul/vscode-dircolors",
+	"icon": "images/dircolors-icon.png",
+	"engines": {
+		"vscode": "^1.47.0"
+	},
+	"categories": [
+		"Programming Languages",
+		"Snippets"
+	],
+	"keywords": [
+		"shell",
+		"bash",
+		"zsh",
+		"fish",
+		"dircolors",
+		"LS_COLORS"
+	],
+	"main": "dist/extension.js",
+	"activationEvents": [
+		"onLanguage:dircolors"
+	],
+	"contributes": {
+		"languages": [
+			{
+				"id": "dircolors",
+				"aliases": [
+					"dircolors",
+					"LS_COLORS"
+				],
+				"extensions": [
+					".dircolors"
+				],
+				"configuration": "./language-configuration.json"
+			}
+		],
+		"grammars": [
+			{
+				"language": "dircolors",
+				"scopeName": "source.dircolors",
+				"path": "./syntaxes/dircolors.tmLanguage.json"
+			}
+		],
+		"snippets": [
+			{
+				"language": "dircolors",
+				"path": "./snippets/attributes.json"
+			},
+			{
+				"language": "dircolors",
+				"path": "./snippets/colors.json"
+			},
+			{
+				"language": "dircolors",
+				"path": "./snippets/keywords.json"
+			}
+		],
+		"configuration": {
+			"title": "dircolors",
+			"properties": {
+				"dircolors.minSpacing": {
+					"type": "number",
+					"default": 1,
+					"minimum": 1,
+					"description": "Minimum number of spaces between keyword and value."
+				},
+				"dircolors.formatColumns": {
+					"type": "boolean",
+					"default": true,
+					"description": "Toggle whether or not neighboring declarations should be formatted in columns."
+				}
+			}
+		}
+	},
+	"scripts": {
+		"dev": "webpack --mode=development --watch",
+		"build": "rm -rf dist && webpack --mode=production",
+		"release": "yarn build && vsce publish",
+		"package": "yarn build && vsce package"
+	},
+	"devDependencies": {
+		"@typescript-eslint/eslint-plugin": "^3.7.1",
+		"@typescript-eslint/parser": "^3.7.1",
+		"eslint": "^7.5.0",
+		"prettier": "^2.0.5",
+		"ts-loader": "^8.0.1",
+		"typescript": "^3.9.7",
+		"vsce": "^1.77.0",
+		"vscode": "^1.1.37",
+		"webpack": "^4.44.0",
+		"webpack-cli": "^3.3.12"
+	},
+	"__metadata": {
+		"id": "db8484a8-3532-40ce-8f8e-06654bb757f0",
+		"publisherId": "6b8a6530-9ec6-4205-9f40-0d1d3bd29a27",
+		"publisherDisplayName": "Daniel Grefberg",
+		"installedTimestamp": 1619545540351
+	}
+}

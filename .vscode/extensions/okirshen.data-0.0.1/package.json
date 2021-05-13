@@ -1,0 +1,42 @@
+{
+	"name": "data",
+	"displayName": "data file support",
+	"description": "A simple data file for simple usage",
+	"version": "0.0.1",
+	"publisher": "okirshen",
+	"engines": {
+		"vscode": "^1.54.0"
+	},
+	"categories": [
+		"Programming Languages"
+	],
+	"contributes": {
+		"languages": [
+			{
+				"id": "data",
+				"aliases": [
+					"data",
+					"data"
+				],
+				"extensions": [
+					".dat",
+					".data"
+				],
+				"configuration": "./language-configuration.json"
+			}
+		],
+		"grammars": [
+			{
+				"language": "data",
+				"scopeName": "source.dat",
+				"path": "./syntaxes/data.tmLanguage.json"
+			}
+		]
+	},
+	"__metadata": {
+		"id": "0e7d46cc-73f4-4921-83a5-5dd1b750fc87",
+		"publisherId": "604c5dae-005a-43b7-aa07-be8b862a7ac4",
+		"publisherDisplayName": "okirshen",
+		"installedTimestamp": 1619545544051
+	}
+}

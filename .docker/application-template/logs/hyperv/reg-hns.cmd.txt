@@ -1,0 +1,1 @@
+powershell -NoProfile -Command &{ Get-ChildItem HKLM:\SYSTEM\CurrentControlSet\Services\hns -Recurse }

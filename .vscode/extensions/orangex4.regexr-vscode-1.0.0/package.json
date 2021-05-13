@@ -1,0 +1,66 @@
+{
+	"name": "regexr-vscode",
+	"displayName": "RegExr VSCode",
+	"description": "RegExr for vscode",
+	"publisher": "OrangeX4",
+	"version": "1.0.0",
+	"engines": {
+		"vscode": "^1.46.0"
+	},
+	"keywords": [
+		"vscode",
+		"reg",
+		"regular expression"
+	],
+	"categories": [
+		"Other"
+	],
+	"activationEvents": [
+		"onCommand:regexr-vscode.regexr"
+	],
+	"main": "./extension.js",
+	"contributes": {
+		"commands": [
+			{
+				"command": "regexr-vscode.regexr",
+				"title": "Run RegExr"
+			}
+		]
+	},
+	"scripts": {
+		"lint": "eslint .",
+		"pretest": "yarn run lint",
+		"test": "node ./test/runTest.js"
+	},
+	"devDependencies": {
+		"@types/vscode": "^1.46.0",
+		"@types/glob": "^7.1.3",
+		"@types/mocha": "^8.0.0",
+		"@types/node": "^12.11.7",
+		"eslint": "^7.9.0",
+		"glob": "^7.1.6",
+		"mocha": "^8.1.3",
+		"typescript": "^4.0.2",
+		"vscode-test": "^1.4.0"
+	},
+	"license": "GPL",
+	"bugs": {
+		"url": "https://github.com/gskinner/regexr/issues"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/gskinner/regexr"
+	},
+	"homepage": "http://regexr.com/",
+	"dependencies": {
+		"@types/mathjs": "^6.0.11",
+		"mathjs": "^8.1.1",
+		"upimg": "^0.5.0"
+	},
+	"__metadata": {
+		"id": "6efe5f98-79b0-4fe9-9ebc-193224468f17",
+		"publisherId": "74c25129-288b-4b52-bf90-a283319b966e",
+		"publisherDisplayName": "OrangeX4",
+		"installedTimestamp": 1619545635510
+	}
+}

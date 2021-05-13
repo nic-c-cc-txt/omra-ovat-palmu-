@@ -1,0 +1,1 @@
+powershell -NoProfile -Command &{ Get-Item 'Registry::HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion' }

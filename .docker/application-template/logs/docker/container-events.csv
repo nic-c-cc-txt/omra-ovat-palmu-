@@ -1,0 +1,669 @@
+#TYPE System.Diagnostics.Eventing.Reader.EventLogRecord
+"Message","Id","Version","Qualifiers","Level","Task","Opcode","Keywords","RecordId","ProviderName","ProviderId","LogName","ProcessId","ThreadId","MachineName","UserId","TimeCreated","ActivityId","RelatedActivityId","ContainerLog","MatchedQueryIds","Bookmark","LevelDisplayName","OpcodeDisplayName","TaskDisplayName","KeywordsDisplayNames","Properties"
+"Ioctl End
+
+ioctlCode: 0x00000d15,
+delta (100 ns): 48,
+ntStatus: 0x00000000","0","0",,"5","0","0","0","158","Microsoft-Windows-Hyper-V-VmSwitch","67dc0d66-3695-47c0-9642-33f76f7bd7ad","Microsoft-Windows-Hyper-V-VmSwitch-Operational","8104","7584","DESKTOP-NE4F0PQ","S-1-5-18","27.04.2021 17:33:07",,,"Microsoft-Windows-Hyper-V-VmSwitch-Operational","System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","5","0","Ioctl End","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"Ioctl Begin
+
+ioctlCode: 0x00000d15","0","0",,"5","0","0","0","157","Microsoft-Windows-Hyper-V-VmSwitch","67dc0d66-3695-47c0-9642-33f76f7bd7ad","Microsoft-Windows-Hyper-V-VmSwitch-Operational","8104","7584","DESKTOP-NE4F0PQ","S-1-5-18","27.04.2021 17:33:07",,,"Microsoft-Windows-Hyper-V-VmSwitch-Operational","System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","5","0","Ioctl Begin","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"Ioctl End
+
+ioctlCode: 0x00000d15,
+delta (100 ns): 63,
+ntStatus: 0x80000005","0","0",,"5","0","0","0","156","Microsoft-Windows-Hyper-V-VmSwitch","67dc0d66-3695-47c0-9642-33f76f7bd7ad","Microsoft-Windows-Hyper-V-VmSwitch-Operational","8104","7584","DESKTOP-NE4F0PQ","S-1-5-18","27.04.2021 17:33:07",,,"Microsoft-Windows-Hyper-V-VmSwitch-Operational","System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","5","0","Ioctl End","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"Ioctl Begin
+
+ioctlCode: 0x00000d15","0","0",,"5","0","0","0","155","Microsoft-Windows-Hyper-V-VmSwitch","67dc0d66-3695-47c0-9642-33f76f7bd7ad","Microsoft-Windows-Hyper-V-VmSwitch-Operational","8104","7584","DESKTOP-NE4F0PQ","S-1-5-18","27.04.2021 17:33:07",,,"Microsoft-Windows-Hyper-V-VmSwitch-Operational","System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","5","0","Ioctl Begin","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"Ioctl End
+
+ioctlCode: 0x0000081f,
+delta (100 ns): 74,
+ntStatus: 0x00000000","0","0",,"5","0","0","0","154","Microsoft-Windows-Hyper-V-VmSwitch","67dc0d66-3695-47c0-9642-33f76f7bd7ad","Microsoft-Windows-Hyper-V-VmSwitch-Operational","8104","7584","DESKTOP-NE4F0PQ","S-1-5-18","27.04.2021 17:33:07",,,"Microsoft-Windows-Hyper-V-VmSwitch-Operational","System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","5","0","Ioctl End","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"Ioctl Begin
+
+ioctlCode: 0x0000081f","0","0",,"5","0","0","0","153","Microsoft-Windows-Hyper-V-VmSwitch","67dc0d66-3695-47c0-9642-33f76f7bd7ad","Microsoft-Windows-Hyper-V-VmSwitch-Operational","8104","7584","DESKTOP-NE4F0PQ","S-1-5-18","27.04.2021 17:33:07",,,"Microsoft-Windows-Hyper-V-VmSwitch-Operational","System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","5","0","Ioctl Begin","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"Ioctl End
+
+ioctlCode: 0x0000081f,
+delta (100 ns): 141,
+ntStatus: 0x00000000","0","0",,"5","0","0","0","152","Microsoft-Windows-Hyper-V-VmSwitch","67dc0d66-3695-47c0-9642-33f76f7bd7ad","Microsoft-Windows-Hyper-V-VmSwitch-Operational","8104","7584","DESKTOP-NE4F0PQ","S-1-5-18","27.04.2021 17:33:07",,,"Microsoft-Windows-Hyper-V-VmSwitch-Operational","System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","5","0","Ioctl End","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"Ioctl Begin
+
+ioctlCode: 0x0000081f","0","0",,"5","0","0","0","151","Microsoft-Windows-Hyper-V-VmSwitch","67dc0d66-3695-47c0-9642-33f76f7bd7ad","Microsoft-Windows-Hyper-V-VmSwitch-Operational","8104","7584","DESKTOP-NE4F0PQ","S-1-5-18","27.04.2021 17:33:07",,,"Microsoft-Windows-Hyper-V-VmSwitch-Operational","System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","5","0","Ioctl Begin","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"Ioctl End
+
+ioctlCode: 0x0000081f,
+delta (100 ns): 129,
+ntStatus: 0x00000000","0","0",,"5","0","0","0","150","Microsoft-Windows-Hyper-V-VmSwitch","67dc0d66-3695-47c0-9642-33f76f7bd7ad","Microsoft-Windows-Hyper-V-VmSwitch-Operational","9272","8496","DESKTOP-NE4F0PQ","S-1-5-18","27.04.2021 17:04:35",,,"Microsoft-Windows-Hyper-V-VmSwitch-Operational","System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","5","0","Ioctl End","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"Ioctl Begin
+
+ioctlCode: 0x0000081f","0","0",,"5","0","0","0","149","Microsoft-Windows-Hyper-V-VmSwitch","67dc0d66-3695-47c0-9642-33f76f7bd7ad","Microsoft-Windows-Hyper-V-VmSwitch-Operational","9272","8496","DESKTOP-NE4F0PQ","S-1-5-18","27.04.2021 17:04:35",,,"Microsoft-Windows-Hyper-V-VmSwitch-Operational","System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","5","0","Ioctl Begin","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"Ioctl End
+
+ioctlCode: 0x00000d15,
+delta (100 ns): 40,
+ntStatus: 0x00000000","0","0",,"5","0","0","0","148","Microsoft-Windows-Hyper-V-VmSwitch","67dc0d66-3695-47c0-9642-33f76f7bd7ad","Microsoft-Windows-Hyper-V-VmSwitch-Operational","8180","3100","DESKTOP-NE4F0PQ","S-1-5-18","27.04.2021 17:01:18",,,"Microsoft-Windows-Hyper-V-VmSwitch-Operational","System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","5","0","Ioctl End","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"Ioctl Begin
+
+ioctlCode: 0x00000d15","0","0",,"5","0","0","0","147","Microsoft-Windows-Hyper-V-VmSwitch","67dc0d66-3695-47c0-9642-33f76f7bd7ad","Microsoft-Windows-Hyper-V-VmSwitch-Operational","8180","3100","DESKTOP-NE4F0PQ","S-1-5-18","27.04.2021 17:01:18",,,"Microsoft-Windows-Hyper-V-VmSwitch-Operational","System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","5","0","Ioctl Begin","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"Ioctl End
+
+ioctlCode: 0x00000d15,
+delta (100 ns): 48,
+ntStatus: 0x80000005","0","0",,"5","0","0","0","146","Microsoft-Windows-Hyper-V-VmSwitch","67dc0d66-3695-47c0-9642-33f76f7bd7ad","Microsoft-Windows-Hyper-V-VmSwitch-Operational","8180","3100","DESKTOP-NE4F0PQ","S-1-5-18","27.04.2021 17:01:18",,,"Microsoft-Windows-Hyper-V-VmSwitch-Operational","System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","5","0","Ioctl End","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"Ioctl Begin
+
+ioctlCode: 0x00000d15","0","0",,"5","0","0","0","145","Microsoft-Windows-Hyper-V-VmSwitch","67dc0d66-3695-47c0-9642-33f76f7bd7ad","Microsoft-Windows-Hyper-V-VmSwitch-Operational","8180","3100","DESKTOP-NE4F0PQ","S-1-5-18","27.04.2021 17:01:18",,,"Microsoft-Windows-Hyper-V-VmSwitch-Operational","System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","5","0","Ioctl Begin","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"Ioctl End
+
+ioctlCode: 0x0000081f,
+delta (100 ns): 53,
+ntStatus: 0x00000000","0","0",,"5","0","0","0","144","Microsoft-Windows-Hyper-V-VmSwitch","67dc0d66-3695-47c0-9642-33f76f7bd7ad","Microsoft-Windows-Hyper-V-VmSwitch-Operational","8180","3100","DESKTOP-NE4F0PQ","S-1-5-18","27.04.2021 17:01:18",,,"Microsoft-Windows-Hyper-V-VmSwitch-Operational","System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","5","0","Ioctl End","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"Ioctl Begin
+
+ioctlCode: 0x0000081f","0","0",,"5","0","0","0","143","Microsoft-Windows-Hyper-V-VmSwitch","67dc0d66-3695-47c0-9642-33f76f7bd7ad","Microsoft-Windows-Hyper-V-VmSwitch-Operational","8180","3100","DESKTOP-NE4F0PQ","S-1-5-18","27.04.2021 17:01:18",,,"Microsoft-Windows-Hyper-V-VmSwitch-Operational","System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","5","0","Ioctl Begin","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"Ioctl End
+
+ioctlCode: 0x0000081f,
+delta (100 ns): 133,
+ntStatus: 0x00000000","0","0",,"5","0","0","0","142","Microsoft-Windows-Hyper-V-VmSwitch","67dc0d66-3695-47c0-9642-33f76f7bd7ad","Microsoft-Windows-Hyper-V-VmSwitch-Operational","8180","3100","DESKTOP-NE4F0PQ","S-1-5-18","27.04.2021 17:01:18",,,"Microsoft-Windows-Hyper-V-VmSwitch-Operational","System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","5","0","Ioctl End","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"Ioctl Begin
+
+ioctlCode: 0x0000081f","0","0",,"5","0","0","0","141","Microsoft-Windows-Hyper-V-VmSwitch","67dc0d66-3695-47c0-9642-33f76f7bd7ad","Microsoft-Windows-Hyper-V-VmSwitch-Operational","8180","3100","DESKTOP-NE4F0PQ","S-1-5-18","27.04.2021 17:01:18",,,"Microsoft-Windows-Hyper-V-VmSwitch-Operational","System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","5","0","Ioctl Begin","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"Ioctl End
+
+ioctlCode: 0x00000d15,
+delta (100 ns): 60,
+ntStatus: 0x00000000","0","0",,"5","0","0","0","140","Microsoft-Windows-Hyper-V-VmSwitch","67dc0d66-3695-47c0-9642-33f76f7bd7ad","Microsoft-Windows-Hyper-V-VmSwitch-Operational","3120","5420","DESKTOP-NE4F0PQ","S-1-5-18","27.04.2021 16:49:49",,,"Microsoft-Windows-Hyper-V-VmSwitch-Operational","System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","5","0","Ioctl End","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"Ioctl Begin
+
+ioctlCode: 0x00000d15","0","0",,"5","0","0","0","139","Microsoft-Windows-Hyper-V-VmSwitch","67dc0d66-3695-47c0-9642-33f76f7bd7ad","Microsoft-Windows-Hyper-V-VmSwitch-Operational","3120","5420","DESKTOP-NE4F0PQ","S-1-5-18","27.04.2021 16:49:49",,,"Microsoft-Windows-Hyper-V-VmSwitch-Operational","System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","5","0","Ioctl Begin","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"Ioctl End
+
+ioctlCode: 0x00000d15,
+delta (100 ns): 59,
+ntStatus: 0x80000005","0","0",,"5","0","0","0","138","Microsoft-Windows-Hyper-V-VmSwitch","67dc0d66-3695-47c0-9642-33f76f7bd7ad","Microsoft-Windows-Hyper-V-VmSwitch-Operational","3120","5420","DESKTOP-NE4F0PQ","S-1-5-18","27.04.2021 16:49:49",,,"Microsoft-Windows-Hyper-V-VmSwitch-Operational","System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","5","0","Ioctl End","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"Ioctl Begin
+
+ioctlCode: 0x00000d15","0","0",,"5","0","0","0","137","Microsoft-Windows-Hyper-V-VmSwitch","67dc0d66-3695-47c0-9642-33f76f7bd7ad","Microsoft-Windows-Hyper-V-VmSwitch-Operational","3120","5420","DESKTOP-NE4F0PQ","S-1-5-18","27.04.2021 16:49:49",,,"Microsoft-Windows-Hyper-V-VmSwitch-Operational","System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","5","0","Ioctl Begin","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"Ioctl End
+
+ioctlCode: 0x0000081f,
+delta (100 ns): 62,
+ntStatus: 0x00000000","0","0",,"5","0","0","0","136","Microsoft-Windows-Hyper-V-VmSwitch","67dc0d66-3695-47c0-9642-33f76f7bd7ad","Microsoft-Windows-Hyper-V-VmSwitch-Operational","3120","5420","DESKTOP-NE4F0PQ","S-1-5-18","27.04.2021 16:49:49",,,"Microsoft-Windows-Hyper-V-VmSwitch-Operational","System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","5","0","Ioctl End","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"Ioctl Begin
+
+ioctlCode: 0x0000081f","0","0",,"5","0","0","0","135","Microsoft-Windows-Hyper-V-VmSwitch","67dc0d66-3695-47c0-9642-33f76f7bd7ad","Microsoft-Windows-Hyper-V-VmSwitch-Operational","3120","5420","DESKTOP-NE4F0PQ","S-1-5-18","27.04.2021 16:49:49",,,"Microsoft-Windows-Hyper-V-VmSwitch-Operational","System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","5","0","Ioctl Begin","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"Ioctl End
+
+ioctlCode: 0x0000081f,
+delta (100 ns): 142,
+ntStatus: 0x00000000","0","0",,"5","0","0","0","134","Microsoft-Windows-Hyper-V-VmSwitch","67dc0d66-3695-47c0-9642-33f76f7bd7ad","Microsoft-Windows-Hyper-V-VmSwitch-Operational","3120","5420","DESKTOP-NE4F0PQ","S-1-5-18","27.04.2021 16:49:49",,,"Microsoft-Windows-Hyper-V-VmSwitch-Operational","System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","5","0","Ioctl End","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"Ioctl Begin
+
+ioctlCode: 0x0000081f","0","0",,"5","0","0","0","133","Microsoft-Windows-Hyper-V-VmSwitch","67dc0d66-3695-47c0-9642-33f76f7bd7ad","Microsoft-Windows-Hyper-V-VmSwitch-Operational","3120","5420","DESKTOP-NE4F0PQ","S-1-5-18","27.04.2021 16:49:49",,,"Microsoft-Windows-Hyper-V-VmSwitch-Operational","System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","5","0","Ioctl Begin","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"Ioctl End
+
+ioctlCode: 0x00000d15,
+delta (100 ns): 41,
+ntStatus: 0x00000000","0","0",,"5","0","0","0","132","Microsoft-Windows-Hyper-V-VmSwitch","67dc0d66-3695-47c0-9642-33f76f7bd7ad","Microsoft-Windows-Hyper-V-VmSwitch-Operational","3064","6332","DESKTOP-NE4F0PQ","S-1-5-18","27.04.2021 16:13:16",,,"Microsoft-Windows-Hyper-V-VmSwitch-Operational","System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","5","0","Ioctl End","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"Ioctl Begin
+
+ioctlCode: 0x00000d15","0","0",,"5","0","0","0","131","Microsoft-Windows-Hyper-V-VmSwitch","67dc0d66-3695-47c0-9642-33f76f7bd7ad","Microsoft-Windows-Hyper-V-VmSwitch-Operational","3064","6332","DESKTOP-NE4F0PQ","S-1-5-18","27.04.2021 16:13:16",,,"Microsoft-Windows-Hyper-V-VmSwitch-Operational","System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","5","0","Ioctl Begin","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"Ioctl End
+
+ioctlCode: 0x00000d15,
+delta (100 ns): 43,
+ntStatus: 0x80000005","0","0",,"5","0","0","0","130","Microsoft-Windows-Hyper-V-VmSwitch","67dc0d66-3695-47c0-9642-33f76f7bd7ad","Microsoft-Windows-Hyper-V-VmSwitch-Operational","3064","6332","DESKTOP-NE4F0PQ","S-1-5-18","27.04.2021 16:13:16",,,"Microsoft-Windows-Hyper-V-VmSwitch-Operational","System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","5","0","Ioctl End","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"Ioctl Begin
+
+ioctlCode: 0x00000d15","0","0",,"5","0","0","0","129","Microsoft-Windows-Hyper-V-VmSwitch","67dc0d66-3695-47c0-9642-33f76f7bd7ad","Microsoft-Windows-Hyper-V-VmSwitch-Operational","3064","6332","DESKTOP-NE4F0PQ","S-1-5-18","27.04.2021 16:13:16",,,"Microsoft-Windows-Hyper-V-VmSwitch-Operational","System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","5","0","Ioctl Begin","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"Ioctl End
+
+ioctlCode: 0x0000081f,
+delta (100 ns): 47,
+ntStatus: 0x00000000","0","0",,"5","0","0","0","128","Microsoft-Windows-Hyper-V-VmSwitch","67dc0d66-3695-47c0-9642-33f76f7bd7ad","Microsoft-Windows-Hyper-V-VmSwitch-Operational","3064","6332","DESKTOP-NE4F0PQ","S-1-5-18","27.04.2021 16:13:16",,,"Microsoft-Windows-Hyper-V-VmSwitch-Operational","System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","5","0","Ioctl End","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"Ioctl Begin
+
+ioctlCode: 0x0000081f","0","0",,"5","0","0","0","127","Microsoft-Windows-Hyper-V-VmSwitch","67dc0d66-3695-47c0-9642-33f76f7bd7ad","Microsoft-Windows-Hyper-V-VmSwitch-Operational","3064","6332","DESKTOP-NE4F0PQ","S-1-5-18","27.04.2021 16:13:16",,,"Microsoft-Windows-Hyper-V-VmSwitch-Operational","System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","5","0","Ioctl Begin","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"Ioctl End
+
+ioctlCode: 0x0000081f,
+delta (100 ns): 110,
+ntStatus: 0x00000000","0","0",,"5","0","0","0","126","Microsoft-Windows-Hyper-V-VmSwitch","67dc0d66-3695-47c0-9642-33f76f7bd7ad","Microsoft-Windows-Hyper-V-VmSwitch-Operational","3064","6332","DESKTOP-NE4F0PQ","S-1-5-18","27.04.2021 16:13:16",,,"Microsoft-Windows-Hyper-V-VmSwitch-Operational","System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","5","0","Ioctl End","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"Ioctl Begin
+
+ioctlCode: 0x0000081f","0","0",,"5","0","0","0","125","Microsoft-Windows-Hyper-V-VmSwitch","67dc0d66-3695-47c0-9642-33f76f7bd7ad","Microsoft-Windows-Hyper-V-VmSwitch-Operational","3064","6332","DESKTOP-NE4F0PQ","S-1-5-18","27.04.2021 16:13:16",,,"Microsoft-Windows-Hyper-V-VmSwitch-Operational","System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","5","0","Ioctl Begin","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"Ioctl End
+
+ioctlCode: 0x00000d15,
+delta (100 ns): 47,
+ntStatus: 0x00000000","0","0",,"5","0","0","0","124","Microsoft-Windows-Hyper-V-VmSwitch","67dc0d66-3695-47c0-9642-33f76f7bd7ad","Microsoft-Windows-Hyper-V-VmSwitch-Operational","10948","10988","DESKTOP-NE4F0PQ","S-1-5-18","27.04.2021 16:05:24",,,"Microsoft-Windows-Hyper-V-VmSwitch-Operational","System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","5","0","Ioctl End","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"Ioctl Begin
+
+ioctlCode: 0x00000d15","0","0",,"5","0","0","0","123","Microsoft-Windows-Hyper-V-VmSwitch","67dc0d66-3695-47c0-9642-33f76f7bd7ad","Microsoft-Windows-Hyper-V-VmSwitch-Operational","10948","10988","DESKTOP-NE4F0PQ","S-1-5-18","27.04.2021 16:05:24",,,"Microsoft-Windows-Hyper-V-VmSwitch-Operational","System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","5","0","Ioctl Begin","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"Ioctl End
+
+ioctlCode: 0x00000d15,
+delta (100 ns): 59,
+ntStatus: 0x80000005","0","0",,"5","0","0","0","122","Microsoft-Windows-Hyper-V-VmSwitch","67dc0d66-3695-47c0-9642-33f76f7bd7ad","Microsoft-Windows-Hyper-V-VmSwitch-Operational","10948","10988","DESKTOP-NE4F0PQ","S-1-5-18","27.04.2021 16:05:24",,,"Microsoft-Windows-Hyper-V-VmSwitch-Operational","System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","5","0","Ioctl End","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"Ioctl Begin
+
+ioctlCode: 0x00000d15","0","0",,"5","0","0","0","121","Microsoft-Windows-Hyper-V-VmSwitch","67dc0d66-3695-47c0-9642-33f76f7bd7ad","Microsoft-Windows-Hyper-V-VmSwitch-Operational","10948","10988","DESKTOP-NE4F0PQ","S-1-5-18","27.04.2021 16:05:24",,,"Microsoft-Windows-Hyper-V-VmSwitch-Operational","System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","5","0","Ioctl Begin","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"Ioctl End
+
+ioctlCode: 0x0000081f,
+delta (100 ns): 71,
+ntStatus: 0x00000000","0","0",,"5","0","0","0","120","Microsoft-Windows-Hyper-V-VmSwitch","67dc0d66-3695-47c0-9642-33f76f7bd7ad","Microsoft-Windows-Hyper-V-VmSwitch-Operational","10948","10988","DESKTOP-NE4F0PQ","S-1-5-18","27.04.2021 16:05:24",,,"Microsoft-Windows-Hyper-V-VmSwitch-Operational","System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","5","0","Ioctl End","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"Ioctl Begin
+
+ioctlCode: 0x0000081f","0","0",,"5","0","0","0","119","Microsoft-Windows-Hyper-V-VmSwitch","67dc0d66-3695-47c0-9642-33f76f7bd7ad","Microsoft-Windows-Hyper-V-VmSwitch-Operational","10948","10988","DESKTOP-NE4F0PQ","S-1-5-18","27.04.2021 16:05:24",,,"Microsoft-Windows-Hyper-V-VmSwitch-Operational","System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","5","0","Ioctl Begin","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"Ioctl End
+
+ioctlCode: 0x0000081f,
+delta (100 ns): 128,
+ntStatus: 0x00000000","0","0",,"5","0","0","0","118","Microsoft-Windows-Hyper-V-VmSwitch","67dc0d66-3695-47c0-9642-33f76f7bd7ad","Microsoft-Windows-Hyper-V-VmSwitch-Operational","10948","10988","DESKTOP-NE4F0PQ","S-1-5-18","27.04.2021 16:05:24",,,"Microsoft-Windows-Hyper-V-VmSwitch-Operational","System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","5","0","Ioctl End","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"Ioctl Begin
+
+ioctlCode: 0x0000081f","0","0",,"5","0","0","0","117","Microsoft-Windows-Hyper-V-VmSwitch","67dc0d66-3695-47c0-9642-33f76f7bd7ad","Microsoft-Windows-Hyper-V-VmSwitch-Operational","10948","10988","DESKTOP-NE4F0PQ","S-1-5-18","27.04.2021 16:05:24",,,"Microsoft-Windows-Hyper-V-VmSwitch-Operational","System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","5","0","Ioctl Begin","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"Ioctl End
+
+ioctlCode: 0x00000d15,
+delta (100 ns): 42,
+ntStatus: 0x00000000","0","0",,"5","0","0","0","116","Microsoft-Windows-Hyper-V-VmSwitch","67dc0d66-3695-47c0-9642-33f76f7bd7ad","Microsoft-Windows-Hyper-V-VmSwitch-Operational","2664","2752","DESKTOP-NE4F0PQ","S-1-5-18","27.04.2021 16:04:54",,,"Microsoft-Windows-Hyper-V-VmSwitch-Operational","System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","5","0","Ioctl End","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"Ioctl Begin
+
+ioctlCode: 0x00000d15","0","0",,"5","0","0","0","115","Microsoft-Windows-Hyper-V-VmSwitch","67dc0d66-3695-47c0-9642-33f76f7bd7ad","Microsoft-Windows-Hyper-V-VmSwitch-Operational","2664","2752","DESKTOP-NE4F0PQ","S-1-5-18","27.04.2021 16:04:54",,,"Microsoft-Windows-Hyper-V-VmSwitch-Operational","System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","5","0","Ioctl Begin","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"Ioctl End
+
+ioctlCode: 0x00000d15,
+delta (100 ns): 48,
+ntStatus: 0x80000005","0","0",,"5","0","0","0","114","Microsoft-Windows-Hyper-V-VmSwitch","67dc0d66-3695-47c0-9642-33f76f7bd7ad","Microsoft-Windows-Hyper-V-VmSwitch-Operational","2664","2752","DESKTOP-NE4F0PQ","S-1-5-18","27.04.2021 16:04:54",,,"Microsoft-Windows-Hyper-V-VmSwitch-Operational","System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","5","0","Ioctl End","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"Ioctl Begin
+
+ioctlCode: 0x00000d15","0","0",,"5","0","0","0","113","Microsoft-Windows-Hyper-V-VmSwitch","67dc0d66-3695-47c0-9642-33f76f7bd7ad","Microsoft-Windows-Hyper-V-VmSwitch-Operational","2664","2752","DESKTOP-NE4F0PQ","S-1-5-18","27.04.2021 16:04:54",,,"Microsoft-Windows-Hyper-V-VmSwitch-Operational","System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","5","0","Ioctl Begin","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"Ioctl End
+
+ioctlCode: 0x0000081f,
+delta (100 ns): 77,
+ntStatus: 0x00000000","0","0",,"5","0","0","0","112","Microsoft-Windows-Hyper-V-VmSwitch","67dc0d66-3695-47c0-9642-33f76f7bd7ad","Microsoft-Windows-Hyper-V-VmSwitch-Operational","2664","2752","DESKTOP-NE4F0PQ","S-1-5-18","27.04.2021 16:04:54",,,"Microsoft-Windows-Hyper-V-VmSwitch-Operational","System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","5","0","Ioctl End","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"Ioctl Begin
+
+ioctlCode: 0x0000081f","0","0",,"5","0","0","0","111","Microsoft-Windows-Hyper-V-VmSwitch","67dc0d66-3695-47c0-9642-33f76f7bd7ad","Microsoft-Windows-Hyper-V-VmSwitch-Operational","2664","2752","DESKTOP-NE4F0PQ","S-1-5-18","27.04.2021 16:04:54",,,"Microsoft-Windows-Hyper-V-VmSwitch-Operational","System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","5","0","Ioctl Begin","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"Ioctl End
+
+ioctlCode: 0x00000d35,
+delta (100 ns): 44,
+ntStatus: 0x00000000","0","0",,"5","0","0","0","110","Microsoft-Windows-Hyper-V-VmSwitch","67dc0d66-3695-47c0-9642-33f76f7bd7ad","Microsoft-Windows-Hyper-V-VmSwitch-Operational","2664","2752","DESKTOP-NE4F0PQ","S-1-5-18","27.04.2021 16:04:54",,,"Microsoft-Windows-Hyper-V-VmSwitch-Operational","System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","5","0","Ioctl End","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"Ioctl Begin
+
+ioctlCode: 0x00000d35","0","0",,"5","0","0","0","109","Microsoft-Windows-Hyper-V-VmSwitch","67dc0d66-3695-47c0-9642-33f76f7bd7ad","Microsoft-Windows-Hyper-V-VmSwitch-Operational","2664","2752","DESKTOP-NE4F0PQ","S-1-5-18","27.04.2021 16:04:54",,,"Microsoft-Windows-Hyper-V-VmSwitch-Operational","System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","5","0","Ioctl Begin","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"Ioctl End
+
+ioctlCode: 0x00000d35,
+delta (100 ns): 59,
+ntStatus: 0x80000005","0","0",,"5","0","0","0","108","Microsoft-Windows-Hyper-V-VmSwitch","67dc0d66-3695-47c0-9642-33f76f7bd7ad","Microsoft-Windows-Hyper-V-VmSwitch-Operational","2664","2752","DESKTOP-NE4F0PQ","S-1-5-18","27.04.2021 16:04:54",,,"Microsoft-Windows-Hyper-V-VmSwitch-Operational","System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","5","0","Ioctl End","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"Ioctl Begin
+
+ioctlCode: 0x00000d35","0","0",,"5","0","0","0","107","Microsoft-Windows-Hyper-V-VmSwitch","67dc0d66-3695-47c0-9642-33f76f7bd7ad","Microsoft-Windows-Hyper-V-VmSwitch-Operational","2664","2752","DESKTOP-NE4F0PQ","S-1-5-18","27.04.2021 16:04:54",,,"Microsoft-Windows-Hyper-V-VmSwitch-Operational","System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","5","0","Ioctl Begin","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"Ioctl End
+
+ioctlCode: 0x0000081f,
+delta (100 ns): 113,
+ntStatus: 0x00000000","0","0",,"5","0","0","0","106","Microsoft-Windows-Hyper-V-VmSwitch","67dc0d66-3695-47c0-9642-33f76f7bd7ad","Microsoft-Windows-Hyper-V-VmSwitch-Operational","2664","2752","DESKTOP-NE4F0PQ","S-1-5-18","27.04.2021 16:04:54",,,"Microsoft-Windows-Hyper-V-VmSwitch-Operational","System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","5","0","Ioctl End","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"Ioctl Begin
+
+ioctlCode: 0x0000081f","0","0",,"5","0","0","0","105","Microsoft-Windows-Hyper-V-VmSwitch","67dc0d66-3695-47c0-9642-33f76f7bd7ad","Microsoft-Windows-Hyper-V-VmSwitch-Operational","2664","2752","DESKTOP-NE4F0PQ","S-1-5-18","27.04.2021 16:04:54",,,"Microsoft-Windows-Hyper-V-VmSwitch-Operational","System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","5","0","Ioctl Begin","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"Slußba byla £spÿÁnÿ spuÁtÿna.","0","0","0","4","0","0","36028797018963968","1855","DockerService",,"Application","0","0","DESKTOP-NE4F0PQ",,"27.04.2021 16:04:54",,,"Application","System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Informace","Informace",,"System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"Ioctl End
+
+ioctlCode: 0x00000d15,
+delta (100 ns): 40,
+ntStatus: 0x00000000","0","0",,"5","0","0","0","104","Microsoft-Windows-Hyper-V-VmSwitch","67dc0d66-3695-47c0-9642-33f76f7bd7ad","Microsoft-Windows-Hyper-V-VmSwitch-Operational","2664","2924","DESKTOP-NE4F0PQ","S-1-5-18","27.04.2021 16:04:51",,,"Microsoft-Windows-Hyper-V-VmSwitch-Operational","System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","5","0","Ioctl End","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"Ioctl Begin
+
+ioctlCode: 0x00000d15","0","0",,"5","0","0","0","103","Microsoft-Windows-Hyper-V-VmSwitch","67dc0d66-3695-47c0-9642-33f76f7bd7ad","Microsoft-Windows-Hyper-V-VmSwitch-Operational","2664","2924","DESKTOP-NE4F0PQ","S-1-5-18","27.04.2021 16:04:51",,,"Microsoft-Windows-Hyper-V-VmSwitch-Operational","System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","5","0","Ioctl Begin","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"Ioctl End
+
+ioctlCode: 0x00000d15,
+delta (100 ns): 49,
+ntStatus: 0x80000005","0","0",,"5","0","0","0","102","Microsoft-Windows-Hyper-V-VmSwitch","67dc0d66-3695-47c0-9642-33f76f7bd7ad","Microsoft-Windows-Hyper-V-VmSwitch-Operational","2664","2924","DESKTOP-NE4F0PQ","S-1-5-18","27.04.2021 16:04:51",,,"Microsoft-Windows-Hyper-V-VmSwitch-Operational","System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","5","0","Ioctl End","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"Ioctl Begin
+
+ioctlCode: 0x00000d15","0","0",,"5","0","0","0","101","Microsoft-Windows-Hyper-V-VmSwitch","67dc0d66-3695-47c0-9642-33f76f7bd7ad","Microsoft-Windows-Hyper-V-VmSwitch-Operational","2664","2924","DESKTOP-NE4F0PQ","S-1-5-18","27.04.2021 16:04:51",,,"Microsoft-Windows-Hyper-V-VmSwitch-Operational","System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","5","0","Ioctl Begin","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"Ioctl End
+
+ioctlCode: 0x0000081f,
+delta (100 ns): 109,
+ntStatus: 0x00000000","0","0",,"5","0","0","0","100","Microsoft-Windows-Hyper-V-VmSwitch","67dc0d66-3695-47c0-9642-33f76f7bd7ad","Microsoft-Windows-Hyper-V-VmSwitch-Operational","2664","2924","DESKTOP-NE4F0PQ","S-1-5-18","27.04.2021 16:04:51",,,"Microsoft-Windows-Hyper-V-VmSwitch-Operational","System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","5","0","Ioctl End","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"Ioctl Begin
+
+ioctlCode: 0x0000081f","0","0",,"5","0","0","0","99","Microsoft-Windows-Hyper-V-VmSwitch","67dc0d66-3695-47c0-9642-33f76f7bd7ad","Microsoft-Windows-Hyper-V-VmSwitch-Operational","2664","2924","DESKTOP-NE4F0PQ","S-1-5-18","27.04.2021 16:04:51",,,"Microsoft-Windows-Hyper-V-VmSwitch-Operational","System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","5","0","Ioctl Begin","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"Ioctl End
+
+ioctlCode: 0x0000081f,
+delta (100 ns): 126,
+ntStatus: 0x00000000","0","0",,"5","0","0","0","98","Microsoft-Windows-Hyper-V-VmSwitch","67dc0d66-3695-47c0-9642-33f76f7bd7ad","Microsoft-Windows-Hyper-V-VmSwitch-Operational","2664","2924","DESKTOP-NE4F0PQ","S-1-5-18","27.04.2021 16:04:51",,,"Microsoft-Windows-Hyper-V-VmSwitch-Operational","System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","5","0","Ioctl End","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"Ioctl Begin
+
+ioctlCode: 0x0000081f","0","0",,"5","0","0","0","97","Microsoft-Windows-Hyper-V-VmSwitch","67dc0d66-3695-47c0-9642-33f76f7bd7ad","Microsoft-Windows-Hyper-V-VmSwitch-Operational","2664","2924","DESKTOP-NE4F0PQ","S-1-5-18","27.04.2021 16:04:51",,,"Microsoft-Windows-Hyper-V-VmSwitch-Operational","System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","5","0","Ioctl Begin","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"Ioctl End
+
+ioctlCode: 0x00000d35,
+delta (100 ns): 51,
+ntStatus: 0x00000000","0","0",,"5","0","0","0","96","Microsoft-Windows-Hyper-V-VmSwitch","67dc0d66-3695-47c0-9642-33f76f7bd7ad","Microsoft-Windows-Hyper-V-VmSwitch-Operational","2664","2924","DESKTOP-NE4F0PQ","S-1-5-18","27.04.2021 16:04:50",,,"Microsoft-Windows-Hyper-V-VmSwitch-Operational","System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","5","0","Ioctl End","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"Ioctl Begin
+
+ioctlCode: 0x00000d35","0","0",,"5","0","0","0","95","Microsoft-Windows-Hyper-V-VmSwitch","67dc0d66-3695-47c0-9642-33f76f7bd7ad","Microsoft-Windows-Hyper-V-VmSwitch-Operational","2664","2924","DESKTOP-NE4F0PQ","S-1-5-18","27.04.2021 16:04:50",,,"Microsoft-Windows-Hyper-V-VmSwitch-Operational","System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","5","0","Ioctl Begin","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"Ioctl End
+
+ioctlCode: 0x00000d35,
+delta (100 ns): 63,
+ntStatus: 0x80000005","0","0",,"5","0","0","0","94","Microsoft-Windows-Hyper-V-VmSwitch","67dc0d66-3695-47c0-9642-33f76f7bd7ad","Microsoft-Windows-Hyper-V-VmSwitch-Operational","2664","2924","DESKTOP-NE4F0PQ","S-1-5-18","27.04.2021 16:04:50",,,"Microsoft-Windows-Hyper-V-VmSwitch-Operational","System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","5","0","Ioctl End","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"Ioctl Begin
+
+ioctlCode: 0x00000d35","0","0",,"5","0","0","0","93","Microsoft-Windows-Hyper-V-VmSwitch","67dc0d66-3695-47c0-9642-33f76f7bd7ad","Microsoft-Windows-Hyper-V-VmSwitch-Operational","2664","2924","DESKTOP-NE4F0PQ","S-1-5-18","27.04.2021 16:04:50",,,"Microsoft-Windows-Hyper-V-VmSwitch-Operational","System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","5","0","Ioctl Begin","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"Ioctl End
+
+ioctlCode: 0x0000081f,
+delta (100 ns): 115,
+ntStatus: 0x00000000","0","0",,"5","0","0","0","92","Microsoft-Windows-Hyper-V-VmSwitch","67dc0d66-3695-47c0-9642-33f76f7bd7ad","Microsoft-Windows-Hyper-V-VmSwitch-Operational","2664","2924","DESKTOP-NE4F0PQ","S-1-5-18","27.04.2021 16:04:50",,,"Microsoft-Windows-Hyper-V-VmSwitch-Operational","System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","5","0","Ioctl End","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"Ioctl Begin
+
+ioctlCode: 0x0000081f","0","0",,"5","0","0","0","91","Microsoft-Windows-Hyper-V-VmSwitch","67dc0d66-3695-47c0-9642-33f76f7bd7ad","Microsoft-Windows-Hyper-V-VmSwitch-Operational","2664","2924","DESKTOP-NE4F0PQ","S-1-5-18","27.04.2021 16:04:50",,,"Microsoft-Windows-Hyper-V-VmSwitch-Operational","System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","5","0","Ioctl Begin","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"Ioctl End
+
+ioctlCode: 0x0000081f,
+delta (100 ns): 99,
+ntStatus: 0x00000000","0","0",,"5","0","0","0","90","Microsoft-Windows-Hyper-V-VmSwitch","67dc0d66-3695-47c0-9642-33f76f7bd7ad","Microsoft-Windows-Hyper-V-VmSwitch-Operational","2664","2924","DESKTOP-NE4F0PQ","S-1-5-18","27.04.2021 16:04:50",,,"Microsoft-Windows-Hyper-V-VmSwitch-Operational","System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","5","0","Ioctl End","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"Ioctl Begin
+
+ioctlCode: 0x0000081f","0","0",,"5","0","0","0","89","Microsoft-Windows-Hyper-V-VmSwitch","67dc0d66-3695-47c0-9642-33f76f7bd7ad","Microsoft-Windows-Hyper-V-VmSwitch-Operational","2664","2924","DESKTOP-NE4F0PQ","S-1-5-18","27.04.2021 16:04:50",,,"Microsoft-Windows-Hyper-V-VmSwitch-Operational","System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","5","0","Ioctl Begin","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"Ioctl End
+
+ioctlCode: 0x00000d35,
+delta (100 ns): 50,
+ntStatus: 0x00000000","0","0",,"5","0","0","0","88","Microsoft-Windows-Hyper-V-VmSwitch","67dc0d66-3695-47c0-9642-33f76f7bd7ad","Microsoft-Windows-Hyper-V-VmSwitch-Operational","2664","2924","DESKTOP-NE4F0PQ","S-1-5-18","27.04.2021 16:04:50",,,"Microsoft-Windows-Hyper-V-VmSwitch-Operational","System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","5","0","Ioctl End","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"Ioctl Begin
+
+ioctlCode: 0x00000d35","0","0",,"5","0","0","0","87","Microsoft-Windows-Hyper-V-VmSwitch","67dc0d66-3695-47c0-9642-33f76f7bd7ad","Microsoft-Windows-Hyper-V-VmSwitch-Operational","2664","2924","DESKTOP-NE4F0PQ","S-1-5-18","27.04.2021 16:04:50",,,"Microsoft-Windows-Hyper-V-VmSwitch-Operational","System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","5","0","Ioctl Begin","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"Ioctl End
+
+ioctlCode: 0x00000d35,
+delta (100 ns): 66,
+ntStatus: 0x80000005","0","0",,"5","0","0","0","86","Microsoft-Windows-Hyper-V-VmSwitch","67dc0d66-3695-47c0-9642-33f76f7bd7ad","Microsoft-Windows-Hyper-V-VmSwitch-Operational","2664","2924","DESKTOP-NE4F0PQ","S-1-5-18","27.04.2021 16:04:50",,,"Microsoft-Windows-Hyper-V-VmSwitch-Operational","System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","5","0","Ioctl End","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"Ioctl Begin
+
+ioctlCode: 0x00000d35","0","0",,"5","0","0","0","85","Microsoft-Windows-Hyper-V-VmSwitch","67dc0d66-3695-47c0-9642-33f76f7bd7ad","Microsoft-Windows-Hyper-V-VmSwitch-Operational","2664","2924","DESKTOP-NE4F0PQ","S-1-5-18","27.04.2021 16:04:50",,,"Microsoft-Windows-Hyper-V-VmSwitch-Operational","System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","5","0","Ioctl Begin","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"Ioctl End
+
+ioctlCode: 0x0000081f,
+delta (100 ns): 102,
+ntStatus: 0x00000000","0","0",,"5","0","0","0","84","Microsoft-Windows-Hyper-V-VmSwitch","67dc0d66-3695-47c0-9642-33f76f7bd7ad","Microsoft-Windows-Hyper-V-VmSwitch-Operational","2664","2924","DESKTOP-NE4F0PQ","S-1-5-18","27.04.2021 16:04:50",,,"Microsoft-Windows-Hyper-V-VmSwitch-Operational","System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","5","0","Ioctl End","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"Ioctl Begin
+
+ioctlCode: 0x0000081f","0","0",,"5","0","0","0","83","Microsoft-Windows-Hyper-V-VmSwitch","67dc0d66-3695-47c0-9642-33f76f7bd7ad","Microsoft-Windows-Hyper-V-VmSwitch-Operational","2664","2924","DESKTOP-NE4F0PQ","S-1-5-18","27.04.2021 16:04:50",,,"Microsoft-Windows-Hyper-V-VmSwitch-Operational","System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","5","0","Ioctl Begin","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"Ioctl End
+
+ioctlCode: 0x0000081f,
+delta (100 ns): 112,
+ntStatus: 0x00000000","0","0",,"5","0","0","0","82","Microsoft-Windows-Hyper-V-VmSwitch","67dc0d66-3695-47c0-9642-33f76f7bd7ad","Microsoft-Windows-Hyper-V-VmSwitch-Operational","2664","2924","DESKTOP-NE4F0PQ","S-1-5-18","27.04.2021 16:04:50",,,"Microsoft-Windows-Hyper-V-VmSwitch-Operational","System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","5","0","Ioctl End","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"Ioctl Begin
+
+ioctlCode: 0x0000081f","0","0",,"5","0","0","0","81","Microsoft-Windows-Hyper-V-VmSwitch","67dc0d66-3695-47c0-9642-33f76f7bd7ad","Microsoft-Windows-Hyper-V-VmSwitch-Operational","2664","2924","DESKTOP-NE4F0PQ","S-1-5-18","27.04.2021 16:04:50",,,"Microsoft-Windows-Hyper-V-VmSwitch-Operational","System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","5","0","Ioctl Begin","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"Ioctl End
+
+ioctlCode: 0x00000d12,
+delta (100 ns): 483,
+ntStatus: 0xc0000034","0","0",,"5","0","0","0","80","Microsoft-Windows-Hyper-V-VmSwitch","67dc0d66-3695-47c0-9642-33f76f7bd7ad","Microsoft-Windows-Hyper-V-VmSwitch-Operational","2664","2924","DESKTOP-NE4F0PQ","S-1-5-18","27.04.2021 16:04:50",,,"Microsoft-Windows-Hyper-V-VmSwitch-Operational","System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","5","0","Ioctl End","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"Ioctl Begin
+
+ioctlCode: 0x00000d12","0","0",,"5","0","0","0","79","Microsoft-Windows-Hyper-V-VmSwitch","67dc0d66-3695-47c0-9642-33f76f7bd7ad","Microsoft-Windows-Hyper-V-VmSwitch-Operational","2664","2924","DESKTOP-NE4F0PQ","S-1-5-18","27.04.2021 16:04:50",,,"Microsoft-Windows-Hyper-V-VmSwitch-Operational","System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","5","0","Ioctl Begin","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"Ioctl End
+
+ioctlCode: 0x00000d12,
+delta (100 ns): 140,
+ntStatus: 0x80000005","0","0",,"5","0","0","0","78","Microsoft-Windows-Hyper-V-VmSwitch","67dc0d66-3695-47c0-9642-33f76f7bd7ad","Microsoft-Windows-Hyper-V-VmSwitch-Operational","2664","2924","DESKTOP-NE4F0PQ","S-1-5-18","27.04.2021 16:04:50",,,"Microsoft-Windows-Hyper-V-VmSwitch-Operational","System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","5","0","Ioctl End","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"Ioctl Begin
+
+ioctlCode: 0x00000d12","0","0",,"5","0","0","0","77","Microsoft-Windows-Hyper-V-VmSwitch","67dc0d66-3695-47c0-9642-33f76f7bd7ad","Microsoft-Windows-Hyper-V-VmSwitch-Operational","2664","2924","DESKTOP-NE4F0PQ","S-1-5-18","27.04.2021 16:04:50",,,"Microsoft-Windows-Hyper-V-VmSwitch-Operational","System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","5","0","Ioctl Begin","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"Ioctl End
+
+ioctlCode: 0x0000081f,
+delta (100 ns): 119,
+ntStatus: 0x00000000","0","0",,"5","0","0","0","76","Microsoft-Windows-Hyper-V-VmSwitch","67dc0d66-3695-47c0-9642-33f76f7bd7ad","Microsoft-Windows-Hyper-V-VmSwitch-Operational","2664","2924","DESKTOP-NE4F0PQ","S-1-5-18","27.04.2021 16:04:50",,,"Microsoft-Windows-Hyper-V-VmSwitch-Operational","System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","5","0","Ioctl End","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"Ioctl Begin
+
+ioctlCode: 0x0000081f","0","0",,"5","0","0","0","75","Microsoft-Windows-Hyper-V-VmSwitch","67dc0d66-3695-47c0-9642-33f76f7bd7ad","Microsoft-Windows-Hyper-V-VmSwitch-Operational","2664","2924","DESKTOP-NE4F0PQ","S-1-5-18","27.04.2021 16:04:50",,,"Microsoft-Windows-Hyper-V-VmSwitch-Operational","System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","5","0","Ioctl Begin","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"ExtProtocol NetPnpEvent End
+
+netPnpEvent: ""NetEventBindsComplete"",
+switchName: """",
+switchFriendlyName: """",
+delta (100 ns): 34,
+Status: 0x00000000","0","0",,"4","0","0","0","74","Microsoft-Windows-Hyper-V-VmSwitch","67dc0d66-3695-47c0-9642-33f76f7bd7ad","Microsoft-Windows-Hyper-V-VmSwitch-Operational","4","392","DESKTOP-NE4F0PQ","S-1-5-18","27.04.2021 16:04:50",,,"Microsoft-Windows-Hyper-V-VmSwitch-Operational","System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","4","0","ExtProtocol NetPnpEvent End","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"ExtProtocol NetPnpEvent Begin
+
+netPnpEvent: ""NetEventBindsComplete"",
+switchName: """",
+switchFriendlyName: """"","0","0",,"4","0","0","0","73","Microsoft-Windows-Hyper-V-VmSwitch","67dc0d66-3695-47c0-9642-33f76f7bd7ad","Microsoft-Windows-Hyper-V-VmSwitch-Operational","4","392","DESKTOP-NE4F0PQ","S-1-5-18","27.04.2021 16:04:50",,,"Microsoft-Windows-Hyper-V-VmSwitch-Operational","System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","4","0","ExtProtocol NetPnpEvent Begin","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"ProtocolNic NetPnpEvent End
+
+netPnpEvent: ""NetEventBindsComplete"",
+nicName: """",
+nicFriendlyName: """",
+switchName: """",
+switchFriendlyName: """",
+delta (100 ns): 71,
+Status: 0x00000000","0","0",,"4","0","0","0","72","Microsoft-Windows-Hyper-V-VmSwitch","67dc0d66-3695-47c0-9642-33f76f7bd7ad","Microsoft-Windows-Hyper-V-VmSwitch-Operational","4","196","DESKTOP-NE4F0PQ","S-1-5-18","27.04.2021 16:04:50",,,"Microsoft-Windows-Hyper-V-VmSwitch-Operational","System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","4","0","ProtocolNic NetPnpEvent End","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"ProtocolNic NetPnpEvent Begin
+
+netPnpEvent: ""NetEventBindsComplete"",
+nicName: """",
+nicFriendlyName: """",
+switchName: """",
+switchFriendlyName: """"","0","0",,"4","0","0","0","71","Microsoft-Windows-Hyper-V-VmSwitch","67dc0d66-3695-47c0-9642-33f76f7bd7ad","Microsoft-Windows-Hyper-V-VmSwitch-Operational","4","196","DESKTOP-NE4F0PQ","S-1-5-18","27.04.2021 16:04:50",,,"Microsoft-Windows-Hyper-V-VmSwitch-Operational","System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","4","0","ProtocolNic NetPnpEvent Begin","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"VmSwitch Driver state
+
+State: ""Installed and Started."",
+Function: ""DriverEntry"",
+DriverObject: 0xffff8e0e4d382e10,
+delta (100 ns): 26451,
+Status: 0x00000000","0","0",,"4","0","0","0","70","Microsoft-Windows-Hyper-V-VmSwitch","67dc0d66-3695-47c0-9642-33f76f7bd7ad","Microsoft-Windows-Hyper-V-VmSwitch-Operational","4","344","DESKTOP-NE4F0PQ","S-1-5-18","27.04.2021 16:04:50",,,"Microsoft-Windows-Hyper-V-VmSwitch-Operational","System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","4","0","VmSwitch Driver state","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"VmSwitch Driver state
+
+State: ""Started Loading"",
+Function: ""DriverEntry"",
+DriverObject: 0xffff8e0e4d382e10","0","0",,"4","0","0","0","69","Microsoft-Windows-Hyper-V-VmSwitch","67dc0d66-3695-47c0-9642-33f76f7bd7ad","Microsoft-Windows-Hyper-V-VmSwitch-Operational","4","344","DESKTOP-NE4F0PQ","S-1-5-18","27.04.2021 16:04:50",,,"Microsoft-Windows-Hyper-V-VmSwitch-Operational","System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","4","0","VmSwitch Driver state","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"Ioctl End
+
+ioctlCode: 0x00000d15,
+delta (100 ns): 44,
+ntStatus: 0x00000000","0","0",,"5","0","0","0","68","Microsoft-Windows-Hyper-V-VmSwitch","67dc0d66-3695-47c0-9642-33f76f7bd7ad","Microsoft-Windows-Hyper-V-VmSwitch-Operational","1272","3368","DESKTOP-NE4F0PQ","S-1-5-18","27.04.2021 16:02:44",,,"Microsoft-Windows-Hyper-V-VmSwitch-Operational","System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","5","0","Ioctl End","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"Ioctl Begin
+
+ioctlCode: 0x00000d15","0","0",,"5","0","0","0","67","Microsoft-Windows-Hyper-V-VmSwitch","67dc0d66-3695-47c0-9642-33f76f7bd7ad","Microsoft-Windows-Hyper-V-VmSwitch-Operational","1272","3368","DESKTOP-NE4F0PQ","S-1-5-18","27.04.2021 16:02:44",,,"Microsoft-Windows-Hyper-V-VmSwitch-Operational","System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","5","0","Ioctl Begin","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"Ioctl End
+
+ioctlCode: 0x00000d15,
+delta (100 ns): 65,
+ntStatus: 0x80000005","0","0",,"5","0","0","0","66","Microsoft-Windows-Hyper-V-VmSwitch","67dc0d66-3695-47c0-9642-33f76f7bd7ad","Microsoft-Windows-Hyper-V-VmSwitch-Operational","1272","3368","DESKTOP-NE4F0PQ","S-1-5-18","27.04.2021 16:02:44",,,"Microsoft-Windows-Hyper-V-VmSwitch-Operational","System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","5","0","Ioctl End","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"Ioctl Begin
+
+ioctlCode: 0x00000d15","0","0",,"5","0","0","0","65","Microsoft-Windows-Hyper-V-VmSwitch","67dc0d66-3695-47c0-9642-33f76f7bd7ad","Microsoft-Windows-Hyper-V-VmSwitch-Operational","1272","3368","DESKTOP-NE4F0PQ","S-1-5-18","27.04.2021 16:02:44",,,"Microsoft-Windows-Hyper-V-VmSwitch-Operational","System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","5","0","Ioctl Begin","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"Ioctl End
+
+ioctlCode: 0x0000081f,
+delta (100 ns): 68,
+ntStatus: 0x00000000","0","0",,"5","0","0","0","64","Microsoft-Windows-Hyper-V-VmSwitch","67dc0d66-3695-47c0-9642-33f76f7bd7ad","Microsoft-Windows-Hyper-V-VmSwitch-Operational","1272","3368","DESKTOP-NE4F0PQ","S-1-5-18","27.04.2021 16:02:44",,,"Microsoft-Windows-Hyper-V-VmSwitch-Operational","System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","5","0","Ioctl End","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"Ioctl Begin
+
+ioctlCode: 0x0000081f","0","0",,"5","0","0","0","63","Microsoft-Windows-Hyper-V-VmSwitch","67dc0d66-3695-47c0-9642-33f76f7bd7ad","Microsoft-Windows-Hyper-V-VmSwitch-Operational","1272","3368","DESKTOP-NE4F0PQ","S-1-5-18","27.04.2021 16:02:44",,,"Microsoft-Windows-Hyper-V-VmSwitch-Operational","System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","5","0","Ioctl Begin","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"Ioctl End
+
+ioctlCode: 0x0000081f,
+delta (100 ns): 136,
+ntStatus: 0x00000000","0","0",,"5","0","0","0","62","Microsoft-Windows-Hyper-V-VmSwitch","67dc0d66-3695-47c0-9642-33f76f7bd7ad","Microsoft-Windows-Hyper-V-VmSwitch-Operational","1272","3368","DESKTOP-NE4F0PQ","S-1-5-18","27.04.2021 16:02:44",,,"Microsoft-Windows-Hyper-V-VmSwitch-Operational","System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","5","0","Ioctl End","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"Ioctl Begin
+
+ioctlCode: 0x0000081f","0","0",,"5","0","0","0","61","Microsoft-Windows-Hyper-V-VmSwitch","67dc0d66-3695-47c0-9642-33f76f7bd7ad","Microsoft-Windows-Hyper-V-VmSwitch-Operational","1272","3368","DESKTOP-NE4F0PQ","S-1-5-18","27.04.2021 16:02:44",,,"Microsoft-Windows-Hyper-V-VmSwitch-Operational","System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","5","0","Ioctl Begin","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"Ioctl End
+
+ioctlCode: 0x00000d15,
+delta (100 ns): 44,
+ntStatus: 0x00000000","0","0",,"5","0","0","0","60","Microsoft-Windows-Hyper-V-VmSwitch","67dc0d66-3695-47c0-9642-33f76f7bd7ad","Microsoft-Windows-Hyper-V-VmSwitch-Operational","5260","9184","DESKTOP-NE4F0PQ","S-1-5-18","27.04.2021 15:58:13",,,"Microsoft-Windows-Hyper-V-VmSwitch-Operational","System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","5","0","Ioctl End","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"Ioctl Begin
+
+ioctlCode: 0x00000d15","0","0",,"5","0","0","0","59","Microsoft-Windows-Hyper-V-VmSwitch","67dc0d66-3695-47c0-9642-33f76f7bd7ad","Microsoft-Windows-Hyper-V-VmSwitch-Operational","5260","9184","DESKTOP-NE4F0PQ","S-1-5-18","27.04.2021 15:58:13",,,"Microsoft-Windows-Hyper-V-VmSwitch-Operational","System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","5","0","Ioctl Begin","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"Ioctl End
+
+ioctlCode: 0x00000d15,
+delta (100 ns): 58,
+ntStatus: 0x80000005","0","0",,"5","0","0","0","58","Microsoft-Windows-Hyper-V-VmSwitch","67dc0d66-3695-47c0-9642-33f76f7bd7ad","Microsoft-Windows-Hyper-V-VmSwitch-Operational","5260","9184","DESKTOP-NE4F0PQ","S-1-5-18","27.04.2021 15:58:13",,,"Microsoft-Windows-Hyper-V-VmSwitch-Operational","System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","5","0","Ioctl End","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"Ioctl Begin
+
+ioctlCode: 0x00000d15","0","0",,"5","0","0","0","57","Microsoft-Windows-Hyper-V-VmSwitch","67dc0d66-3695-47c0-9642-33f76f7bd7ad","Microsoft-Windows-Hyper-V-VmSwitch-Operational","5260","9184","DESKTOP-NE4F0PQ","S-1-5-18","27.04.2021 15:58:13",,,"Microsoft-Windows-Hyper-V-VmSwitch-Operational","System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","5","0","Ioctl Begin","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"Ioctl End
+
+ioctlCode: 0x0000081f,
+delta (100 ns): 125,
+ntStatus: 0x00000000","0","0",,"5","0","0","0","56","Microsoft-Windows-Hyper-V-VmSwitch","67dc0d66-3695-47c0-9642-33f76f7bd7ad","Microsoft-Windows-Hyper-V-VmSwitch-Operational","5260","9184","DESKTOP-NE4F0PQ","S-1-5-18","27.04.2021 15:58:13",,,"Microsoft-Windows-Hyper-V-VmSwitch-Operational","System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","5","0","Ioctl End","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"Ioctl Begin
+
+ioctlCode: 0x0000081f","0","0",,"5","0","0","0","55","Microsoft-Windows-Hyper-V-VmSwitch","67dc0d66-3695-47c0-9642-33f76f7bd7ad","Microsoft-Windows-Hyper-V-VmSwitch-Operational","5260","9184","DESKTOP-NE4F0PQ","S-1-5-18","27.04.2021 15:58:13",,,"Microsoft-Windows-Hyper-V-VmSwitch-Operational","System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","5","0","Ioctl Begin","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"Ioctl End
+
+ioctlCode: 0x0000081f,
+delta (100 ns): 127,
+ntStatus: 0x00000000","0","0",,"5","0","0","0","54","Microsoft-Windows-Hyper-V-VmSwitch","67dc0d66-3695-47c0-9642-33f76f7bd7ad","Microsoft-Windows-Hyper-V-VmSwitch-Operational","5260","9184","DESKTOP-NE4F0PQ","S-1-5-18","27.04.2021 15:58:13",,,"Microsoft-Windows-Hyper-V-VmSwitch-Operational","System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","5","0","Ioctl End","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"Ioctl Begin
+
+ioctlCode: 0x0000081f","0","0",,"5","0","0","0","53","Microsoft-Windows-Hyper-V-VmSwitch","67dc0d66-3695-47c0-9642-33f76f7bd7ad","Microsoft-Windows-Hyper-V-VmSwitch-Operational","5260","9184","DESKTOP-NE4F0PQ","S-1-5-18","27.04.2021 15:58:13",,,"Microsoft-Windows-Hyper-V-VmSwitch-Operational","System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","5","0","Ioctl Begin","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"Ioctl End
+
+ioctlCode: 0x00000d35,
+delta (100 ns): 47,
+ntStatus: 0x00000000","0","0",,"5","0","0","0","52","Microsoft-Windows-Hyper-V-VmSwitch","67dc0d66-3695-47c0-9642-33f76f7bd7ad","Microsoft-Windows-Hyper-V-VmSwitch-Operational","5260","9184","DESKTOP-NE4F0PQ","S-1-5-18","27.04.2021 15:58:13",,,"Microsoft-Windows-Hyper-V-VmSwitch-Operational","System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","5","0","Ioctl End","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"Ioctl Begin
+
+ioctlCode: 0x00000d35","0","0",,"5","0","0","0","51","Microsoft-Windows-Hyper-V-VmSwitch","67dc0d66-3695-47c0-9642-33f76f7bd7ad","Microsoft-Windows-Hyper-V-VmSwitch-Operational","5260","9184","DESKTOP-NE4F0PQ","S-1-5-18","27.04.2021 15:58:13",,,"Microsoft-Windows-Hyper-V-VmSwitch-Operational","System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","5","0","Ioctl Begin","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"Ioctl End
+
+ioctlCode: 0x00000d35,
+delta (100 ns): 54,
+ntStatus: 0x80000005","0","0",,"5","0","0","0","50","Microsoft-Windows-Hyper-V-VmSwitch","67dc0d66-3695-47c0-9642-33f76f7bd7ad","Microsoft-Windows-Hyper-V-VmSwitch-Operational","5260","9184","DESKTOP-NE4F0PQ","S-1-5-18","27.04.2021 15:58:13",,,"Microsoft-Windows-Hyper-V-VmSwitch-Operational","System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","5","0","Ioctl End","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"Ioctl Begin
+
+ioctlCode: 0x00000d35","0","0",,"5","0","0","0","49","Microsoft-Windows-Hyper-V-VmSwitch","67dc0d66-3695-47c0-9642-33f76f7bd7ad","Microsoft-Windows-Hyper-V-VmSwitch-Operational","5260","9184","DESKTOP-NE4F0PQ","S-1-5-18","27.04.2021 15:58:13",,,"Microsoft-Windows-Hyper-V-VmSwitch-Operational","System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","5","0","Ioctl Begin","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"Ioctl End
+
+ioctlCode: 0x0000081f,
+delta (100 ns): 128,
+ntStatus: 0x00000000","0","0",,"5","0","0","0","48","Microsoft-Windows-Hyper-V-VmSwitch","67dc0d66-3695-47c0-9642-33f76f7bd7ad","Microsoft-Windows-Hyper-V-VmSwitch-Operational","5260","9184","DESKTOP-NE4F0PQ","S-1-5-18","27.04.2021 15:58:13",,,"Microsoft-Windows-Hyper-V-VmSwitch-Operational","System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","5","0","Ioctl End","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"Ioctl Begin
+
+ioctlCode: 0x0000081f","0","0",,"5","0","0","0","47","Microsoft-Windows-Hyper-V-VmSwitch","67dc0d66-3695-47c0-9642-33f76f7bd7ad","Microsoft-Windows-Hyper-V-VmSwitch-Operational","5260","9184","DESKTOP-NE4F0PQ","S-1-5-18","27.04.2021 15:58:13",,,"Microsoft-Windows-Hyper-V-VmSwitch-Operational","System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","5","0","Ioctl Begin","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"Ioctl End
+
+ioctlCode: 0x0000081f,
+delta (100 ns): 103,
+ntStatus: 0x00000000","0","0",,"5","0","0","0","46","Microsoft-Windows-Hyper-V-VmSwitch","67dc0d66-3695-47c0-9642-33f76f7bd7ad","Microsoft-Windows-Hyper-V-VmSwitch-Operational","5260","9184","DESKTOP-NE4F0PQ","S-1-5-18","27.04.2021 15:58:13",,,"Microsoft-Windows-Hyper-V-VmSwitch-Operational","System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","5","0","Ioctl End","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"Ioctl Begin
+
+ioctlCode: 0x0000081f","0","0",,"5","0","0","0","45","Microsoft-Windows-Hyper-V-VmSwitch","67dc0d66-3695-47c0-9642-33f76f7bd7ad","Microsoft-Windows-Hyper-V-VmSwitch-Operational","5260","9184","DESKTOP-NE4F0PQ","S-1-5-18","27.04.2021 15:58:13",,,"Microsoft-Windows-Hyper-V-VmSwitch-Operational","System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","5","0","Ioctl Begin","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"Ioctl End
+
+ioctlCode: 0x00000d35,
+delta (100 ns): 30,
+ntStatus: 0x00000000","0","0",,"5","0","0","0","44","Microsoft-Windows-Hyper-V-VmSwitch","67dc0d66-3695-47c0-9642-33f76f7bd7ad","Microsoft-Windows-Hyper-V-VmSwitch-Operational","5260","9184","DESKTOP-NE4F0PQ","S-1-5-18","27.04.2021 15:58:13",,,"Microsoft-Windows-Hyper-V-VmSwitch-Operational","System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","5","0","Ioctl End","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"Ioctl Begin
+
+ioctlCode: 0x00000d35","0","0",,"5","0","0","0","43","Microsoft-Windows-Hyper-V-VmSwitch","67dc0d66-3695-47c0-9642-33f76f7bd7ad","Microsoft-Windows-Hyper-V-VmSwitch-Operational","5260","9184","DESKTOP-NE4F0PQ","S-1-5-18","27.04.2021 15:58:13",,,"Microsoft-Windows-Hyper-V-VmSwitch-Operational","System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","5","0","Ioctl Begin","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"Ioctl End
+
+ioctlCode: 0x00000d35,
+delta (100 ns): 34,
+ntStatus: 0x80000005","0","0",,"5","0","0","0","42","Microsoft-Windows-Hyper-V-VmSwitch","67dc0d66-3695-47c0-9642-33f76f7bd7ad","Microsoft-Windows-Hyper-V-VmSwitch-Operational","5260","9184","DESKTOP-NE4F0PQ","S-1-5-18","27.04.2021 15:58:13",,,"Microsoft-Windows-Hyper-V-VmSwitch-Operational","System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","5","0","Ioctl End","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"Ioctl Begin
+
+ioctlCode: 0x00000d35","0","0",,"5","0","0","0","41","Microsoft-Windows-Hyper-V-VmSwitch","67dc0d66-3695-47c0-9642-33f76f7bd7ad","Microsoft-Windows-Hyper-V-VmSwitch-Operational","5260","9184","DESKTOP-NE4F0PQ","S-1-5-18","27.04.2021 15:58:13",,,"Microsoft-Windows-Hyper-V-VmSwitch-Operational","System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","5","0","Ioctl Begin","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"Ioctl End
+
+ioctlCode: 0x0000081f,
+delta (100 ns): 40,
+ntStatus: 0x00000000","0","0",,"5","0","0","0","40","Microsoft-Windows-Hyper-V-VmSwitch","67dc0d66-3695-47c0-9642-33f76f7bd7ad","Microsoft-Windows-Hyper-V-VmSwitch-Operational","5260","9184","DESKTOP-NE4F0PQ","S-1-5-18","27.04.2021 15:58:13",,,"Microsoft-Windows-Hyper-V-VmSwitch-Operational","System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","5","0","Ioctl End","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"Ioctl Begin
+
+ioctlCode: 0x0000081f","0","0",,"5","0","0","0","39","Microsoft-Windows-Hyper-V-VmSwitch","67dc0d66-3695-47c0-9642-33f76f7bd7ad","Microsoft-Windows-Hyper-V-VmSwitch-Operational","5260","9184","DESKTOP-NE4F0PQ","S-1-5-18","27.04.2021 15:58:13",,,"Microsoft-Windows-Hyper-V-VmSwitch-Operational","System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","5","0","Ioctl Begin","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"Ioctl End
+
+ioctlCode: 0x0000081f,
+delta (100 ns): 88,
+ntStatus: 0x00000000","0","0",,"5","0","0","0","38","Microsoft-Windows-Hyper-V-VmSwitch","67dc0d66-3695-47c0-9642-33f76f7bd7ad","Microsoft-Windows-Hyper-V-VmSwitch-Operational","5260","9184","DESKTOP-NE4F0PQ","S-1-5-18","27.04.2021 15:58:13",,,"Microsoft-Windows-Hyper-V-VmSwitch-Operational","System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","5","0","Ioctl End","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"Ioctl Begin
+
+ioctlCode: 0x0000081f","0","0",,"5","0","0","0","37","Microsoft-Windows-Hyper-V-VmSwitch","67dc0d66-3695-47c0-9642-33f76f7bd7ad","Microsoft-Windows-Hyper-V-VmSwitch-Operational","5260","9184","DESKTOP-NE4F0PQ","S-1-5-18","27.04.2021 15:58:13",,,"Microsoft-Windows-Hyper-V-VmSwitch-Operational","System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","5","0","Ioctl Begin","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"Ioctl End
+
+ioctlCode: 0x00000d12,
+delta (100 ns): 394,
+ntStatus: 0xc0000034","0","0",,"5","0","0","0","36","Microsoft-Windows-Hyper-V-VmSwitch","67dc0d66-3695-47c0-9642-33f76f7bd7ad","Microsoft-Windows-Hyper-V-VmSwitch-Operational","5260","9184","DESKTOP-NE4F0PQ","S-1-5-18","27.04.2021 15:58:13",,,"Microsoft-Windows-Hyper-V-VmSwitch-Operational","System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","5","0","Ioctl End","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"Ioctl Begin
+
+ioctlCode: 0x00000d12","0","0",,"5","0","0","0","35","Microsoft-Windows-Hyper-V-VmSwitch","67dc0d66-3695-47c0-9642-33f76f7bd7ad","Microsoft-Windows-Hyper-V-VmSwitch-Operational","5260","9184","DESKTOP-NE4F0PQ","S-1-5-18","27.04.2021 15:58:13",,,"Microsoft-Windows-Hyper-V-VmSwitch-Operational","System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","5","0","Ioctl Begin","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"Ioctl End
+
+ioctlCode: 0x00000d12,
+delta (100 ns): 95,
+ntStatus: 0x80000005","0","0",,"5","0","0","0","34","Microsoft-Windows-Hyper-V-VmSwitch","67dc0d66-3695-47c0-9642-33f76f7bd7ad","Microsoft-Windows-Hyper-V-VmSwitch-Operational","5260","9184","DESKTOP-NE4F0PQ","S-1-5-18","27.04.2021 15:58:13",,,"Microsoft-Windows-Hyper-V-VmSwitch-Operational","System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","5","0","Ioctl End","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"Ioctl Begin
+
+ioctlCode: 0x00000d12","0","0",,"5","0","0","0","33","Microsoft-Windows-Hyper-V-VmSwitch","67dc0d66-3695-47c0-9642-33f76f7bd7ad","Microsoft-Windows-Hyper-V-VmSwitch-Operational","5260","9184","DESKTOP-NE4F0PQ","S-1-5-18","27.04.2021 15:58:13",,,"Microsoft-Windows-Hyper-V-VmSwitch-Operational","System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","5","0","Ioctl Begin","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"Ioctl End
+
+ioctlCode: 0x0000081f,
+delta (100 ns): 94,
+ntStatus: 0x00000000","0","0",,"5","0","0","0","32","Microsoft-Windows-Hyper-V-VmSwitch","67dc0d66-3695-47c0-9642-33f76f7bd7ad","Microsoft-Windows-Hyper-V-VmSwitch-Operational","5260","9184","DESKTOP-NE4F0PQ","S-1-5-18","27.04.2021 15:58:13",,,"Microsoft-Windows-Hyper-V-VmSwitch-Operational","System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","5","0","Ioctl End","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"Ioctl Begin
+
+ioctlCode: 0x0000081f","0","0",,"5","0","0","0","31","Microsoft-Windows-Hyper-V-VmSwitch","67dc0d66-3695-47c0-9642-33f76f7bd7ad","Microsoft-Windows-Hyper-V-VmSwitch-Operational","5260","9184","DESKTOP-NE4F0PQ","S-1-5-18","27.04.2021 15:58:13",,,"Microsoft-Windows-Hyper-V-VmSwitch-Operational","System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","5","0","Ioctl Begin","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"Ioctl End
+
+ioctlCode: 0x0000081f,
+delta (100 ns): 125,
+ntStatus: 0x00000000","0","0",,"5","0","0","0","30","Microsoft-Windows-Hyper-V-VmSwitch","67dc0d66-3695-47c0-9642-33f76f7bd7ad","Microsoft-Windows-Hyper-V-VmSwitch-Operational","2388","8744","DESKTOP-NE4F0PQ","S-1-5-18","27.04.2021 15:58:13",,,"Microsoft-Windows-Hyper-V-VmSwitch-Operational","System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","5","0","Ioctl End","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"Ioctl Begin
+
+ioctlCode: 0x0000081f","0","0",,"5","0","0","0","29","Microsoft-Windows-Hyper-V-VmSwitch","67dc0d66-3695-47c0-9642-33f76f7bd7ad","Microsoft-Windows-Hyper-V-VmSwitch-Operational","2388","8744","DESKTOP-NE4F0PQ","S-1-5-18","27.04.2021 15:58:13",,,"Microsoft-Windows-Hyper-V-VmSwitch-Operational","System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","5","0","Ioctl Begin","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"Ioctl End
+
+ioctlCode: 0x00000d15,
+delta (100 ns): 44,
+ntStatus: 0x00000000","0","0",,"5","0","0","0","28","Microsoft-Windows-Hyper-V-VmSwitch","67dc0d66-3695-47c0-9642-33f76f7bd7ad","Microsoft-Windows-Hyper-V-VmSwitch-Operational","5260","5404","DESKTOP-NE4F0PQ","S-1-5-18","27.04.2021 15:58:12",,,"Microsoft-Windows-Hyper-V-VmSwitch-Operational","System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","5","0","Ioctl End","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"Ioctl Begin
+
+ioctlCode: 0x00000d15","0","0",,"5","0","0","0","27","Microsoft-Windows-Hyper-V-VmSwitch","67dc0d66-3695-47c0-9642-33f76f7bd7ad","Microsoft-Windows-Hyper-V-VmSwitch-Operational","5260","5404","DESKTOP-NE4F0PQ","S-1-5-18","27.04.2021 15:58:12",,,"Microsoft-Windows-Hyper-V-VmSwitch-Operational","System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","5","0","Ioctl Begin","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"Ioctl End
+
+ioctlCode: 0x00000d15,
+delta (100 ns): 71,
+ntStatus: 0x80000005","0","0",,"5","0","0","0","26","Microsoft-Windows-Hyper-V-VmSwitch","67dc0d66-3695-47c0-9642-33f76f7bd7ad","Microsoft-Windows-Hyper-V-VmSwitch-Operational","5260","5404","DESKTOP-NE4F0PQ","S-1-5-18","27.04.2021 15:58:12",,,"Microsoft-Windows-Hyper-V-VmSwitch-Operational","System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","5","0","Ioctl End","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"Ioctl Begin
+
+ioctlCode: 0x00000d15","0","0",,"5","0","0","0","25","Microsoft-Windows-Hyper-V-VmSwitch","67dc0d66-3695-47c0-9642-33f76f7bd7ad","Microsoft-Windows-Hyper-V-VmSwitch-Operational","5260","5404","DESKTOP-NE4F0PQ","S-1-5-18","27.04.2021 15:58:12",,,"Microsoft-Windows-Hyper-V-VmSwitch-Operational","System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","5","0","Ioctl Begin","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"Ioctl End
+
+ioctlCode: 0x0000081f,
+delta (100 ns): 93,
+ntStatus: 0x00000000","0","0",,"5","0","0","0","24","Microsoft-Windows-Hyper-V-VmSwitch","67dc0d66-3695-47c0-9642-33f76f7bd7ad","Microsoft-Windows-Hyper-V-VmSwitch-Operational","5260","5404","DESKTOP-NE4F0PQ","S-1-5-18","27.04.2021 15:58:12",,,"Microsoft-Windows-Hyper-V-VmSwitch-Operational","System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","5","0","Ioctl End","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"Ioctl Begin
+
+ioctlCode: 0x0000081f","0","0",,"5","0","0","0","23","Microsoft-Windows-Hyper-V-VmSwitch","67dc0d66-3695-47c0-9642-33f76f7bd7ad","Microsoft-Windows-Hyper-V-VmSwitch-Operational","5260","5404","DESKTOP-NE4F0PQ","S-1-5-18","27.04.2021 15:58:12",,,"Microsoft-Windows-Hyper-V-VmSwitch-Operational","System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","5","0","Ioctl Begin","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"Ioctl End
+
+ioctlCode: 0x00000d35,
+delta (100 ns): 213,
+ntStatus: 0x00000000","0","0",,"5","0","0","0","22","Microsoft-Windows-Hyper-V-VmSwitch","67dc0d66-3695-47c0-9642-33f76f7bd7ad","Microsoft-Windows-Hyper-V-VmSwitch-Operational","5260","5404","DESKTOP-NE4F0PQ","S-1-5-18","27.04.2021 15:58:12",,,"Microsoft-Windows-Hyper-V-VmSwitch-Operational","System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","5","0","Ioctl End","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"Ioctl Begin
+
+ioctlCode: 0x00000d35","0","0",,"5","0","0","0","21","Microsoft-Windows-Hyper-V-VmSwitch","67dc0d66-3695-47c0-9642-33f76f7bd7ad","Microsoft-Windows-Hyper-V-VmSwitch-Operational","5260","5404","DESKTOP-NE4F0PQ","S-1-5-18","27.04.2021 15:58:12",,,"Microsoft-Windows-Hyper-V-VmSwitch-Operational","System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","5","0","Ioctl Begin","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"Ioctl End
+
+ioctlCode: 0x00000d35,
+delta (100 ns): 87,
+ntStatus: 0x80000005","0","0",,"5","0","0","0","20","Microsoft-Windows-Hyper-V-VmSwitch","67dc0d66-3695-47c0-9642-33f76f7bd7ad","Microsoft-Windows-Hyper-V-VmSwitch-Operational","5260","5404","DESKTOP-NE4F0PQ","S-1-5-18","27.04.2021 15:58:12",,,"Microsoft-Windows-Hyper-V-VmSwitch-Operational","System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","5","0","Ioctl End","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"Ioctl Begin
+
+ioctlCode: 0x00000d35","0","0",,"5","0","0","0","19","Microsoft-Windows-Hyper-V-VmSwitch","67dc0d66-3695-47c0-9642-33f76f7bd7ad","Microsoft-Windows-Hyper-V-VmSwitch-Operational","5260","5404","DESKTOP-NE4F0PQ","S-1-5-18","27.04.2021 15:58:12",,,"Microsoft-Windows-Hyper-V-VmSwitch-Operational","System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","5","0","Ioctl Begin","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"Ioctl End
+
+ioctlCode: 0x0000081f,
+delta (100 ns): 123,
+ntStatus: 0x00000000","0","0",,"5","0","0","0","18","Microsoft-Windows-Hyper-V-VmSwitch","67dc0d66-3695-47c0-9642-33f76f7bd7ad","Microsoft-Windows-Hyper-V-VmSwitch-Operational","5260","5404","DESKTOP-NE4F0PQ","S-1-5-18","27.04.2021 15:58:12",,,"Microsoft-Windows-Hyper-V-VmSwitch-Operational","System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","5","0","Ioctl End","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"Ioctl Begin
+
+ioctlCode: 0x0000081f","0","0",,"5","0","0","0","17","Microsoft-Windows-Hyper-V-VmSwitch","67dc0d66-3695-47c0-9642-33f76f7bd7ad","Microsoft-Windows-Hyper-V-VmSwitch-Operational","5260","5404","DESKTOP-NE4F0PQ","S-1-5-18","27.04.2021 15:58:12",,,"Microsoft-Windows-Hyper-V-VmSwitch-Operational","System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","5","0","Ioctl Begin","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"Ioctl End
+
+ioctlCode: 0x0000081f,
+delta (100 ns): 124,
+ntStatus: 0x00000000","0","0",,"5","0","0","0","16","Microsoft-Windows-Hyper-V-VmSwitch","67dc0d66-3695-47c0-9642-33f76f7bd7ad","Microsoft-Windows-Hyper-V-VmSwitch-Operational","5260","5404","DESKTOP-NE4F0PQ","S-1-5-18","27.04.2021 15:58:12",,,"Microsoft-Windows-Hyper-V-VmSwitch-Operational","System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","5","0","Ioctl End","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"Ioctl Begin
+
+ioctlCode: 0x0000081f","0","0",,"5","0","0","0","15","Microsoft-Windows-Hyper-V-VmSwitch","67dc0d66-3695-47c0-9642-33f76f7bd7ad","Microsoft-Windows-Hyper-V-VmSwitch-Operational","5260","5404","DESKTOP-NE4F0PQ","S-1-5-18","27.04.2021 15:58:12",,,"Microsoft-Windows-Hyper-V-VmSwitch-Operational","System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","5","0","Ioctl Begin","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"Ioctl End
+
+ioctlCode: 0x00000d15,
+delta (100 ns): 45,
+ntStatus: 0x00000000","0","0",,"5","0","0","0","14","Microsoft-Windows-Hyper-V-VmSwitch","67dc0d66-3695-47c0-9642-33f76f7bd7ad","Microsoft-Windows-Hyper-V-VmSwitch-Operational","10216","10256","DESKTOP-NE4F0PQ","S-1-5-18","27.04.2021 15:54:10",,,"Microsoft-Windows-Hyper-V-VmSwitch-Operational","System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","5","0","Ioctl End","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"Ioctl Begin
+
+ioctlCode: 0x00000d15","0","0",,"5","0","0","0","13","Microsoft-Windows-Hyper-V-VmSwitch","67dc0d66-3695-47c0-9642-33f76f7bd7ad","Microsoft-Windows-Hyper-V-VmSwitch-Operational","10216","10256","DESKTOP-NE4F0PQ","S-1-5-18","27.04.2021 15:54:10",,,"Microsoft-Windows-Hyper-V-VmSwitch-Operational","System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","5","0","Ioctl Begin","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"Ioctl End
+
+ioctlCode: 0x00000d15,
+delta (100 ns): 62,
+ntStatus: 0x80000005","0","0",,"5","0","0","0","12","Microsoft-Windows-Hyper-V-VmSwitch","67dc0d66-3695-47c0-9642-33f76f7bd7ad","Microsoft-Windows-Hyper-V-VmSwitch-Operational","10216","10256","DESKTOP-NE4F0PQ","S-1-5-18","27.04.2021 15:54:10",,,"Microsoft-Windows-Hyper-V-VmSwitch-Operational","System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","5","0","Ioctl End","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"Ioctl Begin
+
+ioctlCode: 0x00000d15","0","0",,"5","0","0","0","11","Microsoft-Windows-Hyper-V-VmSwitch","67dc0d66-3695-47c0-9642-33f76f7bd7ad","Microsoft-Windows-Hyper-V-VmSwitch-Operational","10216","10256","DESKTOP-NE4F0PQ","S-1-5-18","27.04.2021 15:54:10",,,"Microsoft-Windows-Hyper-V-VmSwitch-Operational","System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","5","0","Ioctl Begin","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"Ioctl End
+
+ioctlCode: 0x0000081f,
+delta (100 ns): 136,
+ntStatus: 0x00000000","0","0",,"5","0","0","0","10","Microsoft-Windows-Hyper-V-VmSwitch","67dc0d66-3695-47c0-9642-33f76f7bd7ad","Microsoft-Windows-Hyper-V-VmSwitch-Operational","10216","10256","DESKTOP-NE4F0PQ","S-1-5-18","27.04.2021 15:54:10",,,"Microsoft-Windows-Hyper-V-VmSwitch-Operational","System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","5","0","Ioctl End","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"Ioctl Begin
+
+ioctlCode: 0x0000081f","0","0",,"5","0","0","0","9","Microsoft-Windows-Hyper-V-VmSwitch","67dc0d66-3695-47c0-9642-33f76f7bd7ad","Microsoft-Windows-Hyper-V-VmSwitch-Operational","10216","10256","DESKTOP-NE4F0PQ","S-1-5-18","27.04.2021 15:54:10",,,"Microsoft-Windows-Hyper-V-VmSwitch-Operational","System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","5","0","Ioctl Begin","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"Ioctl End
+
+ioctlCode: 0x0000081f,
+delta (100 ns): 144,
+ntStatus: 0x00000000","0","0",,"5","0","0","0","8","Microsoft-Windows-Hyper-V-VmSwitch","67dc0d66-3695-47c0-9642-33f76f7bd7ad","Microsoft-Windows-Hyper-V-VmSwitch-Operational","10216","10256","DESKTOP-NE4F0PQ","S-1-5-18","27.04.2021 15:54:10",,,"Microsoft-Windows-Hyper-V-VmSwitch-Operational","System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","5","0","Ioctl End","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"Ioctl Begin
+
+ioctlCode: 0x0000081f","0","0",,"5","0","0","0","7","Microsoft-Windows-Hyper-V-VmSwitch","67dc0d66-3695-47c0-9642-33f76f7bd7ad","Microsoft-Windows-Hyper-V-VmSwitch-Operational","10216","10256","DESKTOP-NE4F0PQ","S-1-5-18","27.04.2021 15:54:10",,,"Microsoft-Windows-Hyper-V-VmSwitch-Operational","System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","5","0","Ioctl Begin","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"VmSwitch Driver state
+
+State: ""Installed and Started."",
+Function: ""DriverEntry"",
+DriverObject: 0xffff8708862c2a70,
+delta (100 ns): 15087,
+Status: 0x00000000","0","0",,"4","0","0","0","6","Microsoft-Windows-Hyper-V-VmSwitch","67dc0d66-3695-47c0-9642-33f76f7bd7ad","Microsoft-Windows-Hyper-V-VmSwitch-Operational","4","32","DESKTOP-NE4F0PQ","S-1-5-18","27.04.2021 15:53:22",,,"Microsoft-Windows-Hyper-V-VmSwitch-Operational","System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","4","0","VmSwitch Driver state","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"ExtProtocol NetPnpEvent End
+
+netPnpEvent: ""NetEventBindsComplete"",
+switchName: """",
+switchFriendlyName: """",
+delta (100 ns): 26,
+Status: 0x00000000","0","0",,"4","0","0","0","5","Microsoft-Windows-Hyper-V-VmSwitch","67dc0d66-3695-47c0-9642-33f76f7bd7ad","Microsoft-Windows-Hyper-V-VmSwitch-Operational","4","124","DESKTOP-NE4F0PQ","S-1-5-18","27.04.2021 15:53:22",,,"Microsoft-Windows-Hyper-V-VmSwitch-Operational","System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","4","0","ExtProtocol NetPnpEvent End","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"ExtProtocol NetPnpEvent Begin
+
+netPnpEvent: ""NetEventBindsComplete"",
+switchName: """",
+switchFriendlyName: """"","0","0",,"4","0","0","0","4","Microsoft-Windows-Hyper-V-VmSwitch","67dc0d66-3695-47c0-9642-33f76f7bd7ad","Microsoft-Windows-Hyper-V-VmSwitch-Operational","4","124","DESKTOP-NE4F0PQ","S-1-5-18","27.04.2021 15:53:22",,,"Microsoft-Windows-Hyper-V-VmSwitch-Operational","System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","4","0","ExtProtocol NetPnpEvent Begin","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"ProtocolNic NetPnpEvent End
+
+netPnpEvent: ""NetEventBindsComplete"",
+nicName: """",
+nicFriendlyName: """",
+switchName: """",
+switchFriendlyName: """",
+delta (100 ns): 42,
+Status: 0x00000000","0","0",,"4","0","0","0","3","Microsoft-Windows-Hyper-V-VmSwitch","67dc0d66-3695-47c0-9642-33f76f7bd7ad","Microsoft-Windows-Hyper-V-VmSwitch-Operational","4","124","DESKTOP-NE4F0PQ","S-1-5-18","27.04.2021 15:53:22",,,"Microsoft-Windows-Hyper-V-VmSwitch-Operational","System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","4","0","ProtocolNic NetPnpEvent End","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"ProtocolNic NetPnpEvent Begin
+
+netPnpEvent: ""NetEventBindsComplete"",
+nicName: """",
+nicFriendlyName: """",
+switchName: """",
+switchFriendlyName: """"","0","0",,"4","0","0","0","2","Microsoft-Windows-Hyper-V-VmSwitch","67dc0d66-3695-47c0-9642-33f76f7bd7ad","Microsoft-Windows-Hyper-V-VmSwitch-Operational","4","124","DESKTOP-NE4F0PQ","S-1-5-18","27.04.2021 15:53:22",,,"Microsoft-Windows-Hyper-V-VmSwitch-Operational","System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","4","0","ProtocolNic NetPnpEvent Begin","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"VmSwitch Driver state
+
+State: ""Started Loading"",
+Function: ""DriverEntry"",
+DriverObject: 0xffff8708862c2a70","0","0",,"4","0","0","0","1","Microsoft-Windows-Hyper-V-VmSwitch","67dc0d66-3695-47c0-9642-33f76f7bd7ad","Microsoft-Windows-Hyper-V-VmSwitch-Operational","4","32","DESKTOP-NE4F0PQ","S-1-5-18","27.04.2021 15:53:22",,,"Microsoft-Windows-Hyper-V-VmSwitch-Operational","System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","4","0","VmSwitch Driver state","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"Slußba byla £spÿÁnÿ spuÁtÿna.","0","0","0","4","0","0","36028797018963968","1818","DockerService",,"Application","0","0","DESKTOP-NE4F0PQ",,"27.04.2021 15:53:18",,,"Application","System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Informace","Informace",,"System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"Slußba byla £spÿÁnÿ spuÁtÿna.","0","0","0","4","0","0","36028797018963968","1796","DockerService",,"Application","0","0","DESKTOP-NE4F0PQ",,"27.04.2021 13:57:32",,,"Application","System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Informace","Informace",,"System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"

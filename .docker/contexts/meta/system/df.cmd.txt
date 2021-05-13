@@ -1,0 +1,1 @@
+powershell -NoProfile -Command &{ get-WmiObject win32_logicaldisk }

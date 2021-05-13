@@ -1,0 +1,7 @@
+Get-WindowsOptionalFeature : Po§adovan  operace vy§aduje zvìçen  opr vnØn¡.
+At line:1 char:4
++ &{ Get-WindowsOptionalFeature -Online | ConvertTo-Json }
++    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [Get-WindowsOptionalFeature], COMException
+    + FullyQualifiedErrorId : Microsoft.Dism.Commands.GetWindowsOptionalFeatureCommand
+ 

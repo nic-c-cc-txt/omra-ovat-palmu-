@@ -1,0 +1,1 @@
+powershell -NoProfile -Command &{ $lst = (Get-Date).AddHours(-24); $lns = "Microsoft-Windows-Hyper-V*"; $ps = "Microsoft-Windows-Hyper-V-*"; $ll = 8,7,6,5,4,3,2,1,0; Get-WinEvent -FilterHashtable @{Logname=$lns; StartTime=$lst; Level=$ll; ProviderName=$ps} -ErrorAction Ignore |  ConvertTo-Csv }
