@@ -1,1 +1,0 @@
-powershell -NoProfile -Command &{ Import-Module Hyper-V; Get-VMSwitch -ComputerName . | FL * }

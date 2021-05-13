@@ -1,2 +1,0 @@
-CURRENT   NAME             CLUSTER          AUTHINFO         NAMESPACE
-*         docker-desktop   docker-desktop   docker-desktop   

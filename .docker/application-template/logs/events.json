@@ -1,8 +1,0 @@
-[
-  {
-    "timestamp": 1619535906901125800,
-    "HasServerTimestamp": false,
-    "content": "error while resetting: Get \"http://unix/kubernetes/reset\": open \\\\.\\pipe\\dockerLifecycleServer: Systém nemůže nalézt uvedený soubor.",
-    "kubernetes": "failed to start"
-  }
-]

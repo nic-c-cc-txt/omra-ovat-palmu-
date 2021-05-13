@@ -1,1 +1,0 @@
-*** cz-prg01a-dns03.chello.cz can't find localhost: Non-existent domain

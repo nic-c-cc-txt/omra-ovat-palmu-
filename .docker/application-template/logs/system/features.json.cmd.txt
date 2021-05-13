@@ -1,1 +1,0 @@
-powershell -NoProfile -Command &{ Get-WindowsOptionalFeature -Online | ConvertTo-Json }

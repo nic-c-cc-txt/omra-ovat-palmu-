@@ -1,3 +1,0 @@
-Server:  cz-prg01a-dns03.chello.cz
-Address:  213.46.172.38
-

@@ -1,5 +1,0 @@
-#!/usr/bin/fish
-
-echo "hello $argv"
-
-true && echo hello

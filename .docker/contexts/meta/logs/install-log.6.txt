@@ -1,5 +1,0 @@
-Started on: 2021.04.27 16:05:22.100
-File: C:\Users\Neuro\AppData\Local\Docker\install-log.txt
-CommandLine: "C:\Program Files\Docker\Docker\Docker Desktop Installer.exe" check-for-update --check-download
-[16:05:22.111][ManifestAndExistingInstallationLoader] No install path specified, looking for default installation registry key
-[16:05:24.011][Program] Existing installation found: version=63152, displayVersion=3.3.1, basePath=C:\Program Files\Docker\Docker, channelUrl=https://desktop.docker.com/win/stable/amd64/appcast.xml

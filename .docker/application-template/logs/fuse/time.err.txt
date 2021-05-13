@@ -1,1 +1,0 @@
-Get "http://localhost/fuse/time": open \\.\pipe\dockerLifecycleServer: Systém nemůže nalézt uvedený soubor.

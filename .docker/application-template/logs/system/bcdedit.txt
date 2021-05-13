@@ -1,2 +1,0 @@
-The boot configuration data store could not be opened.
-Pý¡stup byl odepýen.

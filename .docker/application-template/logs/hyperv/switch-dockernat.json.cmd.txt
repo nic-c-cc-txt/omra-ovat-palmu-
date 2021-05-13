@@ -1,1 +1,0 @@
-powershell -NoProfile -Command &{ Import-Module Hyper-V; ((get-vm).NetworkAdapters) | ? { $_.SwitchName -eq "DockerNAT" } | ConvertTo-Json }

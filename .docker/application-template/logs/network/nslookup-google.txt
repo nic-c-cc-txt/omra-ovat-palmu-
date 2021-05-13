@@ -1,7 +1,0 @@
-Server:  cz-prg01a-dns03.chello.cz
-Address:  213.46.172.38
-
-Name:    www.google.com
-Addresses:  2a00:1450:4014:80d::2004
-	  172.217.23.228
-
